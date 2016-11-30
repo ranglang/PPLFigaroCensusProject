@@ -1,0 +1,5 @@
+To run:
+Go to figarowork/figarowork folder
+sbt "runMain _{objectname}_"
+
+save files in figarowork/figarowork/src/main/scala
