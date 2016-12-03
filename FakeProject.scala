@@ -12,46 +12,73 @@ Chain takes an argument element and a function that takes a value of the argumen
 
 object FakeProject {
 
+	val x1 = Select(0.1 -> 1, 0.2 -> 2, 0.3 -> 3, 0.4 -> 4)
+	val x2 = Flip(0.6)
+	val y = RichCPD(x1, x2,
+		(OneOf(1, 2), *) -> Flip (0.1),
+		(NoneOf(4), OneOf(false)) -> Flip(0.7), 
+		(*, *) -> Flip(0.9))
+
 	val sq: Int => Int = x => x * x
 	val collegeMajor = Select(0.1->'Psychology, 0.2->'ComputerScience, 0.2->'Biology, 0.1 -> 'Astronomy, 0.3 -> 'Accounting, 0.1 -> 'English)
-
-	val gender = Flip(0.5)
+	val gender = Select(0.45-> 'Female, 0.45-> 'Male, 0.1 -> 'Other)
 	val isEmployed = Flip(0.85)
-	//val gender = Select(0.5->"Female", 0.5->"Male")
-	//val numChildren = Select(0.5->2, 0.3->1, 0.1->3, 0.1->4)
 
 	// CPD = Conditional Probability Distribution
+	// RichCPD = better if you have multiple parents
 
-	/*val hasChildren = CPD(gender, isEmployed,
-		(false, false) -> Flip(0.001),
-		(false, true)  -> Flip (0.1),
-		(true, false)  -> Flip (0.9),
-		(true, true)   -> Flip(0.99))*/
+	// bool 
+	val hasChildren = RichCPD(collegeMajor, gender, isEmployed, 
+		(OneOf('ComputerScience, 'Psychology, 'Astronomy), *, OneOf(true)) -> Flip(0.2), 
+		(OneOf('English), *, OneOf(false)) -> Flip(0.8),
+		(*, OneOf('Female), *) -> Flip(0.7),
+		(*, OneOf('Male), *) -> Flip(0.34),
+		(*, *, *) -> Flip(0.001))
 
-	val numChildren = CPD(gender, isEmployed,
-		(false, false) -> Flip(0.2),
-		(false, true)  -> Flip(0.2),
-		(true, false)  -> Flip(0.2),
-		(true, true)   -> Flip(0.2))
-
-	val hasChildren = RichCPD(collegeMajor, gender,
-		//('ComputerScience, true) -> Flip(0.6),
-		//('English, true) -> Flip(0.8),
-		(*,*) -> Flip(0.4))
-
-	val hasChildren2 = If(gender,
+	/*val hasChildren2 = If(gender,
 		Select(0.6 -> false, 0.4->true),
-		Select(0.1 -> false, 0.9 -> true))
+		Select(0.1 -> false, 0.9 -> true))*/
 
 	def predict() {
-		val result = VariableElimination.probability(hasChildren2, true)
+		val result = VariableElimination.probability(hasChildren, true)
 		println("Probability has children " + result)
 	}
 
-	def infer() {
-		gender.observe(false)
+	// Scala Symbol type is a unique name for something
+	// Useful when you want to create a specific set of values for a variable 
+	def inferVE(givenGender: Symbol, givenMajor: Symbol) {
+
+		// BLANK means no prior observations
+		if (givenGender != 'BLANK && givenMajor != 'BLANK) {
+			gender.observe(givenGender)
+			collegeMajor.observe(givenMajor)
+		}
+		val algorithm = VariableElimination(hasChildren)
+		algorithm.start()
 		val result = VariableElimination.probability(hasChildren, true)
-		println("Probability that male has children: " + result)
+		println("Probability that a " + givenGender + " with a major in " + givenMajor + " has children: " + result)
+		println("\tProbability Distribution: " + algorithm.distribution(hasChildren).toList)
+		algorithm.kill
+	}
+
+	def inferMH(givenGender: Symbol, givenMajor: Symbol) {
+		gender.observe(givenGender)
+		collegeMajor.observe(givenMajor)
+		val alg = MetropolisHastings(20000, ProposalScheme.default, hasChildren)
+		alg.start()
+		val result = alg.probability(hasChildren, true)
+		alg.kill
+		println("Probability that a " + givenGender + " with a major in " + givenMajor + " has children: " + result)
+	}
+
+	def inferImportance(givenGender: Symbol, givenMajor: Symbol) {
+		gender.observe(givenGender)
+		collegeMajor.observe(givenMajor)
+		val alg = Importance(20000, hasChildren)
+		alg.start()
+		val result = alg.probability(hasChildren, true)
+		alg.kill
+		println("Probability that a " + givenGender + " with a major in " + givenMajor + " has children: " + result)
 	}
 
 	private class Person {
@@ -60,20 +87,40 @@ object FakeProject {
 
 
 	def main(args: Array[String]) {
-		// true is female?
-		gender.observe(true)
+			
+		/*println("VariableElimination: " + VariableElimination.probability(hasChildren, true))
 
-		val alg = MetropolisHastings(20000, ProposalScheme.default, collegeMajor)
+		val alg = BeliefPropagation(100, hasChildren)
 		alg.start()
-		println(alg.probability(collegeMajor, 'Astronomy))
-		println(alg.probability(collegeMajor, 'English))
-		println(alg.probability(collegeMajor, 'Biology))
-		
-		predict()
-		infer()
+		println(alg.probability(hasChildren, true))
+		//println("BeliefPropagation: " + BeliefPropagation.probability(hasChildren, true))*/
 
+		println ("\nVariableElimination")
+		inferVE('BLANK,  'BLANK)
+		inferVE('Female, 'Astronomy)
+		inferVE('Male,   'Astronomy)
+		inferVE('Female, 'English)
+		inferVE('Male,   'English)
+		inferVE('Female, 'Biology)
+		inferVE('Male,   'Biology)
 
+		println ("\nMetropolisHastings")
 
-		alg.kill()
+		inferMH('Female, 'Astronomy)
+		inferMH('Male,   'Astronomy)
+		inferMH('Female, 'English)
+		inferMH('Male,   'English)
+		inferMH('Female, 'Biology)
+		inferMH('Male,   'Biology)
+
+		println ("\nImportance")
+
+		inferImportance('Female, 'Astronomy)
+		inferImportance('Male,   'Astronomy)
+		inferImportance('Female, 'English)
+		inferImportance('Male,   'English)
+		inferImportance('Female, 'Biology)
+		inferImportance('Male,   'Biology)
+
 	}
 }

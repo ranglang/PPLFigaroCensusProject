@@ -1,0 +1,103 @@
+Bayseian Probability
+
+Probability distribution - assigns num between 0 and 1 to every possible world. A possible world consists of a value for each variable
+
+VariableElimination: "a simple and general exact inference algorithm in probabilistic graphical models, such as Bayesian networks and Markov random fields" (Wikipedia). EXACT INFERENCE
+
+MH: "Metropolis–Hastings algorithm is a Markov chain Monte Carlo (MCMC) method for obtaining a sequence of random samples from a probability distribution for which direct sampling is difficult." (Wikipedia)
+
+Importance: "general technique for estimating properties of a particular distribution, while only having samples generated from a different distribution than the distribution of interest. It is related to umbrella sampling in computational physics" (Wikipedia)
+Good if expanding a model produces an infinite number of elements or if you have atomic continuous
+models.
+
+CPD = Conditional Probability Distribution
+RichCPD = better if you have multiple parents
+CPD describes its dependency on the values of its parents (Bayseian?)
+
+Density - built into Figaro (PDF - Probability Density Function). Functional form of a continuous variable specified by a PDF
+
+=================================================
+=================================================
+
+There are Two Main Types of Inference Algorithms:
+1. Factored Algorithms: operate on data structures called factors that capture the probabilistic model being reasoned about
+2. Sampling Algorithms: create examples of possible worlds from the probability distribution and using those examples to answer queries 
+
+   ****FACTORED INFERENCE ALGORITHMS****
+
+   - Factor: representation of a function from the value of a set of variables to a real number. Why are factors useful? 
+   - Probability distributions are functions that, given a value for each variable in the model, assigns a number between 0 and 1. Distribution can be represented by a factor. Probability Distribution represented as a table 
+   - Joint Probability Distribution
+
+  +---------------------------+
+  |VARIABLE ELIMINATION (VE)  |
+  +---------------------------+
+	> Exact Algorithm - computes exact probability of query, given the evidence as defined in the model. Exact but slow
+ 	> One at a time, eliminate the nonquery variables from the expression by using simple algebra
+ 	> Graph inducing! Marrying the graph and cliques 
+ 	> Is this NPC hehehe
+ 	> Triangulated graph (all loops in the graph are made up of triangles). If the graph is triangulated, the factors you produce during inference won't be any larger than the factors you started with
+ 	> Eliminate(V, S) {
+  		Move all factors in S that mention V to the right
+  		Move the summation over V so that it encloses only those factors
+  		Compute the inner sum-of-products involving the factors that mention V
+  		Replace this sum-of-products in S with the resulting factor
+	  }
+	> VariableElimination(S) {
+  		Choose an elimination order O that contains all variables except the query variables
+  			For each variable V in O {
+    		Eliminate(V, S)
+  		}
+	  }
+	> In Figaro, VE run by passing list of query targets to VE Constructor to create an algorithm, and then querying it after
+	> VE basically turns probabilistic program into a giant Bayesian network
+	>>>>> The number of variables that could possibly exist in this model are FINITE. Needs an Upper-Bound (can't use recursive models)
+	> Size of the factor is exponential in the number of parents..... try and minimize the number of parents!
+	> Useful to use VE if you can eliminate variables without adding too many edges to VE graph (size of largest clique in VE graph small)
+	> Used for speech recognition and natural language understanding (parsing a sentence)
+
+
+  +------------------------+
+  |BELIEF PROPOGATION (BP) |
+  +------------------------+
+	> Approximation Algorithm - fast, most of the time returns an answer that is close to the right answer but not always 
+	> Tradeoffs in accuracy and speed between BP and VE
+	> Exponentially faster inference than VE. Doesn't add edges necessary for correct inference, so will not be as accurate.
+	> BP performs calculations for queries on all variables in network simultaenously. After you run BP, you can get posterior probability of any variable, given the evidence
+	> The more iterations of BP you run the more accurate. Figaro uses asynchronous form of BP. 
+	> Avoid too many loops (too many loops means more potential for error). Merge elements together (to avoid loop). Decompose CPDs with lots of parents. Simplify the network
+	> Applications of BP - any model with discrete variables. Image analysis. Medical diagnosis (symptoms). Building, vehicle, or equpiment health monitoring
+
+
+
+
+	****SAMPLING ALGORITHMS****
+
+   - Sampling Algorithms: answer queries by generating possible states of variables drawn from the probability distribution defined by the program
+   - Sampling Algo vs. Factoring Algo: Rather than representing probability distribution over possible worlds as a set of numbers, use a set of examples of possible worlds (samples)
+
+
+
+   +--------------------+
+   |Importance Sampling |
+   +--------------------+
+
+
+   +--------------------------------+
+   |Markov chain Monte Carlo (MCMC) |
+   +--------------------------------+
+   > 
+
+
+
+
+
+
+   +-------------------------+
+   |Metropolis-Hastings (MH) |
+   +-------------------------+
+
+
+We will have a probabilistic model using discrete variables (not continuous)
+
+

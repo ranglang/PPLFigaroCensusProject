@@ -1,0 +1,212 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\Test.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\Test.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\Test.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\Test.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala, C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 6 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 6 Scala sources to C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler da9e4f, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files (x86)\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_111\classes;C:\Users\Yennie\.sbt\boot\scala-2.10.6\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:9: not found: value Flip[0m
+[0m[[31merror[0m] [0m	val burglary = Flip(0.01)[0m
+[0m[[31merror[0m] [0m	               ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:10: not found: value Flip[0m
+[0m[[31merror[0m] [0m	val earthquake = Flip(0.0001)[0m
+[0m[[31merror[0m] [0m	                 ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:16: not found: value CPD[0m
+[0m[[31merror[0m] [0m	val alarm = CPD(burglary, earthquake,[0m
+[0m[[31merror[0m] [0m	            ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:24: not found: value CPD[0m
+[0m[[31merror[0m] [0m	val johnCalls = CPD(alarm,[0m
+[0m[[31merror[0m] [0m	                ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\BurglaryExample.scala:32: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m		val alg = VariableElimination(burglary, earthquake)[0m
+[0m[[31merror[0m] [0m		          ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:15: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:16: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:17: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.learning._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:18: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:19: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.atomic.continuous._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:20: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.patterns.learning._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:25: not found: type ParameterCollection[0m
+[0m[[31merror[0m] [0mclass Trials(val parameters: ParameterCollection) {[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:27: not found: value Flip[0m
+[0m[[31merror[0m] [0m    Flip(parameters.get("fairness"))[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:33: not found: value Universe[0m
+[0m[[31merror[0m] [0m  Universe.createNew()[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:51: not found: value ModelParameters[0m
+[0m[[31merror[0m] [0m    val params = ModelParameters()[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:52: not found: value Beta[0m
+[0m[[31merror[0m] [0m    val fairness = Beta(2.0, 2.0)("fairness", params)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:55: not found: type Flip[0m
+[0m[[31merror[0m] [0m      (datum: (Char, Flip)) => if (datum._1 == 'H') datum._2.observe(true) else datum._2.observe(false)[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:60: not found: value EMWithBP[0m
+[0m[[31merror[0m] [0m    val learningAlgorithm = EMWithBP(10, 10, params)[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:70: not found: value Flip[0m
+[0m[[31merror[0m] [0m    val t1 = Flip(params.posteriorParameters.get("fairness"))[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:71: not found: value Flip[0m
+[0m[[31merror[0m] [0m    val t2 = Flip(params.posteriorParameters.get("fairness"))[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FairCoin.scala:75: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m    val alg = VariableElimination(equal)[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:5: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:15: not found: value Select[0m
+[0m[[31merror[0m] [0m	val x1 = Select(0.1 -> 1, 0.2 -> 2, 0.3 -> 3, 0.4 -> 4)[0m
+[0m[[31merror[0m] [0m	         ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:16: not found: value Flip[0m
+[0m[[31merror[0m] [0m	val x2 = Flip(0.6)[0m
+[0m[[31merror[0m] [0m	         ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:17: not found: value RichCPD[0m
+[0m[[31merror[0m] [0m	val y = RichCPD(X1, x2,[0m
+[0m[[31merror[0m] [0m	        ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:24: not found: value Select[0m
+[0m[[31merror[0m] [0m	val collegeMajor = Select(0.1->'Psychology, 0.2->'ComputerScience, 0.2->'Biology, 0.1 -> 'Astronomy, 0.3 -> 'Accounting, 0.1 -> 'English)[0m
+[0m[[31merror[0m] [0m	                   ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:26: not found: value Flip[0m
+[0m[[31merror[0m] [0m	val gender = Flip(0.5)[0m
+[0m[[31merror[0m] [0m	             ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:27: not found: value Flip[0m
+[0m[[31merror[0m] [0m	val isEmployed = Flip(0.85)[0m
+[0m[[31merror[0m] [0m	                 ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:39: not found: value CPD[0m
+[0m[[31merror[0m] [0m	val numChildren = CPD(gender, isEmployed,[0m
+[0m[[31merror[0m] [0m	                  ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:45: not found: value RichCPD[0m
+[0m[[31merror[0m] [0m	val hasChildren = RichCPD(collegeMajor, gender,[0m
+[0m[[31merror[0m] [0m	                  ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:50: not found: value If[0m
+[0m[[31merror[0m] [0m	val hasChildren2 = If(gender,[0m
+[0m[[31merror[0m] [0m	                   ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:55: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m		val result = VariableElimination.probability(hasChildren2, true)[0m
+[0m[[31merror[0m] [0m		             ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:61: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m		val result = VariableElimination.probability(hasChildren, true)[0m
+[0m[[31merror[0m] [0m		             ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:66: not found: value Flip[0m
+[0m[[31merror[0m] [0m		val gender = Flip(0.5)[0m
+[0m[[31merror[0m] [0m		             ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\FakeProject.scala:74: not found: value MetropolisHastings[0m
+[0m[[31merror[0m] [0m		val alg = MetropolisHastings(20000, ProposalScheme.default, collegeMajor)[0m
+[0m[[31merror[0m] [0m		          ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala:38: not found: value Select[0m
+[0m[[31merror[0m] [0m		val helloWorldElement = Select(0.8->"Hello world!", 0.2->"Goodbye world!")[0m
+[0m[[31merror[0m] [0m		                        ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\HelloWorldTest.scala:41: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m		val sampleHelloWorld = VariableElimination(helloWorldElement)[0m
+[0m[[31merror[0m] [0m		                       ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala:15: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala:16: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala:17: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound.^^[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala:24: not found: value Flip[0m
+[0m[[31merror[0m] [0m    val smokes = Flip(0.6)[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala:35: not found: value ^^[0m
+[0m[[31merror[0m] [0m    ^^(p1.smokes, p2.smokes).setConstraint(smokingInfluence)[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala:39: not found: value MetropolisHastings[0m
+[0m[[31merror[0m] [0m    val alg = MetropolisHastings(20000, ProposalScheme.default, alice.smokes)[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala:44: not found: value MetropolisHastings[0m
+[0m[[31merror[0m] [0m    val alg2 = MetropolisHastings(20000, ProposalScheme.default, bob.smokes)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\SmokersExample.scala:49: not found: value MetropolisHastings[0m
+[0m[[31merror[0m] [0m    val alg3 = MetropolisHastings(20000, ProposalScheme.default, clara.smokes)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\Test.scala:14: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\Test.scala:15: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\Test.scala:19: not found: value Constant[0m
+[0m[[31merror[0m] [0m		val test = Constant("Test")[0m
+[0m[[31merror[0m] [0m		           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Yennie\Documents\SeniorYear\Comp 150 PPL\FigaroWork\FigaroWork\src\main\scala\Test.scala:21: not found: value Importance[0m
+[0m[[31merror[0m] [0m		val algorithm = Importance(1000, test)[0m
+[0m[[31merror[0m] [0m		                ^[0m
+[0m[[31merror[0m] [0m61 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
