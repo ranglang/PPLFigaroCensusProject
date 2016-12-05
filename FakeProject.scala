@@ -49,7 +49,7 @@ object FakeProject {
 	def inferVE(givenGender: Symbol, givenMajor: Symbol) {
 
 		// BLANK means no prior observations
-		if (givenGender != 'BLANK && givenMajor != 'BLANK) {
+		if (givenGender != 'BLANK && givenMajor != 'BLANK){
 			gender.observe(givenGender)
 			collegeMajor.observe(givenMajor)
 		}
@@ -95,7 +95,33 @@ object FakeProject {
 		println(alg.probability(hasChildren, true))
 		//println("BeliefPropagation: " + BeliefPropagation.probability(hasChildren, true))*/
 
-		println ("\nVariableElimination")
+		//println(Uniform(1, 10))
+
+
+
+		val x = Flip(0.8)
+		val y = Flip(0.6)
+		val z = If(x===y, Flip(0.9), Flip(0.1))
+		z.observe(false)
+		println("\t Exact posterior probability that y is true: " + VariableElimination.probability(y, true))
+		val algImportance = Importance(1000, y)
+		algImportance.start()
+		println("\t Importance with 1000  samples: " + algImportance.probability(y, true))
+		algImportance.kill
+		val algImportance2 = Importance(2000, y)
+		algImportance2.start()
+		println("\t Importance with 2000  samples: " + algImportance2.probability(y, true))
+		algImportance2.kill
+		val algImportance3 = Importance(5000, y)
+		algImportance3.start()
+		println("\t Importance with 5000  samples: " + algImportance3.probability(y, true))
+		algImportance3.kill
+		val algImportance4 = Importance(10000, y)
+		algImportance4.start()
+		println("\t Importance with 10000 samples: " + algImportance4.probability(y, true))
+		algImportance4.kill
+
+	/*	println ("\nVariableElimination")
 		inferVE('BLANK,  'BLANK)
 		inferVE('Female, 'Astronomy)
 		inferVE('Male,   'Astronomy)
@@ -120,7 +146,7 @@ object FakeProject {
 		inferImportance('Female, 'English)
 		inferImportance('Male,   'English)
 		inferImportance('Female, 'Biology)
-		inferImportance('Male,   'Biology)
+		inferImportance('Male,   'Biology)*/
 
 	}
 }

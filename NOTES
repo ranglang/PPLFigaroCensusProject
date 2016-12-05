@@ -75,27 +75,91 @@ There are Two Main Types of Inference Algorithms:
 
    - Sampling Algorithms: answer queries by generating possible states of variables drawn from the probability distribution defined by the program
    - Sampling Algo vs. Factoring Algo: Rather than representing probability distribution over possible worlds as a set of numbers, use a set of examples of possible worlds (samples)
+   - Rather than computing "true" distribution directly, generate a set of samples. Each sample is a possible world. Probability of generating a particular possible world should be equal to probability of that possible world
+   - There is a true distribution you want to compute. You generate samples drawn from this true distribution. You esitmate the distribution by using these samples
+   - Sampling works for continuous variables!
+   - Sampling is MOST useful for continuous (infinitely many) variables. Continuous variables use a probability density function
+
+   2 main kinds of sampling algorithms:
+   1. Forward Sampling (Importance) : straightforward; directly generate a sample from desired distribution by running the probabilistic program. 
+   2. Markov chain Monte Carlo (MCMC) : rather than sampling from a distribution directly, define a sampling process that eventually converges to the true distribution
+
+
+   +-----------------------+
+   |||<Forward Sampling>|| |
+   +-----------------------+
+   > Forward sampling: generate values for the variables in a probabilistic program one at a time. Generate a value for all the variables, and you have a possible world (this constitues a single sample)
+   		~ Forward sampling generates samples from prior probability distribution
+   > Variable's definition defines a probability distribution over this variable. Value for variable chosen according to the distribution. 
+   > Topological order: always generate values for parents for variable before generating value for the variable
+   > Probability of a possible world is estimated to be the fraction of samples equal to that word
+   > Sampling is only one representation of a probability distribution over the possible worlds. 
+   > Forward sampling: randomized proccess - gets different result every time. 
+   > Why use sampling? When using many variables with rich data types with infinitely many values. You need to consider a relatively small number of possibilities and you get an estimate of the probability distribution you're seeking
+   > Sampling computes only a finite fraction of the tree (if it is infinite) and uses it to estimate the distribution
+   > On average, sample distribution will be equal to true distribution ("unbiased"). The more samples you use, the closer you expect the sample distribution to be to the true distribution ("the variance of the sampling process decreases with more samples")
+   > Why sampling algorithms are so appealing: you can get as close as you want to the true distribution if you use enough samples, and it's easy to answer queries by using the samples
+
+
+   +------------------------+
+   |||<Rejection Sampling>|||
+   +------------------------+
+   > Forward sampling doesn't consider evidence in the form of conditions or constraints. Without evidence, program defines prior distribution over possible worlds
+   > We need a way of generating samples from posterior distribution! (obtained after conditioning on the evidence). Do this using REJECTION SAMPLING
+   > Rejection sampling - use forward sampling as before, but reject any samples that disagree with the evidence
+   > Start with prior distribution over possible worlds. When you observe evidence, "cross out" worlds that disagree with the evidence and assign them zero probability. Normalize resulting probabilities to get posterior distribution.
+   		~ It's not an efficient use of memory to store samples that are eventually going to be rejected
+   		~ It's not necessary to generate an entire sample before checking whether it's consistent with the evidence 
+   		~ Significant time savings (vs waiting to reject until after the full sample has been generated)
+   > Pros: samples that aren't rejected are drawn from posterior distribution. The more samples, the closer to sample distribution.
+   > Cons: Vast majority of samples could be rejected. i.e. if evidence has low probability, the vast majority of samples will be rejected
+   > The amount of work you have to do to generate a good sample set when using rejection sampling grows exponentially with the number of evidence variables
+   > Lol rejection sampling generally not considered to be a practical algorithm
 
 
 
    +--------------------+
    |Importance Sampling |
    +--------------------+
+   > Similar to rejection sampling but can handle constraints. In the right circumstances, importance sampling can avoid rejecting with conditions by turning the conditions into constraints on other variables
+   > Hard condition - a property that a value must ssatisfy to have a positive probability (multiply probability by 0 if the value of the element doesn't satisfy the condition, and by 1 if it does satisfy the condition)
+   > Soft constraint - 
+   > Importance sampling uses weighted samples 
+   > Use if: model has continuous variables, or has a variable structure (parts of model exist for only particular values of other variables)
+   > Applications: prediction via simulation (when you have no evidence at all - no conditions or constraints in the program)
+
 
 
    +--------------------------------+
    |Markov chain Monte Carlo (MCMC) |
    +--------------------------------+
-   > 
-
-
-
-
+   > Start each step of algorithm where the previous sample left off
+   > MCMC can more quickly get to samples that have high probability
 
 
    +-------------------------+
    |Metropolis-Hastings (MH) |
    +-------------------------+
+   > Figaro's MCMC algorithm: Metropolis-Hastings
+   > Default Proposal scheme:
+   		1. Choose a single nondeterministic element at random. i.e. Flip
+   		2. Propose a new value for the chosen element
+   		3. Update the vlaues of elements that depend on this chosen element
+   > MetropolisHastings(1000, ProposalScheme.default, x, y)
+   		use default proposal scheme to obtain approximate posterior distributions for x and 
+   > Rather than sampling a new state at every iteration, the sampling process guides the algo to sampling high-probability states
+
+
+
+
+
+Expectation Maximization (Ch 12)
+- goal: to learn a specific set of parameter values from data
+- Iterative method for finding maximum likelihood or finding Maximum a posteriori (MAP) estimates of parameters in statistical models (Wikipedia)
+- EM iteration alternates between performing an expectation (E) step, which creates a fxn for the expectation of the log-likelihood evaluated using the current estimate for the parameters, and a maximization (M) step, which computes parameters maximizing the expected log-likelihood found on the E step. These parameter-estimates are then used to determine the distribution of the latent variables in the next E step
+- Iteratively guesses a distribution for the unobserved data
+
+
 
 
 We will have a probabilistic model using discrete variables (not continuous)
