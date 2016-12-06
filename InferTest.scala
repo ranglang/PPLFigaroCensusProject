@@ -5,6 +5,7 @@ import com.cra.figaro.algorithm.factored._
 import com.cra.figaro.algorithm.learning._
 import com.cra.figaro.language._
 import com.cra.figaro.library.atomic.discrete._
+import com.cra.figaro.library.compound.^^
 //import com.cra.figaro.library.compound._
 //import com.cra.figaro.library.atomic.continuous._
 //import com.cra.figaro.language.Universe._
@@ -12,8 +13,104 @@ import com.cra.figaro.library.atomic.discrete._
 //import java.io._
 //import scala.math.abs
 
+
+// The process of using the probability distribution to take into account the evidence is called conditioning on the evidence. The result of conditioning is also a probability distribution and is known as the posterior probability distribution.
+//Conditioning on the evidence consists of crossing out possible worlds inconsistent with that evidence and normalizing the remaining probabilities. The probability distribution you get after conditioning on the evidence is called the posterior probability distribution because it comes after seeing the evidence. The process of starting with a prior probability distribution, conditioning on the evidence, and obtaining a posterior probability distribution, is illustrated in figure 4.4.
+
+//undirected dependencies (ch 5)
+
 object InferTest {
 
+
+	//1. Prior prob distribution
+	//2. Observe evidence
+	//3. Make posterior. that posterior becomes prior for next piece of evidence
+
+	// beta (ch 3, 5)
+	
+	val color1 = Flip(0.5)
+	val color2 = Flip(0.5)
+/*	def constraints() {
+		val pair = ^^(color1, color2)
+
+		def sameColorConstraint(pair: (Boolean, Boolean)) = { 
+			if (pair._1 == pair._2) 0.3; else 0.1
+		}
+		val sameColorConstraintValue = Chain(color1, color2, (b1: Boolean, b2: Boolean) => if (b1 == b2) Flip(0.3); else Flip(0.1))
+
+		//underscore means I want the function itself and not to apply it
+		pair.setConstraint(sameColorConstraint _)
+		//println(sameColorConstraintValue)
+	}*/
+
+
+	def conditions() {
+		val sameColorConstraintValue = Chain(color1, color2, (b1: Boolean, b2: Boolean) => if (b1 == b2) Flip(0.3); else Flip(0.1))
+
+		//val color1 = true
+		
+		//println(sameColorConstraintValue.probability(true))
+		//println(sameColorConstraintValue.probability(false))
+		sameColorConstraintValue.observe(true)
+		println(sameColorConstraintValue.value)
+
+		sameColorConstraintValue.observe(true)
+		println(sameColorConstraintValue.value)
+
+		sameColorConstraintValue.observe(false)
+		println(sameColorConstraintValue.value)
+
+	}
+
+	def sunny() {
+		val sunnyDaysInMonth = Binomial(30, 0.2)
+		val monthQuality = Apply(sunnyDaysInMonth, (i:Int) => if (i> 10) "good"; else if (i > 5) "average"; else "poor") 
+		val goodMood = Chain(monthQuality, (s:String) =>if (s == "good") Flip (0.9)
+			else if (s == "average") Flip (0.6)
+			else Flip (0.1))
+		println(VariableElimination.probability(goodMood, true))
+	}
+
+	def alabama() {
+		val totalPopulation = 4779736
+		val sunnyDaysInMonth = Binomial(30, 0.2)
+		val populationOfOneRace, (i:Int) => Apply(sunnyDaysInMonth, (i:Int) => if (i> 10) "good"; else if (i > 5) "average"; else "poor") 
+		val race = Chain(populationOfOneRace, (s:String) => 
+			if (s == "white alone") Flip(3275394/totalPopulation)
+			else if (s == "black or african american alone") Flip(1251311/totalPopulation)
+			else if (s == "american indian and alaska native alone") Flip(28218/totalPopulation)
+			else if (s == "asian alone") Flip(53595/totalPopulation) 
+			else if (s == "native hawaiian and other pacific islander alone") Flip(3057/totalPopulation))
+
+		println(VariableElimination.probability(race, "white alone"))
+
+
+	}
+
+	
+
+	
+	def main(args: Array[String]) {
+		//constraints()
+		sunny()
+		//conditions()
+		alabama()
+	}
+	/*
+		Marginal distribution - computing probability dist over a single variable
+		Joint distribution over muiltiple variables 
+		Need to create a special element to capture the joint behavior of the elements whose joint distribution you want to query
+		
+		To create a special element ^^
+		i.e. val salesPair = ^^(sales(0), sales(1))
+		Tuples of up to five arguments 
+
+		To use: VariableElimination.probability(salesPair, (pair: (Double, Double)) => pair._1 < 100 & pair._2 < 100)
+	*/
+
+
+
+/*
 	val whatever = Select(0.9 -> 1000, 0.1 -> 10)
 	class Model(val targetPopularity: Double, productQuality: Double, affordability: Double) {
 		val numberBuyD = {
@@ -24,19 +121,6 @@ object InferTest {
 		}
 
 		val numberBuy = Select (0.9 -> numberBuyD, 0.1 -> 0)
-		/*def generateLikes(numFriends: Int, productQuality: Double) : Element[Int] = {
-			def helper(friendsVisited: Int, totalLikes: Int, unprocessedLikes: Int): Element[Int] = {
-				if (unprocessedLikes == 0) Constant (totalLikes)
-				else {
-					val unvisitedFraction = 1.0 - (friendsVisited.toDouble - 1) / (numFriends - 1)
-					val newlyVisited = Binomial(2, unvisitedFraction)
-					val newlyLikes = Binomial(newlyVisited, Constant(productQuality))
-					Chain(newlyVisited, newlyLikes, (visited: Int, likes: Int) => helper (friendsVisited + 1000, totalLikes + likes, unprocessedLikes + likes - 1))
-				}
-			}
-			helper(1, 1, 1)
-		}
-		val targetSocialNetwork = new */
 
 	}
 	
@@ -57,7 +141,7 @@ object InferTest {
 		println(predict(100, 0.9, 0.5))
 		println(predict(10,  0.9, 0.9))
 		println(predict(10,  0.5, 0.5))
-	}
+	}*/
 
 	/*
 	def main(args: Array[String]) {
