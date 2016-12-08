@@ -25,7 +25,9 @@ object LearningComponent {
   }
 
   // reads dependencies from data file
-  // format: 283 numLabels "skfljkfjslkdj" "slkdjfklsd" "sdkfjlkd"
+  // format: 0 283 numLabels "skfljkfjslkdj" "slkdjfklsd" "sdkfjlkd"
+  // 0: male 1:female 
+  // 283: population 
   // returns a hashmap of population and list of metadata labels for each dependency 
   def readDependencies(fileName: String): Map[Int, ListBuffer[String]]
   {
@@ -34,19 +36,24 @@ object LearningComponent {
     var result: Map[Int, ListBuffer[String]] = Map()
     while(line <- source.getLines()) {
         val parts = line.split(' ')
-        val numLabels = parts(1)
-        val population = parts(0)
+        // parts(0) is the gender 
+        val numLabels = parts(2)
+        val population = parts(1)
+        val isFemale = parts(0) == "1"
+
         val metadata = ListBuffer[Int]()
         for (val i = 2; i < numLables; i++) {
             metadata += parts(i)
         }
+
+        // TODO: follow their example and save isFemale and something else
         result += population -> metadata
     }
     result //WHERE DO I SAVE THE DEPENDENCIES???!?!??!?!??!?!?!?!?!?!?!?!?
   }
 
 
-
+// TODO: Need to make learnMAP work for our situation
   def learnMAP(params: PriorParameters): LearnedParameters = {
     println("Beginning training")
     println("Number of elements: " + Universe.universe.activeElements.length)
