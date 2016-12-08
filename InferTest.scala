@@ -21,6 +21,7 @@ import com.cra.figaro.library.compound.^^
 
 object InferTest {
 
+  
 
 	//1. Prior prob distribution
 	//2. Observe evidence
@@ -73,7 +74,7 @@ object InferTest {
 
 	def alabama() {
 		val totalPopulation = 4779736
-		val sunnyDaysInMonth = Binomial(totalPopulation, 0.2)
+		/*val sunnyDaysInMonth = Binomial(totalPopulation, 0.2)
 		val populationOfOneRace = Apply(sunnyDaysInMonth, (i:Int) => if (i> 10) "white alone"; else if (i > 5) "black or african american alone"; else "asian alone")
 		val race = Chain(populationOfOneRace, (s:String) => 
 			if (s == "white alone") Flip(3275394/totalPopulation)
@@ -81,7 +82,18 @@ object InferTest {
 			else if (s == "american indian and alaska native alone") Flip(28218/totalPopulation)
 			else if (s == "asian alone") Flip(53595/totalPopulation) 
 			else if (s == "native hawaiian and other pacific islander alone") Flip(3057/totalPopulation)
-			else Flip(0.1))
+			else Flip(0.1))*/
+
+		val populationOfOneRace = Select(3275394/totalPopulation->"white alone", 1251311/totalPopulation -> "black or african american alone", 28218/totalPopulation -> "american indian and alaska native alone", 53595/totalPopulation -> "asian alone", 3057/totalPopulation -> "native hawaiian and other pacific islander alone") 
+
+		val gender = Select(0.45 -> 'Male, 0.5 -> 'Female, 0.05 -> 'Other)
+
+		var race = RichCPD(populationOfOneRace, gender 
+		(OneOf('ComputerScience, 'Psychology, 'Astronomy), *, OneOf(true)) -> Flip(0.2), 
+		(OneOf('English), *, OneOf(false)) -> Flip(0.8),
+		(*, OneOf('Female), *) -> Flip(0.7),
+		(*, OneOf('Male), *) -> Flip(0.34),
+		(*, *, *) -> Flip(0.001))
 
 		println(VariableElimination.probability(race, true))
 
