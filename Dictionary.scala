@@ -1,10 +1,15 @@
 
 import scala.collection.mutable.Map
+import scala.collection.mutable.ListBuffer
 
 class Dictionary(totalPopulation: Int) {
-  val labels: List [String]
+  val labels: ListBuffer [String]
   val statename: String 
   val totalPopulation = totalPopulation
+
+
+  // TODO: Add here: addMetadataLabelshit
+  // need to store all of the metadata stuff here
 
   def addLabel(labelName: String)
   {

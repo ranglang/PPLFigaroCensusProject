@@ -6,7 +6,12 @@ import com.cra.figaro.algorithm.learning._
 import com.cra.figaro.language._
 import com.cra.figaro.library.atomic.discrete._
 import com.cra.figaro.library.compound.^^
-//import com.cra.figaro.library.compound._
+import com.cra.figaro.library.compound._
+
+import scala.collection.mutable.ListBuffer
+
+import scala.collection.mutable.ArrayBuffer
+
 //import com.cra.figaro.library.atomic.continuous._
 //import com.cra.figaro.language.Universe._
 //import com.cra.figaro.util._
@@ -29,8 +34,7 @@ object InferTest {
 
 	// beta (ch 3, 5)
 	
-	val color1 = Flip(0.5)
-	val color2 = Flip(0.5)
+	
 /*	def constraints() {
 		val pair = ^^(color1, color2)
 
@@ -43,25 +47,6 @@ object InferTest {
 		pair.setConstraint(sameColorConstraint _)
 		//println(sameColorConstraintValue)
 	}*/
-
-
-	def conditions() {
-		val sameColorConstraintValue = Chain(color1, color2, (b1: Boolean, b2: Boolean) => if (b1 == b2) Flip(0.3); else Flip(0.1))
-
-		//val color1 = true
-		
-		//println(sameColorConstraintValue.probability(true))
-		//println(sameColorConstraintValue.probability(false))
-		sameColorConstraintValue.observe(true)
-		println(sameColorConstraintValue.value)
-
-		sameColorConstraintValue.observe(true)
-		println(sameColorConstraintValue.value)
-
-		sameColorConstraintValue.observe(false)
-		println(sameColorConstraintValue.value)
-
-	}
 
 	def sunny() {
 		val sunnyDaysInMonth = Binomial(30, 0.2)
@@ -84,7 +69,7 @@ object InferTest {
 			else if (s == "native hawaiian and other pacific islander alone") Flip(3057/totalPopulation)
 			else Flip(0.1))*/
 
-		val populationOfOneRace = Select(3275394/totalPopulation->"white alone", 1251311/totalPopulation -> "black or african american alone", 28218/totalPopulation -> "american indian and alaska native alone", 53595/totalPopulation -> "asian alone", 3057/totalPopulation -> "native hawaiian and other pacific islander alone") 
+	/*	val populationOfOneRace = Select(3275394/totalPopulation->"white alone", 1251311/totalPopulation -> "black or african american alone", 28218/totalPopulation -> "american indian and alaska native alone", 53595/totalPopulation -> "asian alone", 3057/totalPopulation -> "native hawaiian and other pacific islander alone") 
 
 		val gender = Select(0.45 -> 'Male, 0.5 -> 'Female, 0.05 -> 'Other)
 
@@ -96,18 +81,64 @@ object InferTest {
 		(*, *, *) -> Flip(0.001))
 
 		println(VariableElimination.probability(race, true))
-
+*/
 
 	}
+/*
+	def printer()
+	{
+		val printerPowerButtonOn = Flip(0.95)
+		val paperFlow = Select(0.6 -> 'smooth, 0.2 ->'uneven, 0.2 -> 'jammed)
 
-	
+		val tonerLevel = Select(0.7 -> 'high, 0.2 -> 'low, 0.1 -> 'out)
+		val tonerLowIndicatorOn = 
+			If(printerPowerButtonOn, CPD(paperFlow,
+				'high -> Flip(0.2), 
+				'low -> Flip(0.6),
+				'out -> Flip(0.99)),
+			Constant(false))
 
+		val paperJamIndicatorOn = 
+			If (printerPowerButtonOn,
+				CPD(tonerLevel,
+					'high -> Flip(0.1),
+					'low ->  Flip(0.3), 
+					'out -> Flip(0.99)),
+				Constant(false))
+
+		val printerState = 
+			Apply(printerPowerButtonOn, tonerLevel, paperFlow, 
+				(power: Boolean, toner: Symbol, paper: Symbol) => {
+					if (power) {
+						if (toner == 'high && paper == 'smooth) 'good 
+						else if (toner == 'out || paper == 'out) 'out 
+						else 'poor
+					} else 'out
+					})
+
+		val answerWithNoEvidence = VariableElimination.probability(printerPowerButtonOn, true)
+		println("Prior distribution printer power button is on = " + answerWithNoEvidence)
+
+		printResultSumm
+
+	}
+*/
+
+	def arraytest()
+	{
+		val myArr = ListBuffer[String]("um")
+		myArr += "hello"
+		myArr += "bitch"
+		myArr foreach (x => println(x))
+	}
 	
 	def main(args: Array[String]) {
 		//constraints()
 		//sunny()
 		//conditions()
-		alabama()
+		//alabama()
+		//printer()
+		arraytest()
 	}
 	/*
 		Marginal distribution - computing probability dist over a single variable
