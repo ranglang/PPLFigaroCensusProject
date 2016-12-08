@@ -73,16 +73,17 @@ object InferTest {
 
 	def alabama() {
 		val totalPopulation = 4779736
-		val sunnyDaysInMonth = Binomial(30, 0.2)
-		val populationOfOneRace, (i:Int) => Apply(sunnyDaysInMonth, (i:Int) => if (i> 10) "good"; else if (i > 5) "average"; else "poor") 
+		val sunnyDaysInMonth = Binomial(totalPopulation, 0.2)
+		val populationOfOneRace = Apply(sunnyDaysInMonth, (i:Int) => if (i> 10) "white alone"; else if (i > 5) "black or african american alone"; else "asian alone")
 		val race = Chain(populationOfOneRace, (s:String) => 
 			if (s == "white alone") Flip(3275394/totalPopulation)
 			else if (s == "black or african american alone") Flip(1251311/totalPopulation)
 			else if (s == "american indian and alaska native alone") Flip(28218/totalPopulation)
 			else if (s == "asian alone") Flip(53595/totalPopulation) 
-			else if (s == "native hawaiian and other pacific islander alone") Flip(3057/totalPopulation))
+			else if (s == "native hawaiian and other pacific islander alone") Flip(3057/totalPopulation)
+			else Flip(0.1))
 
-		println(VariableElimination.probability(race, "white alone"))
+		println(VariableElimination.probability(race, true))
 
 
 	}
@@ -92,7 +93,7 @@ object InferTest {
 	
 	def main(args: Array[String]) {
 		//constraints()
-		sunny()
+		//sunny()
 		//conditions()
 		alabama()
 	}
