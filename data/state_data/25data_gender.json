@@ -1,0 +1,2477 @@
+{
+    "state_id": "25",
+    "state": "Massachusetts",
+    "data": [{
+        "population": 258,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 620,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1159,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 3566,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 35425,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 14103,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 15300,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 43211,
+        "metadata": ["in households", "in family households", "parent ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 358305,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 1046154,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 92121,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 39510,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 65160,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 38706,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 1321480,
+        "metadata": ["in households", "in family households", "biological child ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 25165,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 418975,
+        "metadata": ["in households", "in family households", "householder", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 1017185,
+        "metadata": ["in households", "in family households", "spouse ", "female", "white alone", "household type by relationship"]
+    }, {
+        "population": 906148,
+        "metadata": ["in households", "in family households", "householder", "male", "white alone", "household type by relationship"]
+    }, {
+        "population": 94887,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "household type by relationship"]
+    }, {
+        "population": 51090,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "household type by relationship"]
+    }, {
+        "population": 138045,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "household type by relationship"]
+    }, {
+        "population": 71384,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "household type by relationship"]
+    }, {
+        "population": 421309,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "household type by relationship"]
+    }, {
+        "population": 1225690,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "household type by relationship"]
+    }, {
+        "population": 66233,
+        "metadata": ["in households", "in family households", "parent ", "female", "household type by relationship"]
+    }, {
+        "population": 65629,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "household type by relationship"]
+    }, {
+        "population": 19394,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "household type by relationship"]
+    }, {
+        "population": 21629,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "household type by relationship"]
+    }, {
+        "population": 41861,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "household type by relationship"]
+    }, {
+        "population": 1586,
+        "metadata": ["in households", "in family households", "householder", "female", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1713,
+        "metadata": ["in households", "in family households", "householder", "male", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 2036,
+        "metadata": ["in households", "in family households", "parent ", "female", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1473,
+        "metadata": ["in households", "in family households", "spouse ", "female", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 604,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "some other race alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1730624,
+        "metadata": ["in households", "in family households", "biological child ", "female", "household type by relationship"]
+    }, {
+        "population": 1178690,
+        "metadata": ["in households", "in family households", "spouse ", "female", "household type by relationship"]
+    }, {
+        "population": 554887,
+        "metadata": ["in households", "in family households", "householder", "female", "household type by relationship"]
+    }, {
+        "population": 1048704,
+        "metadata": ["in households", "in family households", "householder", "male", "household type by relationship"]
+    }, {
+        "population": 1072,
+        "metadata": ["female", "70 to 74 years", "two or more races", "sex by age"]
+    }, {
+        "population": 750,
+        "metadata": ["female", "75 to 79 years", "two or more races", "sex by age"]
+    }, {
+        "population": 566,
+        "metadata": ["female", "80 to 84 years", "two or more races", "sex by age"]
+    }, {
+        "population": 575,
+        "metadata": ["female", "85 years and over", "two or more races", "sex by age"]
+    }, {
+        "population": 925,
+        "metadata": ["female", "60 and 61 years", "two or more races", "sex by age"]
+    }, {
+        "population": 1051,
+        "metadata": ["female", "62 to 64 years", "two or more races", "sex by age"]
+    }, {
+        "population": 660,
+        "metadata": ["female", "65 and 66 years", "two or more races", "sex by age"]
+    }, {
+        "population": 777,
+        "metadata": ["female", "67 to 69 years", "two or more races", "sex by age"]
+    }, {
+        "population": 3760,
+        "metadata": ["female", "50 to 54 years", "two or more races", "sex by age"]
+    }, {
+        "population": 2821,
+        "metadata": ["female", "55 to 59 years", "two or more races", "sex by age"]
+    }, {
+        "population": 592,
+        "metadata": ["male", "67 to 69 years", "two or more races", "sex by age"]
+    }, {
+        "population": 503,
+        "metadata": ["male", "65 and 66 years", "two or more races", "sex by age"]
+    }, {
+        "population": 527,
+        "metadata": ["male", "75 to 79 years", "two or more races", "sex by age"]
+    }, {
+        "population": 753,
+        "metadata": ["male", "70 to 74 years", "two or more races", "sex by age"]
+    }, {
+        "population": 252,
+        "metadata": ["male", "85 years and over", "two or more races", "sex by age"]
+    }, {
+        "population": 362,
+        "metadata": ["male", "80 to 84 years", "two or more races", "sex by age"]
+    }, {
+        "population": 12349,
+        "metadata": ["female", "under 5 years", "two or more races", "sex by age"]
+    }, {
+        "population": 88897,
+        "metadata": ["female", "85 years and over", "two or more races", "sex by age"]
+    }, {
+        "population": 10280,
+        "metadata": ["female", "5 to 9 years", "two or more races", "sex by age"]
+    }, {
+        "population": 9026,
+        "metadata": ["female", "10 to 14 years", "two or more races", "sex by age"]
+    }, {
+        "population": 5036,
+        "metadata": ["female", "15 to 17 years", "two or more races", "sex by age"]
+    }, {
+        "population": 4565,
+        "metadata": ["female", "22 to 24 years", "two or more races", "sex by age"]
+    }, {
+        "population": 1809,
+        "metadata": ["female", "21 years", "two or more races", "sex by age"]
+    }, {
+        "population": 1930,
+        "metadata": ["female", "20 years", "two or more races", "sex by age"]
+    }, {
+        "population": 4101,
+        "metadata": ["female", "18 and 19 years", "two or more races", "sex by age"]
+    }, {
+        "population": 4739,
+        "metadata": ["female", "40 to 44 years", "two or more races", "sex by age"]
+    }, {
+        "population": 5219,
+        "metadata": ["female", "35 to 39 years", "two or more races", "sex by age"]
+    }, {
+        "population": 5912,
+        "metadata": ["female", "30 to 34 years", "two or more races", "sex by age"]
+    }, {
+        "population": 6616,
+        "metadata": ["female", "25 to 29 years", "two or more races", "sex by age"]
+    }, {
+        "population": 4358,
+        "metadata": ["female", "45 to 49 years", "two or more races", "sex by age"]
+    }, {
+        "population": 12553,
+        "metadata": ["male", "under 5 years", "two or more races", "sex by age"]
+    }, {
+        "population": 83106,
+        "metadata": ["male", "two or more races", "sex by age"]
+    }, {
+        "population": 9036,
+        "metadata": ["male", "10 to 14 years", "two or more races", "sex by age"]
+    }, {
+        "population": 10580,
+        "metadata": ["male", "5 to 9 years", "two or more races", "sex by age"]
+    }, {
+        "population": 5127,
+        "metadata": ["male", "15 to 17 years", "two or more races", "sex by age"]
+    }, {
+        "population": 3740,
+        "metadata": ["male", "18 and 19 years", "two or more races", "sex by age"]
+    }, {
+        "population": 1809,
+        "metadata": ["male", "20 years", "two or more races", "sex by age"]
+    }, {
+        "population": 1557,
+        "metadata": ["male", "21 years", "two or more races", "sex by age"]
+    }, {
+        "population": 3217,
+        "metadata": ["male", "50 to 54 years", "two or more races", "sex by age"]
+    }, {
+        "population": 3996,
+        "metadata": ["male", "45 to 49 years", "two or more races", "sex by age"]
+    }, {
+        "population": 4324,
+        "metadata": ["male", "40 to 44 years", "two or more races", "sex by age"]
+    }, {
+        "population": 4512,
+        "metadata": ["male", "35 to 39 years", "two or more races", "sex by age"]
+    }, {
+        "population": 5206,
+        "metadata": ["male", "30 to 34 years", "two or more races", "sex by age"]
+    }, {
+        "population": 6142,
+        "metadata": ["male", "25 to 29 years", "two or more races", "sex by age"]
+    }, {
+        "population": 4107,
+        "metadata": ["male", "22 to 24 years", "two or more races", "sex by age"]
+    }, {
+        "population": 935,
+        "metadata": ["male", "62 to 64 years", "two or more races", "sex by age"]
+    }, {
+        "population": 2503,
+        "metadata": ["male", "55 to 59 years", "two or more races", "sex by age"]
+    }, {
+        "population": 773,
+        "metadata": ["male", "60 and 61 years", "two or more races", "sex by age"]
+    }, {
+        "population": 100174,
+        "metadata": ["female", "85 years and over", "sex by age"]
+    }, {
+        "population": 84922,
+        "metadata": ["female", "80 to 84 years", "sex by age"]
+    }, {
+        "population": 93661,
+        "metadata": ["female", "75 to 79 years", "sex by age"]
+    }, {
+        "population": 106210,
+        "metadata": ["female", "70 to 74 years", "sex by age"]
+    }, {
+        "population": 80434,
+        "metadata": ["female", "67 to 69 years", "sex by age"]
+    }, {
+        "population": 60898,
+        "metadata": ["female", "65 and 66 years", "sex by age"]
+    }, {
+        "population": 112452,
+        "metadata": ["female", "62 to 64 years", "sex by age"]
+    }, {
+        "population": 35647,
+        "metadata": ["male", "21 years", "white alone", "sex by age"]
+    }, {
+        "population": 37921,
+        "metadata": ["male", "20 years", "white alone", "sex by age"]
+    }, {
+        "population": 132039,
+        "metadata": ["male", "under 5 years", "white alone", "sex by age"]
+    }, {
+        "population": 2545285,
+        "metadata": ["male", "white alone", "sex by age"]
+    }, {
+        "population": 74930,
+        "metadata": ["male", "18 and 19 years", "white alone", "sex by age"]
+    }, {
+        "population": 101829,
+        "metadata": ["male", "15 to 17 years", "white alone", "sex by age"]
+    }, {
+        "population": 158246,
+        "metadata": ["male", "10 to 14 years", "white alone", "sex by age"]
+    }, {
+        "population": 145386,
+        "metadata": ["male", "5 to 9 years", "white alone", "sex by age"]
+    }, {
+        "population": 103857,
+        "metadata": ["male", "22 to 24 years", "white alone", "sex by age"]
+    }, {
+        "population": 91307,
+        "metadata": ["male", "62 to 64 years", "white alone", "sex by age"]
+    }, {
+        "population": 147845,
+        "metadata": ["male", "30 to 34 years", "white alone", "sex by age"]
+    }, {
+        "population": 163444,
+        "metadata": ["male", "25 to 29 years", "white alone", "sex by age"]
+    }, {
+        "population": 185113,
+        "metadata": ["male", "40 to 44 years", "white alone", "sex by age"]
+    }, {
+        "population": 156563,
+        "metadata": ["male", "35 to 39 years", "white alone", "sex by age"]
+    }, {
+        "population": 207814,
+        "metadata": ["male", "50 to 54 years", "white alone", "sex by age"]
+    }, {
+        "population": 211180,
+        "metadata": ["male", "45 to 49 years", "white alone", "sex by age"]
+    }, {
+        "population": 66168,
+        "metadata": ["male", "60 and 61 years", "white alone", "sex by age"]
+    }, {
+        "population": 182873,
+        "metadata": ["male", "55 to 59 years", "white alone", "sex by age"]
+    }, {
+        "population": 25337,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 67680,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 1241,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 1331,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 14708,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 12523,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 12377,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 4406,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 7053,
+        "metadata": ["in households", "in family households", "parent ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 8896,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 4507,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 136888,
+        "metadata": ["in households", "in family households", "biological child ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 42463,
+        "metadata": ["in households", "in family households", "spouse ", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 57451,
+        "metadata": ["in households", "in family households", "householder", "female", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 40713,
+        "metadata": ["in households", "in family households", "householder", "male", "black or african american alone", "household type by relationship"]
+    }, {
+        "population": 198194,
+        "metadata": ["female", "10 to 14 years", "sex by age"]
+    }, {
+        "population": 45025,
+        "metadata": ["male", "85 years and over", "sex by age"]
+    }, {
+        "population": 3381001,
+        "metadata": ["female", "85 years and over", "sex by age"]
+    }, {
+        "population": 6466,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 179482,
+        "metadata": ["female", "under 5 years", "sex by age"]
+    }, {
+        "population": 189140,
+        "metadata": ["female", "5 to 9 years", "sex by age"]
+    }, {
+        "population": 69267,
+        "metadata": ["male", "67 to 69 years", "sex by age"]
+    }, {
+        "population": 20074,
+        "metadata": ["in households", "in family households", "householder", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 85791,
+        "metadata": ["male", "70 to 74 years", "sex by age"]
+    }, {
+        "population": 57166,
+        "metadata": ["in households", "in family households", "householder", "male", "asian alone", "household type by relationship"]
+    }, {
+        "population": 68931,
+        "metadata": ["male", "75 to 79 years", "sex by age"]
+    }, {
+        "population": 88270,
+        "metadata": ["in households", "in family households", "biological child ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 53551,
+        "metadata": ["male", "80 to 84 years", "sex by age"]
+    }, {
+        "population": 69878,
+        "metadata": ["in households", "in family households", "spouse ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 101168,
+        "metadata": ["female", "18 and 19 years", "sex by age"]
+    }, {
+        "population": 126708,
+        "metadata": ["female", "15 to 17 years", "sex by age"]
+    }, {
+        "population": 1890,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 3452,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 9029,
+        "metadata": ["in households", "in family households", "parent ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 6435,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 3438,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 1317,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 240302,
+        "metadata": ["female", "40 to 44 years", "sex by age"]
+    }, {
+        "population": 263497,
+        "metadata": ["female", "45 to 49 years", "sex by age"]
+    }, {
+        "population": 205278,
+        "metadata": ["female", "30 to 34 years", "sex by age"]
+    }, {
+        "population": 214438,
+        "metadata": ["female", "35 to 39 years", "sex by age"]
+    }, {
+        "population": 140458,
+        "metadata": ["female", "22 to 24 years", "sex by age"]
+    }, {
+        "population": 15793,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 223270,
+        "metadata": ["female", "25 to 29 years", "sex by age"]
+    }, {
+        "population": 49288,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 50360,
+        "metadata": ["female", "20 years", "sex by age"]
+    }, {
+        "population": 7042,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 48594,
+        "metadata": ["female", "21 years", "sex by age"]
+    }, {
+        "population": 8038,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "asian alone", "household type by relationship"]
+    }, {
+        "population": 81800,
+        "metadata": ["female", "60 and 61 years", "sex by age"]
+    }, {
+        "population": 224228,
+        "metadata": ["female", "55 to 59 years", "sex by age"]
+    }, {
+        "population": 255333,
+        "metadata": ["female", "50 to 54 years", "sex by age"]
+    }, {
+        "population": 101052,
+        "metadata": ["male", "18 and 19 years", "sex by age"]
+    }, {
+        "population": 50888,
+        "metadata": ["male", "20 years", "sex by age"]
+    }, {
+        "population": 47778,
+        "metadata": ["male", "21 years", "sex by age"]
+    }, {
+        "population": 3166628,
+        "metadata": ["male", "sex by age"]
+    }, {
+        "population": 187605,
+        "metadata": ["male", "under 5 years", "sex by age"]
+    }, {
+        "population": 196547,
+        "metadata": ["male", "5 to 9 years", "sex by age"]
+    }, {
+        "population": 207419,
+        "metadata": ["male", "10 to 14 years", "sex by age"]
+    }, {
+        "population": 133828,
+        "metadata": ["male", "15 to 17 years", "sex by age"]
+    }, {
+        "population": 74794,
+        "metadata": ["male", "60 and 61 years", "sex by age"]
+    }, {
+        "population": 101501,
+        "metadata": ["male", "62 to 64 years", "sex by age"]
+    }, {
+        "population": 198338,
+        "metadata": ["male", "30 to 34 years", "sex by age"]
+    }, {
+        "population": 203757,
+        "metadata": ["male", "35 to 39 years", "sex by age"]
+    }, {
+        "population": 137590,
+        "metadata": ["male", "22 to 24 years", "sex by age"]
+    }, {
+        "population": 218255,
+        "metadata": ["male", "25 to 29 years", "sex by age"]
+    }, {
+        "population": 241668,
+        "metadata": ["male", "50 to 54 years", "sex by age"]
+    }, {
+        "population": 208594,
+        "metadata": ["male", "55 to 59 years", "sex by age"]
+    }, {
+        "population": 228652,
+        "metadata": ["male", "40 to 44 years", "sex by age"]
+    }, {
+        "population": 251937,
+        "metadata": ["male", "45 to 49 years", "sex by age"]
+    }, {
+        "population": 53860,
+        "metadata": ["male", "65 and 66 years", "sex by age"]
+    }, {
+        "population": 79008,
+        "metadata": ["female", "80 to 84 years", "white alone", "sex by age"]
+    }, {
+        "population": 94921,
+        "metadata": ["female", "85 years and over", "white alone", "sex by age"]
+    }, {
+        "population": 54075,
+        "metadata": ["female", "65 and 66 years", "white alone", "sex by age"]
+    }, {
+        "population": 71843,
+        "metadata": ["female", "67 to 69 years", "white alone", "sex by age"]
+    }, {
+        "population": 94544,
+        "metadata": ["female", "70 to 74 years", "white alone", "sex by age"]
+    }, {
+        "population": 85109,
+        "metadata": ["female", "75 to 79 years", "white alone", "sex by age"]
+    }, {
+        "population": 195156,
+        "metadata": ["female", "55 to 59 years", "white alone", "sex by age"]
+    }, {
+        "population": 217994,
+        "metadata": ["female", "50 to 54 years", "white alone", "sex by age"]
+    }, {
+        "population": 100335,
+        "metadata": ["female", "62 to 64 years", "white alone", "sex by age"]
+    }, {
+        "population": 71751,
+        "metadata": ["female", "60 and 61 years", "white alone", "sex by age"]
+    }, {
+        "population": 165304,
+        "metadata": ["female", "25 to 29 years", "white alone", "sex by age"]
+    }, {
+        "population": 150720,
+        "metadata": ["female", "30 to 34 years", "white alone", "sex by age"]
+    }, {
+        "population": 35839,
+        "metadata": ["female", "21 years", "white alone", "sex by age"]
+    }, {
+        "population": 105534,
+        "metadata": ["female", "22 to 24 years", "white alone", "sex by age"]
+    }, {
+        "population": 219694,
+        "metadata": ["female", "45 to 49 years", "white alone", "sex by age"]
+    }, {
+        "population": 163151,
+        "metadata": ["female", "35 to 39 years", "white alone", "sex by age"]
+    }, {
+        "population": 192618,
+        "metadata": ["female", "40 to 44 years", "white alone", "sex by age"]
+    }, {
+        "population": 37187,
+        "metadata": ["female", "20 years", "white alone", "sex by age"]
+    }, {
+        "population": 74467,
+        "metadata": ["female", "18 and 19 years", "white alone", "sex by age"]
+    }, {
+        "population": 96053,
+        "metadata": ["female", "15 to 17 years", "white alone", "sex by age"]
+    }, {
+        "population": 76994,
+        "metadata": ["male", "70 to 74 years", "white alone", "sex by age"]
+    }, {
+        "population": 62926,
+        "metadata": ["male", "75 to 79 years", "white alone", "sex by age"]
+    }, {
+        "population": 49983,
+        "metadata": ["male", "80 to 84 years", "white alone", "sex by age"]
+    }, {
+        "population": 42377,
+        "metadata": ["male", "85 years and over", "white alone", "sex by age"]
+    }, {
+        "population": 2719951,
+        "metadata": ["female", "85 years and over", "white alone", "sex by age"]
+    }, {
+        "population": 125842,
+        "metadata": ["female", "under 5 years", "white alone", "sex by age"]
+    }, {
+        "population": 139000,
+        "metadata": ["female", "5 to 9 years", "white alone", "sex by age"]
+    }, {
+        "population": 149806,
+        "metadata": ["female", "10 to 14 years", "white alone", "sex by age"]
+    }, {
+        "population": 62403,
+        "metadata": ["male", "67 to 69 years", "white alone", "sex by age"]
+    }, {
+        "population": 48440,
+        "metadata": ["male", "65 and 66 years", "white alone", "sex by age"]
+    }, {
+        "population": 254,
+        "metadata": ["in households", "in family households", "householder", "male", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 642,
+        "metadata": ["female", "50 to 54 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 498,
+        "metadata": ["in households", "in family households", "biological child ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 72,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 523,
+        "metadata": ["female", "55 to 59 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 205,
+        "metadata": ["in households", "in family households", "householder", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 321,
+        "metadata": ["in households", "in family households", "spouse ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 95,
+        "metadata": ["female", "65 and 66 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 131,
+        "metadata": ["female", "67 to 69 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 147,
+        "metadata": ["female", "60 and 61 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 209,
+        "metadata": ["female", "62 to 64 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 88,
+        "metadata": ["female", "85 years and over", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 88,
+        "metadata": ["female", "80 to 84 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 145,
+        "metadata": ["female", "75 to 79 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 175,
+        "metadata": ["female", "70 to 74 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 424,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 108,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 132,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 7,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 25,
+        "metadata": ["in households", "in family households", "parent ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 45,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 18,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 22,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 50,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 53,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "native hawaiian and other pacific islander alone", "household type by relationship"]
+    }, {
+        "population": 9588,
+        "metadata": ["male", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 740,
+        "metadata": ["male", "under 5 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 713,
+        "metadata": ["male", "5 to 9 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 707,
+        "metadata": ["male", "10 to 14 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 470,
+        "metadata": ["male", "15 to 17 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 405,
+        "metadata": ["male", "18 and 19 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 221,
+        "metadata": ["male", "20 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 219,
+        "metadata": ["male", "21 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 725,
+        "metadata": ["male", "45 to 49 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 604,
+        "metadata": ["male", "50 to 54 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 675,
+        "metadata": ["male", "35 to 39 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 673,
+        "metadata": ["male", "40 to 44 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 182,
+        "metadata": ["male", "62 to 64 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 481,
+        "metadata": ["male", "55 to 59 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 165,
+        "metadata": ["male", "60 and 61 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 660,
+        "metadata": ["male", "30 to 34 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 798,
+        "metadata": ["male", "25 to 29 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 499,
+        "metadata": ["male", "22 to 24 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 711,
+        "metadata": ["female", "5 to 9 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 688,
+        "metadata": ["female", "10 to 14 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 74,
+        "metadata": ["male", "80 to 84 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 50,
+        "metadata": ["male", "85 years and over", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 9262,
+        "metadata": ["female", "85 years and over", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 751,
+        "metadata": ["female", "under 5 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 124,
+        "metadata": ["male", "67 to 69 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 118,
+        "metadata": ["male", "65 and 66 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 122,
+        "metadata": ["male", "75 to 79 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 163,
+        "metadata": ["male", "70 to 74 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 703,
+        "metadata": ["female", "45 to 49 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 610,
+        "metadata": ["female", "35 to 39 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 655,
+        "metadata": ["female", "40 to 44 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 697,
+        "metadata": ["female", "25 to 29 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 628,
+        "metadata": ["female", "30 to 34 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 452,
+        "metadata": ["female", "22 to 24 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 147,
+        "metadata": ["female", "21 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 184,
+        "metadata": ["female", "20 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 345,
+        "metadata": ["female", "18 and 19 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 448,
+        "metadata": ["female", "15 to 17 years", "american indian and alaska native alone", "sex by age"]
+    }, {
+        "population": 10627,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 2667,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 273000,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 73920,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 62674,
+        "metadata": ["in households", "in family households", "householder", "female", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 179627,
+        "metadata": ["in households", "in family households", "spouse ", "female", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 200392,
+        "metadata": ["in households", "in family households", "householder", "male", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 11866,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 28270,
+        "metadata": ["in households", "in family households", "parent ", "female", "white alone, not hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 167156,
+        "metadata": ["male", "asian alone", "sex by age"]
+    }, {
+        "population": 3135,
+        "metadata": ["male", "21 years", "asian alone", "sex by age"]
+    }, {
+        "population": 6236,
+        "metadata": ["male", "18 and 19 years", "asian alone", "sex by age"]
+    }, {
+        "population": 3272,
+        "metadata": ["male", "20 years", "asian alone", "sex by age"]
+    }, {
+        "population": 9973,
+        "metadata": ["male", "10 to 14 years", "asian alone", "sex by age"]
+    }, {
+        "population": 5936,
+        "metadata": ["male", "15 to 17 years", "asian alone", "sex by age"]
+    }, {
+        "population": 11979,
+        "metadata": ["male", "under 5 years", "asian alone", "sex by age"]
+    }, {
+        "population": 11462,
+        "metadata": ["male", "5 to 9 years", "asian alone", "sex by age"]
+    }, {
+        "population": 12172,
+        "metadata": ["female", "45 to 49 years", "asian alone", "sex by age"]
+    }, {
+        "population": 14002,
+        "metadata": ["female", "40 to 44 years", "asian alone", "sex by age"]
+    }, {
+        "population": 17068,
+        "metadata": ["female", "35 to 39 years", "asian alone", "sex by age"]
+    }, {
+        "population": 17856,
+        "metadata": ["female", "30 to 34 years", "asian alone", "sex by age"]
+    }, {
+        "population": 10107,
+        "metadata": ["female", "22 to 24 years", "asian alone", "sex by age"]
+    }, {
+        "population": 18988,
+        "metadata": ["female", "25 to 29 years", "asian alone", "sex by age"]
+    }, {
+        "population": 3586,
+        "metadata": ["female", "20 years", "asian alone", "sex by age"]
+    }, {
+        "population": 3646,
+        "metadata": ["female", "21 years", "asian alone", "sex by age"]
+    }, {
+        "population": 6064,
+        "metadata": ["female", "15 to 17 years", "asian alone", "sex by age"]
+    }, {
+        "population": 7014,
+        "metadata": ["female", "18 and 19 years", "asian alone", "sex by age"]
+    }, {
+        "population": 1623,
+        "metadata": ["female", "80 to 84 years", "asian alone", "sex by age"]
+    }, {
+        "population": 2442,
+        "metadata": ["female", "75 to 79 years", "asian alone", "sex by age"]
+    }, {
+        "population": 1250,
+        "metadata": ["female", "85 years and over", "asian alone", "sex by age"]
+    }, {
+        "population": 3430,
+        "metadata": ["female", "62 to 64 years", "asian alone", "sex by age"]
+    }, {
+        "population": 1902,
+        "metadata": ["female", "65 and 66 years", "asian alone", "sex by age"]
+    }, {
+        "population": 2556,
+        "metadata": ["female", "67 to 69 years", "asian alone", "sex by age"]
+    }, {
+        "population": 3470,
+        "metadata": ["female", "70 to 74 years", "asian alone", "sex by age"]
+    }, {
+        "population": 10098,
+        "metadata": ["female", "50 to 54 years", "asian alone", "sex by age"]
+    }, {
+        "population": 8461,
+        "metadata": ["female", "55 to 59 years", "asian alone", "sex by age"]
+    }, {
+        "population": 3037,
+        "metadata": ["female", "60 and 61 years", "asian alone", "sex by age"]
+    }, {
+        "population": 7464,
+        "metadata": ["male", "55 to 59 years", "asian alone", "sex by age"]
+    }, {
+        "population": 9337,
+        "metadata": ["male", "50 to 54 years", "asian alone", "sex by age"]
+    }, {
+        "population": 11456,
+        "metadata": ["male", "45 to 49 years", "asian alone", "sex by age"]
+    }, {
+        "population": 12808,
+        "metadata": ["male", "40 to 44 years", "asian alone", "sex by age"]
+    }, {
+        "population": 2969,
+        "metadata": ["male", "62 to 64 years", "asian alone", "sex by age"]
+    }, {
+        "population": 2669,
+        "metadata": ["male", "60 and 61 years", "asian alone", "sex by age"]
+    }, {
+        "population": 15612,
+        "metadata": ["male", "30 to 34 years", "asian alone", "sex by age"]
+    }, {
+        "population": 16020,
+        "metadata": ["male", "35 to 39 years", "asian alone", "sex by age"]
+    }, {
+        "population": 9096,
+        "metadata": ["male", "22 to 24 years", "asian alone", "sex by age"]
+    }, {
+        "population": 16629,
+        "metadata": ["male", "25 to 29 years", "asian alone", "sex by age"]
+    }, {
+        "population": 182612,
+        "metadata": ["female", "85 years and over", "asian alone", "sex by age"]
+    }, {
+        "population": 818,
+        "metadata": ["male", "85 years and over", "asian alone", "sex by age"]
+    }, {
+        "population": 11904,
+        "metadata": ["female", "5 to 9 years", "asian alone", "sex by age"]
+    }, {
+        "population": 11547,
+        "metadata": ["female", "under 5 years", "asian alone", "sex by age"]
+    }, {
+        "population": 10389,
+        "metadata": ["female", "10 to 14 years", "asian alone", "sex by age"]
+    }, {
+        "population": 1667,
+        "metadata": ["male", "65 and 66 years", "asian alone", "sex by age"]
+    }, {
+        "population": 2272,
+        "metadata": ["male", "67 to 69 years", "asian alone", "sex by age"]
+    }, {
+        "population": 3099,
+        "metadata": ["male", "70 to 74 years", "asian alone", "sex by age"]
+    }, {
+        "population": 2107,
+        "metadata": ["male", "75 to 79 years", "asian alone", "sex by age"]
+    }, {
+        "population": 1140,
+        "metadata": ["male", "80 to 84 years", "asian alone", "sex by age"]
+    }, {
+        "population": 41,
+        "metadata": ["female", "15 to 17 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 28,
+        "metadata": ["female", "20 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 44,
+        "metadata": ["female", "18 and 19 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 90,
+        "metadata": ["female", "22 to 24 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 31,
+        "metadata": ["female", "21 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 85,
+        "metadata": ["female", "30 to 34 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 106,
+        "metadata": ["female", "25 to 29 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 74,
+        "metadata": ["female", "35 to 39 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 70,
+        "metadata": ["female", "40 to 44 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 82,
+        "metadata": ["female", "45 to 49 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 14,
+        "metadata": ["male", "67 to 69 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 12,
+        "metadata": ["male", "65 and 66 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 7,
+        "metadata": ["male", "85 years and over", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 13,
+        "metadata": ["male", "80 to 84 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 7,
+        "metadata": ["male", "75 to 79 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 21,
+        "metadata": ["male", "70 to 74 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 73,
+        "metadata": ["female", "5 to 9 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 67,
+        "metadata": ["female", "10 to 14 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 1105,
+        "metadata": ["female", "85 years and over", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 89,
+        "metadata": ["female", "under 5 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 17,
+        "metadata": ["female", "75 to 79 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 19,
+        "metadata": ["female", "70 to 74 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 16,
+        "metadata": ["female", "67 to 69 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 7,
+        "metadata": ["female", "65 and 66 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 16,
+        "metadata": ["female", "62 to 64 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 23,
+        "metadata": ["female", "60 and 61 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 56,
+        "metadata": ["female", "55 to 59 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 54,
+        "metadata": ["female", "50 to 54 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 7,
+        "metadata": ["female", "80 to 84 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 10,
+        "metadata": ["female", "85 years and over", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 132,
+        "metadata": ["male", "25 to 29 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 94,
+        "metadata": ["male", "30 to 34 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 79,
+        "metadata": ["male", "35 to 39 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 81,
+        "metadata": ["male", "40 to 44 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 80,
+        "metadata": ["male", "22 to 24 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 27,
+        "metadata": ["male", "62 to 64 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 61,
+        "metadata": ["male", "50 to 54 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 70,
+        "metadata": ["male", "45 to 49 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 12,
+        "metadata": ["male", "60 and 61 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 50,
+        "metadata": ["male", "55 to 59 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 1225575,
+        "metadata": ["in households", "in family households", "biological child ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 21517,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 388965,
+        "metadata": ["in households", "in family households", "householder", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 985029,
+        "metadata": ["in households", "in family households", "spouse ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 879439,
+        "metadata": ["in households", "in family households", "householder", "male", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 1118,
+        "metadata": ["male", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 70,
+        "metadata": ["male", "under 5 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 24,
+        "metadata": ["male", "21 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 21,
+        "metadata": ["male", "20 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 52,
+        "metadata": ["male", "18 and 19 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 46,
+        "metadata": ["male", "15 to 17 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 62,
+        "metadata": ["male", "10 to 14 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 83,
+        "metadata": ["male", "5 to 9 years", "native hawaiian and other pacific islander alone", "sex by age"]
+    }, {
+        "population": 57234,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 34554,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 34647,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 346022,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 1010503,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 79069,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 27794,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 12758,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 14316,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 39779,
+        "metadata": ["in households", "in family households", "parent ", "female", "white alone, not hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 27824,
+        "metadata": ["female", "5 to 9 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 30912,
+        "metadata": ["female", "under 5 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 319559,
+        "metadata": ["female", "85 years and over", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 763,
+        "metadata": ["male", "85 years and over", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 1041,
+        "metadata": ["male", "80 to 84 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 1818,
+        "metadata": ["male", "75 to 79 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 2855,
+        "metadata": ["male", "70 to 74 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 2431,
+        "metadata": ["male", "67 to 69 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 2004,
+        "metadata": ["male", "65 and 66 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 27334,
+        "metadata": ["female", "10 to 14 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 17705,
+        "metadata": ["male", "45 to 49 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 20462,
+        "metadata": ["male", "40 to 44 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 9835,
+        "metadata": ["male", "55 to 59 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 13782,
+        "metadata": ["male", "50 to 54 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 27970,
+        "metadata": ["male", "25 to 29 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 17522,
+        "metadata": ["male", "22 to 24 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 22179,
+        "metadata": ["male", "35 to 39 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 25907,
+        "metadata": ["male", "30 to 34 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 15945,
+        "metadata": ["male", "5 to 9 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 16138,
+        "metadata": ["male", "under 5 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 209693,
+        "metadata": ["male", "black or african american alone", "sex by age"]
+    }, {
+        "population": 4432,
+        "metadata": ["male", "20 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 9124,
+        "metadata": ["male", "18 and 19 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 11679,
+        "metadata": ["male", "15 to 17 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 16877,
+        "metadata": ["male", "10 to 14 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 4004,
+        "metadata": ["male", "21 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 3139,
+        "metadata": ["male", "60 and 61 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 3944,
+        "metadata": ["male", "62 to 64 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 4183,
+        "metadata": ["female", "70 to 74 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 3240,
+        "metadata": ["female", "67 to 69 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 2613,
+        "metadata": ["female", "65 and 66 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 5019,
+        "metadata": ["female", "62 to 64 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 1476,
+        "metadata": ["female", "85 years and over", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 1798,
+        "metadata": ["female", "80 to 84 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 2914,
+        "metadata": ["female", "75 to 79 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 10800,
+        "metadata": ["male", "22 to 24 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 15632,
+        "metadata": ["male", "25 to 29 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 3956,
+        "metadata": ["female", "60 and 61 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 11667,
+        "metadata": ["female", "55 to 59 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 15612,
+        "metadata": ["female", "50 to 54 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 10438,
+        "metadata": ["male", "55 to 59 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 13680,
+        "metadata": ["male", "50 to 54 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 4331,
+        "metadata": ["male", "62 to 64 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 3566,
+        "metadata": ["male", "60 and 61 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 14427,
+        "metadata": ["male", "35 to 39 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 14690,
+        "metadata": ["male", "30 to 34 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 15331,
+        "metadata": ["male", "45 to 49 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 14949,
+        "metadata": ["male", "40 to 44 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 6217,
+        "metadata": ["female", "21 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 6539,
+        "metadata": ["female", "20 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 27724,
+        "metadata": ["female", "25 to 29 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 17125,
+        "metadata": ["female", "22 to 24 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 23941,
+        "metadata": ["female", "35 to 39 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 26750,
+        "metadata": ["female", "30 to 34 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 19834,
+        "metadata": ["female", "45 to 49 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 22204,
+        "metadata": ["female", "40 to 44 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 2851,
+        "metadata": ["male", "67 to 69 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 3521,
+        "metadata": ["male", "70 to 74 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 2291,
+        "metadata": ["male", "65 and 66 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 13439,
+        "metadata": ["female", "18 and 19 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 17238,
+        "metadata": ["female", "15 to 17 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 15952,
+        "metadata": ["female", "10 to 14 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 15323,
+        "metadata": ["female", "5 to 9 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 15728,
+        "metadata": ["female", "under 5 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 224705,
+        "metadata": ["female", "85 years and over", "black or african american alone", "sex by age"]
+    }, {
+        "population": 1136,
+        "metadata": ["male", "85 years and over", "black or african american alone", "sex by age"]
+    }, {
+        "population": 1481,
+        "metadata": ["male", "80 to 84 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 2370,
+        "metadata": ["male", "75 to 79 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 8760,
+        "metadata": ["female", "18 and 19 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 10854,
+        "metadata": ["female", "15 to 17 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 4096,
+        "metadata": ["female", "21 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 4342,
+        "metadata": ["female", "20 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 10864,
+        "metadata": ["female", "22 to 24 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 16828,
+        "metadata": ["female", "25 to 29 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 16224,
+        "metadata": ["female", "30 to 34 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 15904,
+        "metadata": ["female", "35 to 39 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 16529,
+        "metadata": ["female", "40 to 44 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 16180,
+        "metadata": ["female", "45 to 49 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 14887,
+        "metadata": ["female", "50 to 54 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 3026,
+        "metadata": ["female", "65 and 66 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 5213,
+        "metadata": ["female", "62 to 64 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 4126,
+        "metadata": ["female", "60 and 61 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 11726,
+        "metadata": ["female", "55 to 59 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 3865,
+        "metadata": ["female", "75 to 79 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 2803,
+        "metadata": ["female", "80 to 84 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 3740,
+        "metadata": ["female", "67 to 69 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 5048,
+        "metadata": ["female", "70 to 74 years", "black or african american alone", "sex by age"]
+    }, {
+        "population": 2687,
+        "metadata": ["female", "85 years and over", "black or african american alone", "sex by age"]
+    }, {
+        "population": 308095,
+        "metadata": ["male", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 28272,
+        "metadata": ["male", "10 to 14 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 18260,
+        "metadata": ["male", "15 to 17 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 32138,
+        "metadata": ["male", "under 5 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 28901,
+        "metadata": ["male", "5 to 9 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 6505,
+        "metadata": ["male", "21 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 6815,
+        "metadata": ["male", "20 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 13847,
+        "metadata": ["male", "18 and 19 years", "hispanic or latino", "sex by age"]
+    }, {
+        "population": 1566,
+        "metadata": ["male", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "juvenile facilities (201-203)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 242,
+        "metadata": ["male", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "correctional facilities for adults (101-106)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 488,
+        "metadata": ["male", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["male", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "nursing facilities/skilled-nursing facilities (301)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 119289,
+        "metadata": ["male", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 2296,
+        "metadata": ["male", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 4035,
+        "metadata": ["male", "under 18 years", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1739,
+        "metadata": ["male", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 224,
+        "metadata": ["male", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "college/university student housing (501)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["male", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "military quarters (601-602)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 119593,
+        "metadata": ["female", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1409,
+        "metadata": ["male", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["male", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "military quarters (601-602)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["male", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "college/university student housing (501)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 371,
+        "metadata": ["male", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "correctional facilities for adults (101-106)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["male", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "juvenile facilities (201-203)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 12393,
+        "metadata": ["male", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 10984,
+        "metadata": ["male", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1409,
+        "metadata": ["male", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 10376,
+        "metadata": ["male", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "nursing facilities/skilled-nursing facilities (301)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 237,
+        "metadata": ["male", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 61119,
+        "metadata": ["male", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "college/university student housing (501)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 14178,
+        "metadata": ["male", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 416,
+        "metadata": ["male", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "military quarters (601-602)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1515,
+        "metadata": ["male", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 102861,
+        "metadata": ["male", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 27148,
+        "metadata": ["male", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 22355,
+        "metadata": ["male", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "correctional facilities for adults (101-106)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 237,
+        "metadata": ["male", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "juvenile facilities (201-203)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 3206,
+        "metadata": ["male", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "nursing facilities/skilled-nursing facilities (301)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1350,
+        "metadata": ["male", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 75713,
+        "metadata": ["male", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 28080,
+        "metadata": ["female", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 29938,
+        "metadata": ["female", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 7755,
+        "metadata": ["female", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 82,
+        "metadata": ["female", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "military quarters (601-602)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 74139,
+        "metadata": ["female", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "college/university student housing (501)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 81976,
+        "metadata": ["female", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 718,
+        "metadata": ["female", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 234,
+        "metadata": ["female", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "juvenile facilities (201-203)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 2370,
+        "metadata": ["female", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "nursing facilities/skilled-nursing facilities (301)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 4979,
+        "metadata": ["female", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1657,
+        "metadata": ["female", "18 to 64 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "correctional facilities for adults (101-106)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["female", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "military quarters (601-602)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 291,
+        "metadata": ["female", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "college/university student housing (501)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 86955,
+        "metadata": ["female", "18 to 64 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1229,
+        "metadata": ["female", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1520,
+        "metadata": ["female", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["female", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "nursing facilities/skilled-nursing facilities (301)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 284,
+        "metadata": ["female", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 2700,
+        "metadata": ["female", "under 18 years", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1180,
+        "metadata": ["female", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 6,
+        "metadata": ["female", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "correctional facilities for adults (101-106)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 890,
+        "metadata": ["female", "under 18 years", "institutionalized population (101-106, 201-203, 301, 401-405)", "juvenile facilities (201-203)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1858,
+        "metadata": ["female", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["female", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "college/university student housing (501)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["female", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "military quarters (601-602)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 1858,
+        "metadata": ["female", "65 years and over", "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)", "other noninstitutional facilities (701-702, 704, 706, 801-802, 900-901, 903-904)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 0,
+        "metadata": ["female", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "juvenile facilities (201-203)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 52,
+        "metadata": ["female", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "correctional facilities for adults (101-106)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 147,
+        "metadata": ["female", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "other institutional facilities (401-405)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 27881,
+        "metadata": ["female", "65 years and over", "institutionalized population (101-106, 201-203, 301, 401-405)", "nursing facilities/skilled-nursing facilities (301)", "group quarters population by sex by age by group quarters type"]
+    }, {
+        "population": 51790,
+        "metadata": ["male", "19 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 49262,
+        "metadata": ["male", "18 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 45624,
+        "metadata": ["male", "17 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 36095,
+        "metadata": ["female", "2 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 35150,
+        "metadata": ["female", "1 year", "sex by age for the population under 20 years"]
+    }, {
+        "population": 34847,
+        "metadata": ["female", "under 1 year", "sex by age for the population under 20 years"]
+    }, {
+        "population": 794692,
+        "metadata": ["female", "19 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 37017,
+        "metadata": ["female", "5 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 36623,
+        "metadata": ["female", "4 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 36767,
+        "metadata": ["female", "3 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 42073,
+        "metadata": ["female", "16 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 37761,
+        "metadata": ["female", "7 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 37604,
+        "metadata": ["female", "6 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 38597,
+        "metadata": ["female", "9 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 38161,
+        "metadata": ["female", "8 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 39441,
+        "metadata": ["female", "11 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 38887,
+        "metadata": ["female", "10 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 39854,
+        "metadata": ["female", "13 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 39534,
+        "metadata": ["female", "12 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 41499,
+        "metadata": ["female", "15 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 40478,
+        "metadata": ["female", "14 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 36792,
+        "metadata": ["male", "1 year", "sex by age for the population under 20 years"]
+    }, {
+        "population": 36587,
+        "metadata": ["male", "under 1 year", "sex by age for the population under 20 years"]
+    }, {
+        "population": 826451,
+        "metadata": ["male", "sex by age for the population under 20 years"]
+    }, {
+        "population": 39332,
+        "metadata": ["male", "6 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 38488,
+        "metadata": ["male", "5 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 38003,
+        "metadata": ["male", "4 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 38003,
+        "metadata": ["male", "3 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 38220,
+        "metadata": ["male", "2 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 41000,
+        "metadata": ["male", "10 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 40337,
+        "metadata": ["male", "9 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 41011,
+        "metadata": ["male", "12 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 40844,
+        "metadata": ["male", "11 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 39049,
+        "metadata": ["male", "8 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 39341,
+        "metadata": ["male", "7 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 42838,
+        "metadata": ["male", "14 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 41726,
+        "metadata": ["male", "13 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 44248,
+        "metadata": ["male", "16 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 43956,
+        "metadata": ["male", "15 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 43136,
+        "metadata": ["female", "17 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 48905,
+        "metadata": ["female", "18 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 52263,
+        "metadata": ["female", "19 years", "sex by age for the population under 20 years"]
+    }, {
+        "population": 8901,
+        "metadata": ["in households", "in family households", "parent ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 13510,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 3040,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 2167,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 33369,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 20131,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 25972,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 74028,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 9111,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 17695,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 220859,
+        "metadata": ["in households", "in family households", "biological child ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 63865,
+        "metadata": ["in households", "in family households", "spouse ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 77306,
+        "metadata": ["in households", "in family households", "householder", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 55537,
+        "metadata": ["in households", "in family households", "householder", "male", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 7748,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "hispanic or latino", "household type by relationship"]
+    }, {
+        "population": 64174,
+        "metadata": ["in households", "in family households", "householder", "female", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 181778,
+        "metadata": ["in households", "in family households", "spouse ", "female", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 202881,
+        "metadata": ["in households", "in family households", "householder", "male", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 29808,
+        "metadata": ["in households", "in family households", "parent ", "female", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 12417,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 2844,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 277755,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 75402,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 11075,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "white alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 3192,
+        "metadata": ["male", "21 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 3212,
+        "metadata": ["male", "20 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 6565,
+        "metadata": ["male", "18 and 19 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 8741,
+        "metadata": ["male", "15 to 17 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 12518,
+        "metadata": ["male", "10 to 14 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 14086,
+        "metadata": ["male", "under 5 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 12378,
+        "metadata": ["male", "5 to 9 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 150682,
+        "metadata": ["male", "some other race alone", "sex by age"]
+    }, {
+        "population": 4785,
+        "metadata": ["male", "55 to 59 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 6955,
+        "metadata": ["male", "50 to 54 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1750,
+        "metadata": ["male", "62 to 64 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1441,
+        "metadata": ["male", "60 and 61 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 9151,
+        "metadata": ["male", "22 to 24 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 15478,
+        "metadata": ["male", "25 to 29 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 14231,
+        "metadata": ["male", "30 to 34 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 11481,
+        "metadata": ["male", "35 to 39 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 10704,
+        "metadata": ["male", "40 to 44 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 9179,
+        "metadata": ["male", "45 to 49 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 12266,
+        "metadata": ["female", "10 to 14 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 11849,
+        "metadata": ["female", "5 to 9 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 13176,
+        "metadata": ["female", "under 5 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1011,
+        "metadata": ["male", "67 to 69 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1240,
+        "metadata": ["male", "70 to 74 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 829,
+        "metadata": ["male", "65 and 66 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 385,
+        "metadata": ["male", "85 years and over", "some other race alone", "sex by age"]
+    }, {
+        "population": 154469,
+        "metadata": ["female", "85 years and over", "some other race alone", "sex by age"]
+    }, {
+        "population": 872,
+        "metadata": ["male", "75 to 79 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 498,
+        "metadata": ["male", "80 to 84 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1791,
+        "metadata": ["female", "60 and 61 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 5485,
+        "metadata": ["female", "55 to 59 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1133,
+        "metadata": ["female", "65 and 66 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 2198,
+        "metadata": ["female", "62 to 64 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1882,
+        "metadata": ["female", "70 to 74 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1371,
+        "metadata": ["female", "67 to 69 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 827,
+        "metadata": ["female", "80 to 84 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 1333,
+        "metadata": ["female", "75 to 79 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 7898,
+        "metadata": ["female", "50 to 54 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 643,
+        "metadata": ["female", "85 years and over", "some other race alone", "sex by age"]
+    }, {
+        "population": 3026,
+        "metadata": ["female", "21 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 3103,
+        "metadata": ["female", "20 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 6437,
+        "metadata": ["female", "18 and 19 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 8212,
+        "metadata": ["female", "15 to 17 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 12412,
+        "metadata": ["female", "35 to 39 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 13853,
+        "metadata": ["female", "30 to 34 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 14731,
+        "metadata": ["female", "25 to 29 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 8846,
+        "metadata": ["female", "22 to 24 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 11689,
+        "metadata": ["female", "40 to 44 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 10308,
+        "metadata": ["female", "45 to 49 years", "some other race alone", "sex by age"]
+    }, {
+        "population": 8856,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 2799,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1075,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 460,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 4210,
+        "metadata": ["in households", "in family households", "householder", "male", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 3252,
+        "metadata": ["in households", "in family households", "householder", "female", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 3740,
+        "metadata": ["in households", "in family households", "parent ", "female", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 3619,
+        "metadata": ["in households", "in family households", "spouse ", "female", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1140,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "hispanic or latino", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 14660,
+        "metadata": ["in households", "in family households", "spouse ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 15177,
+        "metadata": ["in households", "in family households", "householder", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 14243,
+        "metadata": ["in households", "in family households", "householder", "male", "two or more races", "household type by relationship"]
+    }, {
+        "population": 2434,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 75941,
+        "metadata": ["in households", "in family households", "biological child ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 2224,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 3300,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 573,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 21753,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 5062,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 2303,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 6157,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 333,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 1519,
+        "metadata": ["in households", "in family households", "parent ", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 7464,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "two or more races", "household type by relationship"]
+    }, {
+        "population": 9,
+        "metadata": ["in households", "in family households", "parent ", "female", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 4,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 33,
+        "metadata": ["in households", "in family households", "householder", "male", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 10,
+        "metadata": ["in households", "in family households", "householder", "female", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 33,
+        "metadata": ["in households", "in family households", "spouse ", "female", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 14,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 31,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 0,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 4,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "native hawaiian and other pacific islander alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 804,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 228,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 84,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 2605,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1402,
+        "metadata": ["in households", "in family households", "householder", "male", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 216,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 752,
+        "metadata": ["in households", "in family households", "parent ", "female", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1030,
+        "metadata": ["in households", "in family households", "spouse ", "female", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 865,
+        "metadata": ["in households", "in family households", "householder", "female", "two or more races", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 2691,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 102093,
+        "metadata": ["in households", "in family households", "biological child ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 32228,
+        "metadata": ["in households", "in family households", "spouse ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 40938,
+        "metadata": ["in households", "in family households", "householder", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 28242,
+        "metadata": ["in households", "in family households", "householder", "male", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 13005,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 37058,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 1480,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 1169,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 18122,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 11509,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 7148,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 4207,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 5172,
+        "metadata": ["in households", "in family households", "parent ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 8018,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "some other race alone", "household type by relationship"]
+    }, {
+        "population": 1955,
+        "metadata": ["in households", "in family households", "spouse ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 2067,
+        "metadata": ["in households", "in family households", "householder", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 1938,
+        "metadata": ["in households", "in family households", "householder", "male", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 526,
+        "metadata": ["in households", "in family households", "adopted child ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 5454,
+        "metadata": ["in households", "in family households", "biological child ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 223,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 417,
+        "metadata": ["in households", "in family households", "brother or sister ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 554,
+        "metadata": ["in households", "in family households", "grandchild ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 37,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 224,
+        "metadata": ["in households", "in family households", "parent ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 40,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 564,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 208,
+        "metadata": ["in households", "in family households", "stepchild ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 8,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1273,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 544,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 89,
+        "metadata": ["in households", "in family households", "son-in-law or daughter-in-law ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 3333,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 882,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "american indian and alaska native alone", "household type by relationship"]
+    }, {
+        "population": 265,
+        "metadata": ["in households", "in family households", "householder", "male", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 106,
+        "metadata": ["in households", "in family households", "parent ", "female", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 23,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 150,
+        "metadata": ["in households", "in family households", "householder", "female", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 183,
+        "metadata": ["in households", "in family households", "spouse ", "female", "american indian and alaska native alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 72870,
+        "metadata": ["in households", "in family households", "householder", "female", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 217348,
+        "metadata": ["in households", "in family households", "householder", "male", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 41212,
+        "metadata": ["in households", "in family households", "parent ", "female", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 193336,
+        "metadata": ["in households", "in family households", "spouse ", "female", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 16407,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 82809,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 301113,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 3893,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 14214,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 47405,
+        "metadata": ["male", "65 and 66 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 61132,
+        "metadata": ["male", "67 to 69 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 4818,
+        "metadata": ["in households", "in family households", "householder", "female", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 5390,
+        "metadata": ["in households", "in family households", "householder", "male", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 3771,
+        "metadata": ["in households", "in family households", "parent ", "female", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 4301,
+        "metadata": ["in households", "in family households", "spouse ", "female", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 2577846,
+        "metadata": ["female", "85 years and over", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 969,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 112147,
+        "metadata": ["female", "under 5 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 126488,
+        "metadata": ["female", "5 to 9 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 137797,
+        "metadata": ["female", "10 to 14 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 75499,
+        "metadata": ["male", "70 to 74 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 61983,
+        "metadata": ["male", "75 to 79 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 49402,
+        "metadata": ["male", "80 to 84 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 41950,
+        "metadata": ["male", "85 years and over", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 68790,
+        "metadata": ["female", "18 and 19 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 34375,
+        "metadata": ["female", "20 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 88632,
+        "metadata": ["female", "15 to 17 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 210971,
+        "metadata": ["female", "45 to 49 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 152660,
+        "metadata": ["female", "35 to 39 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 182934,
+        "metadata": ["female", "40 to 44 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 824,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 153292,
+        "metadata": ["female", "25 to 29 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 253,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 139014,
+        "metadata": ["female", "30 to 34 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 4449,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 33130,
+        "metadata": ["female", "21 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 1249,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 98264,
+        "metadata": ["female", "22 to 24 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 2174,
+        "metadata": ["in households", "in family households", "parent-in-law ", "female", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 4730,
+        "metadata": ["in households", "in family households", "parent ", "female", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 4538,
+        "metadata": ["in households", "in family households", "spouse ", "female", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1267,
+        "metadata": ["in households", "in family households", "householder", "female", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 5664,
+        "metadata": ["in households", "in family households", "householder", "male", "asian alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 210930,
+        "metadata": ["female", "50 to 54 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 189692,
+        "metadata": ["female", "55 to 59 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 69803,
+        "metadata": ["female", "60 and 61 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 97842,
+        "metadata": ["female", "62 to 64 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 52748,
+        "metadata": ["female", "65 and 66 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 70211,
+        "metadata": ["female", "67 to 69 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 92474,
+        "metadata": ["female", "70 to 74 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 83598,
+        "metadata": ["female", "75 to 79 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 78012,
+        "metadata": ["female", "80 to 84 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 94042,
+        "metadata": ["female", "85 years and over", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 446,
+        "metadata": ["in households", "in family households", "nonrelatives ", "female", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 1423,
+        "metadata": ["in households", "in family households", "other relatives ", "female", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 12143,
+        "metadata": ["in households", "in nonfamily households", "nonrelatives ", "female", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 3958,
+        "metadata": ["in households", "in nonfamily households", "male householder", "female", "black or african american alone", "household type by relationship for the population 65 years and over"]
+    }, {
+        "population": 117802,
+        "metadata": ["male", "under 5 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 2406954,
+        "metadata": ["male", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 69062,
+        "metadata": ["male", "18 and 19 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 94179,
+        "metadata": ["male", "15 to 17 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 145691,
+        "metadata": ["male", "10 to 14 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 132606,
+        "metadata": ["male", "5 to 9 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 34923,
+        "metadata": ["male", "20 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 32830,
+        "metadata": ["male", "21 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 136261,
+        "metadata": ["male", "30 to 34 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 151207,
+        "metadata": ["male", "25 to 29 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 175810,
+        "metadata": ["male", "40 to 44 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 146388,
+        "metadata": ["male", "35 to 39 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 201315,
+        "metadata": ["male", "50 to 54 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 203003,
+        "metadata": ["male", "45 to 49 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 64617,
+        "metadata": ["male", "60 and 61 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 178172,
+        "metadata": ["male", "55 to 59 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 96403,
+        "metadata": ["male", "22 to 24 years", "white alone, not hispanic or latino", "sex by age"]
+    }, {
+        "population": 89314,
+        "metadata": ["male", "62 to 64 years", "white alone, not hispanic or latino", "sex by age"]
+    }]
+}
