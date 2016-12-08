@@ -1,5 +1,6 @@
 
 import scala.collection.mutable.Map
+import scala.collection.mutable.ListBuffer
 
 class Dictionary(totalPopulation: Int) {
   val labels: List [String]
