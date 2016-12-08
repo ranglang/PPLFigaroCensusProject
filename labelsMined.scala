@@ -1,25 +1,72 @@
 	
 	// age 
+	val ageUnder1Year = "under 1 year"
 	val age2Years = "2 years"
-	val age12To17Years = "12 to 17 years"
+	val age3Years = "3 years"
+	val age5Years = "5 years"
+	val age9Years = "9 years"
+	val age11Years = "11 years"
+	val age12Years = "12 years"
+	val age13Years = "13 years"
 	val age14Years = "14 years"
+	val age15Years = "15 years"
+	val age17Years = "17 years"
 	val age18Years - "18 years"
+	val ageUnder18 = "under 18 years"
+	val age18Older = "18 years and over"
 	val age19Years = "19 years"
+	val age65Older = "population 65 years and over"
+
+	val age3And4Years = "3 and 4 years"
+	val age10To14Years = "10 to 14 years"
+	val age12To17Years = "12 to 17 years"
+	val age18To19Years = "18 and 19 years"
 	val age30To34Years = "30 to 34 years"
+	val age35To39Years = "35 to 39 years"
+	val age45to49Years = "45 to 49 years"
+	val age62To64Years = "62 to 64 years"
 	val age70To74 = "70 to 74 years"
+
+	val age12and13Years = "12 and 13 years"
+
+
+
+
 
 
 	// races 
+
+	val twoRacesOrMore =  "people who are two or more races"
+	val twoOrMoreRaces = "two or more races"
+	val threeRaces = "population of three races"
+
+
+	val oneRaceWhiteOrCombination? = "white alone or in combination with one or more other races"
+	val oneRaceWhiteNotHispanic = "people who are white alone, not hispanic or latino"
 	val oneRaceHawaiian = "native hawaiian and other pacific islander alone"
 	val oneRaceBlack = "black or african american alone"
+	val oneRaceIndian = "people who are american indian and alaska native alone"
+	val twoRacesIndianOther = "american indian and alaska native: some other race"
+	val twoRacesAsianOther = "asian: some other race"
+	val twoRacesWhiteHawaiian = "white: native hawaiian and other pacific islander"
 	val twoRacesWhiteBlack = "white: black or african american"
-	val twoOrMoreRaces = "two or more races"
+	val twoRacesAsianHawaiian = "asian: native hawaiian and other pacific islander"
 	val twoRacesBlackOther = "black or african american: some other race"
 	val twoRacesIndianAsian = "american indian and alaska native: asian"
+	val threeRacesBlackAsianOther = "black or african american: asian: some other race"
+	val threeRacesBlackAsianHawaiian = "black or african american: asian: native hawaiian and other pacific islander", 
 	val threeRacesBlackIndianAsian = "black or african american: american indian and alaska native: asian"
+	val threeRacesWhiteIndianHawaiian = "white: american indian and alaska native: native hawaiian and other pacific islander"
 	val threeRacesIndianAsianOther = "american indian and alaska native: asian: some other race"
+	val threeRacesWhiteBlackIndian = "white: black or african american: american indian and alaska native"
+	val fourRacesWhiteBlackIndianAsian = "white: black or african american: american indian and alaska native: asian"
+	val fourRacesBlackIndianAsianOther = "black or african american: american indian and alaska native: asian: some other race"
+	val fourRacesWhiteAsianHawaiianOther = "white: asian: native hawaiian and other pacific islander: some other race"	
+	val fourRacesWhiteBlackHawaiianOther = "white: black or african american: native hawaiian and other pacific islander: some other race"
+	val fourRacesBlackIndianAsianHawaiian = "black or african american: american indian and alaska native: asian: native hawaiian and other pacific islander"
 	val fourRacesWhiteBlackIndianHawaiian = "white: black or african american: american indian and alaska native: native hawaiian and other pacific islander"
 	val fiveRacesWhiteBlackIndianAsianOther = "white: black or african american: american indian and alaska native: asian: some other race" 
+	val fiveRacesWhiteBlackIndianAsianHawaiian = "white: black or african american: american indian and alaska native: asian: native hawaiian and other pacific islander"
 	val sixRacesWhiteBlackIndianAsianHawaiianOther = "white: black or african american: american indian and alaska native: asian: native hawaiian and other pacific islander: some other race", 
 
 	// household race 
@@ -53,65 +100,44 @@
 
 	val totalRacesTallied = "total races tallied"
 
-	val familiesHouseholdrWhiteAlone = "population in families with a householder who is white alone"
+	val familiesHouseholderWhiteAlone = "population in families with a householder who is white alone"
 	val inHouseholds = "in households"
 	val ageUnder18Hispanic = "people under 18 years who are hispanic or latino"
-	val age9Years = "9 years"
 	val familyHouseholds = "in family households" 
 	val householdsHouseholderWhiteAlone = "population in households with a householder who is white alone"
 	val householderAsianAlone = "families with a householder who is asian alone"
 	val nursingFacilities = "nursing facilities/skilled-nursing facilities (301)"
-	val twoRacesOrMore =  "people who are two or more races"
 	val otherFamily = "in other family"
 	val otherRelatives = "other relatives"
 	val totalPopulation = "total population"
 	val relatedChild = "related child"
-	val threeRacesWhiteIndianHawaiian = "white: american indian and alaska native: native hawaiian and other pacific islander"
-	val householdSize2OrMore = "2-or-more-person household"
-	val threeRaces = "population of three races"
-	val twoRacesWhiteHawaiian = "white: native hawaiian and other pacific islander"
-	val threeRacesBlackAsianOther = "black or african american: asian: some other race"
 	val familiesHouseholderHispanic = "families with a householder who is hispanic or latino"
-	val age35To39Years = "35 to 39 years"
-	val age62To64Years = "62 to 64 years"
-	val fiveRacesWhiteBlackIndianAsianHawaiian = "white: black or african american: american indian and alaska native: asian: native hawaiian and other pacific islander"
+	
 	val householdPopulationUnder18 = "population under 18 years in households (excluding householders, spouses, and unmarried partners)"
 	val householder85Over = "householder 85 years and over"
 	val householdFemaleHouseholder = "in households with a female householder"
-	val householderSizeOne = "1-person household"
 	val juvenileFacilities = "juvenile facilities (201-203)"
 	val hispanicLatino = "people who are hispanic or latino"
-	val oneRaceWhiteNotHispanic = "people who are white alone, not hispanic or latino"
-	val age3And4Years = "3 and 4 years"
-	val age18Older = "18 years and over"
 	val householdsNoPeopleUnder18 = "households with no people under 18 years"
 	val householdHouseholderIndian = "population in households with a householder who is american indian and alaska native alone"
 	val populationInHouseholds = "population in households"
-	val fourRacesWhiteAsianHawaiianOther = "white: asian: native hawaiian and other pacific islander: some other race"
 	val femaleHouseholderNoHusbandPresent = "female householder, no husband present"
-	val age45to49Years = "45 to 49 years"
-	val twoRacesAsianHawaiian = "asian: native hawaiian and other pacific islander"
-	val threeRacesBlackAsianHawaiian = "black or african american: asian: native hawaiian and other pacific islander", 
-	val age5Years = "5 years"
 	val householderWhiteAloneNotHispanicccc = "population in households with a householder who is white alone, not hispanic or latino"
-	val age13Years = "13 years"
-	val oneRaceWhiteOrCombination? = "white alone or in combination with one or more other races"
 	val sonOrDaughterInLaw = "son-in-law or daughter-in-law"
-	val ageUnder18 = "under 18 years"
 	val institutionalizedPopulationnnnnn = "institutionalized population"
 	val maleHouseholder = "male householder"
 	val ownChild = "own child"
 	val householderHawaiian = "households with a householder who is native hawaiian and other pacific islander alone"
 	val householdsWithMaleHouseholder = "in households with a male householder"
-	val age18To19Years = "18 and 19 years"
 	val peopleWhiteAlone = "people who are white alone"
-	val fourRacesWhiteBlackHawaiianOther = "white: black or african american: native hawaiian and other pacific islander: some other race"
 	val householdshouseholderAsiannnnn = "population in households with a householder who is asian alone"
-	val ageUnder1Year = "under 1 year"
 	val ageUnder18TwoOrMoreRaces= "people under 18 years who are two or more races"
-	val age17Years = "17 years"
-	val age15Years = "15 years"
+	
+	val householderSizeOne = "1-person household"
 	val twoPersonHousehold = "2-person household"
+	val householdSize2OrMore = "2-or-more-person household"
+
+
 	"households with no people 65 years and over", "black or african american: native hawaiian and other pacific islander", "biological child", "people 65 years and over who are asian alone", "5 to 9 years", "some other race alone", "75 to 79 years", "population in families with a householder who is black or african american alone", "not defined for this file", "people who are asian alone", "families with a householder who is american indian and alaska native alone", 
 	"6 years", "nonfamily households", "in group quarters", "4-person household", "18 to 64 years", "householder 25 to 34 years", "white: black or african american: american indian and alaska native: some other race", "householder 55 to 59 years", "white: native hawaiian and other pacific islander: some other race", "american indian and alaska native alone", "with related children under 18 years", "50 to 54 years", "under 6 years only", "hispanic or latino householder", 
 	"parent", "people 65 years and over who are white alone, not hispanic or latino", "white: american indian and alaska native: some other race", "white alone", "white: american indian and alaska native: asian: some other race", "people 65 years and over who are white alone", "white: black or african american: asian", "population in households with a householder who is hispanic or latino", 
@@ -134,28 +160,42 @@
 	"in 1-person household", "white: black or african american: native hawaiian and other pacific islander", "people under 18 years who are white alone, not hispanic or latino", 
 	"population in households with a householder who is two or more races", "white: black or african american: asian: native hawaiian and other pacific islander", "population under 20 years", "householder who is native hawaiian and other pacific islander alone", "22 to 24 years", 
 	"correctional facilities for adults (101-106)", "5-person household", "not hispanic or latino", "white: asian: native hawaiian and other pacific islander", "husband-wife family", "population in households with a householder who is some other race alone", "householder not living alone", "20 years", "stepchild", "people under 18 years who are asian alone", "grandchildren under 18 years living with grandparent householder", "american indian and alaska native: native hawaiian and other pacific islander: some other race", 
-	"under 3 years", "white: american indian and alaska native: asian: native hawaiian and other pacific islander: some other race", "population of four races", "16 years", "families with a householder who is hispanic or latino alone", "65 years and over", "population in families with a householder who is asian alone", 
-	"white: black or african american: asian: native hawaiian and other pacific islander: some other race", "people who are native hawaiian and other pacific islander alone", "family households", "white: some other race", "people 65 years and over who are two or more races", "65 and 66 years", "population in families with a householder who is native hawaiian and other pacific islander alone", 
-	"white: black or african american: american indian and alaska native", "12 and 13 years", "in husband-wife family", "in 2-or-more-person household",
-	 "white: black or african american: american indian and alaska native: asian", "families with a householder who is native hawaiian and other pacific islander alone", "10 to 14 years", "12 years", "households with a householder who is white alone", 
-	"population of six races", "11 years", "households with a householder who is white alone, not hispanic or latino", 
-	val age3Years = "3 years"
+	
+
+	val ageUnder3 = "under 3 years"
+
+	val "white: american indian and alaska native: asian: native hawaiian and other pacific islander: some other race", "population of four races", "16 years", "families with a householder who is hispanic or latino alone", "65 years and over", "population in families with a householder who is asian alone", 
+	
+
+	val fiveRacesWhiteBlackAsianHawiianOther = "white: black or african american: asian: native hawaiian and other pacific islander: some other race"
+	val oneRaceWhiteOther = "white: some other race"
+	val oneRaceHawaiianOther = "people who are native hawaiian and other pacific islander alone"
+
+	val familyHouseholdsss = "family households"
+	val over65TwoOrMoreRaces = "people 65 years and over who are two or more races", "65 and 66 years", "population in families with a householder who is native hawaiian and other pacific islander alone", 
+	
+
+	val husbandWifeFamily = "in husband-wife family"
+	val householdSize2OrMorePerson = "in 2-or-more-person household"
+	
+
+	val householderHawaiianAlone = "families with a householder who is native hawaiian and other pacific islander alone"
+	
+	val householdsHouseholderWhiteAloneeee = "households with a householder who is white alone" 
+	
+
+	val sixRaces = "population of six races"
+	val householderWhiteAloneNotHispaniccccccc = "households with a householder who is white alone, not hispanic or latino"
 	val spouse = "spouse"
 	val institutionalizedPopulation = "institutionalized population (101-106, 201-203, 301, 401-405)"
 	val householderWhiteAlone = "householder who is white alone"
-	val twoRacesAsianOther = "asian: some other race"
-	val fourRacesBlackIndianAsianOther = "black or african american: american indian and alaska native: asian: some other race"
 	val householdSize7OrMore = "7-or-more-person household"
 	val threeRacesBlackIndianOther = "black or african american: american indian and alaska native: some other race"
 	val householdr45To54 = "householder 45 to 54 years"
 	val femaleHouseholderNoHusband = "in female householder, no husband present family"
-	val age65Older = "population 65 years and over"
 	val groupQuarters = "population in group quarters"
-	val oneRaceIndian = "people who are american indian and alaska native alone"
-	val twoRacesIndianOther = "american indian and alaska native: some other race"
 	val husbandWifeFamily = "in husband-wife families"
 	val nonfamilyHousehold = "in nonfamily households"
-	val fourRacesBlackIndianAsianHawaiian = "black or african american: american indian and alaska native: asian: native hawaiian and other pacific islander"
 	
 	val householderTwoOrMoreRaces = "population in families with a householder who is two or more races"
 	val householderWhiteAloneNotHispanic = "population in families with a householder who is white alone, not hispanic or latino"
