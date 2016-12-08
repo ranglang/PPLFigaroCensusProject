@@ -20,6 +20,7 @@ p = set() # set of labels
 all_labels = set()
 vars_by_concept = defaultdict(list)
 labels_by_concept = defaultdict(set)
+associated_labels = defaultdict(set)
 
 #-------START CONSTRUCTING JSON-------#
 data = []
@@ -68,6 +69,7 @@ for child in root._children[0]._children:
     new_var = Variable()
     new_var.id = child.attrib[idstring]
     labels = child.attrib['label'].split("!!")
+    ls = []
     for l in labels:
         if l[len(l)-2:]==": ":
             l = l[:len(l)-2]
@@ -77,7 +79,8 @@ for child in root._children[0]._children:
             l = l[1:]
         new_var.labels.append(l)
         all_labels.add(l.lower())
-        labels_by_concept[(c[:c.index('.')+1])].add(l)
+        labels_by_concept[(c[:c.index('.')+1])].add(l.lower())
+        ls.append(l.lower())
     concepts.add(c)
     new_var.concept = (c[:c.index('.')])
     new_var.labels.append(c[(c.index('.')+2):])
@@ -95,17 +98,22 @@ for child in root._children[0]._children:
         l = c[c.index('(')+1:c.index(')')]
         concept_labels.add(l)
 
+    for l1 in ls:
+        for l2 in ls:
+            if l1 != l2:
+                associated_labels[l1].add(l2)
+
 variables.sort(key=lambda x: x.id)
 p = list(p)
-# l = list(all_labels)
+l = list(all_labels)
 
 vlbc = {}
 
-for key,value in vars_by_concept.iteritems():
-    vlbc[key] = list(value)
+# for key,value in associated_labels.iteritems():
+#     vlbc[key] = list(value)
 
-with open('labels_by_concept.json', 'w') as outfile:
-    json.dump(vlbc,outfile)
+with open('labels.json', 'w') as outfile:
+    json.dump(l,outfile)
 
 # family = set()
 # race = set()
