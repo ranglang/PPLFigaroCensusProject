@@ -27,7 +27,7 @@ class PriorParameters(dictionary: Dictionary) {
 	// map the labels in the dictionary
 	val labelGivenFemaleProbability = dictionary.labels.map(word => (word, Beta(1,1)))
 
-	val fullParamterList = 
+	val fullParameterList = 
 		femaleProbability ::
 		ageGivenFemaleProbability :: 
 		raceGivenFemaleProbability ::

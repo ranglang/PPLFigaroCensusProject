@@ -7,6 +7,8 @@ class Dictionary(totalPopulation: Int) {
   val statename: String 
   val totalPopulation = totalPopulation
 
+// Map[population, (isFemale, [metadata list])]
+  val dependencies: Map[Int, (Boolean, ListBuffer[String])]
 
   // TODO: Add here: addMetadataLabelshit
   // need to store all of the metadata stuff here
@@ -16,11 +18,19 @@ class Dictionary(totalPopulation: Int) {
     labels += labelName
   }
 
+
+  def addDependency(dependency: ListBuffer[String]) {
+    dependencies += 
+    // prolly not best way to add the dependencies?
+  }
+
 }
 
+
+// TODO: Make a class for Dependency and for Label
 object Dictionary {
-  // add all of the lables to the dictionary 
-  def fromLabels(labels: Traversable[Labels]) = {
+
+  def fromDependenciesAndLables(dependencies: Traversable[Dependency], labels: Traversable[Label]) = {
     val result = new Dictionary(0)
     for { label <- labels } { result.addLabel(label) }
     result
