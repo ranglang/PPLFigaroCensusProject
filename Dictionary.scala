@@ -5,6 +5,18 @@ import java.nio.file.{Files,Paths,Path}
 import java.io._
 import scala.io.Source
 
+/*
+ * The Dictionary class holds all of the labels by category
+ * At the moment, it only holds a list of labels for age and race, but the
+ * hope is that we will eventually have all of the different categories
+ * covered.
+ *
+ * We also have a master list, called labels, with ALL of the labels.
+ * 
+ * In LearningComponent we will read in the data file and associate
+ * the different labels with gender - "isFemale"
+*/
+
 class Dictionary(totalPopulationState: Int, stateNameParam: String) {
 
   // These are member variables of the Dictionary class 
@@ -55,7 +67,8 @@ object Dictionary {
     result
   }
 
-  // Reads in all of the parameters for a category given the file. Returns a string List (actually, a listBuffer) of each label 
+  // Reads in all of the parameters for a category given the file. Returns a string List (actually, a listBuffer) of each label
+  // Eventually, this function will go in LearningComponent
   def readParams(fileName : String) = {
     val source = Source.fromFile(fileName)
     val result = new ListBuffer [String]()

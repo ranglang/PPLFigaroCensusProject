@@ -1,4 +1,4 @@
-/*
+
 import java.nio.file.{Files,Paths,Path}
 import java.io._
 import scala.io.Source
@@ -9,27 +9,15 @@ import scala.collection.mutable.ListBuffer
 import collection.mutable.HashMap
 
 object LearningComponent {
+    def readDependencies(fileName: String) = {
 
-  // reads labels from labels.txt
-  // labels are in format "label1" "label2"
-  // note: each label is on its own line...(for getline to work)
-  def readLables(fileName: String) : ListBuffer[String] = {
-    println("Reading labels from " + fileName)
-    val source = Source.fromFile(fileName)
-    val result = new ListBuffer[String]()
-
-    for {line <- source.getLines()} {
-        result += line 
     }
-    result 
-  }
-
-
 
   // reads dependencies from data file
-  // format: 0 283 numLabels "skfljkfjslkdj" "slkdjfklsd" "sdkfjlkd"
-  // 0: male 1:female 
-  // 283: population 
+  // format: 0 283 numLabels "in household" "parent" "white alone"
+  //    0 is the gender | 0: male, 1: female 
+  //    283 is the population 
+  // Each line separated by a newline 
   // returns a hashmap of population and list of metadata labels for each dependency 
   def readDependencies(fileName: String): HashMap[Int, (Boolean, ListBuffer[String])] =
   {
@@ -138,4 +126,3 @@ object LearningComponent {
     println("Done!")
   }
 }
-*/
