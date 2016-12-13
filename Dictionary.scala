@@ -1,18 +1,22 @@
 
 import scala.collection.mutable.Map
 import scala.collection.mutable.ListBuffer
+import java.nio.file.{Files,Paths,Path}
+import java.io._
+import scala.io.Source
 
 class Dictionary(totalPopulationState: Int) {
-  val statename: String 
+  val statename: String = ""
   val totalPopulation = totalPopulationState
 
   // do we even need a master list of labels...?
   // prolly not if we have ageList + raceList + etc
-  val labels: ListBuffer [String]
-  val dependencies: ListBuffer[String]
+  // well i'll just keep one now for funsies!!!!
+  val labels: ListBuffer [String] = ListBuffer()
+  val dependencies: ListBuffer[String] = ListBuffer()
 
-  val ageList =  ListBuffer[String]
-  val raceList = ListBuffer[String]
+  val ageList: ListBuffer[String] = ListBuffer()
+  val raceList: ListBuffer[String] = ListBuffer()
   // can have other lists here too .... 
 
 
@@ -30,12 +34,18 @@ class Dictionary(totalPopulationState: Int) {
 
   def addAgeLabel(ageLabel: String) {
     ageList += ageLabel
-    labels += ageLabel 
+    addLabel(ageLabel)
+  }
+
+  def addRaceLabel(raceLabel: String) {
+    raceList += raceLabel
+    addLabel(raceLabel)
   }
   //etc
 
-  def addDependencies(dependency: String) {
-    dependencies += dependency
+  def addDependencies(metadata: String) {
+    dependencies += metadata
+    // how to add each label in the metadata and make the connections?
   }
 
   }
@@ -45,26 +55,47 @@ class Dictionary(totalPopulationState: Int) {
 // TODO: Make a class for Dependency and for Label
 object Dictionary {
   val totalPopMass = 6547629
-  //labels are just strings
-  // dependencies are also just strings...for now...
-  def fromData(dependencies: Map[Int, (Boolean, ListBuffer[String])], labels: Traversable[String]) = {
+
+  // Returns the dictionary with all of the labels..?
+  def fromParams(ageLabels: Traversable[String], raceLabels: Traversable[String]) = {
     val result = new Dictionary(totalPopMass)
-    for { label <- labels } { result.addLabel(label) }
+    for { agelabel <- ageLabels } { result.addAgeLabel(agelabel) }
+    for { racelabel <- raceLabels} { result.addRaceLabel(racelabel) }
     result
   }
 
-  val stopWordFraction = 0.15
-  val numFeatures = 100
+  // RETURNS a string list
+  // i.e. the list of all of the race params 
+  // or all of the age params
+  // or all of the params in the given file 
+  def readParams(fileName : String) = {
+    val source = Source.fromFile(fileName)
+    val result = new ListBuffer [String]()
+    for {
+      line <- source.getLines()
+    } {
+      // each line is a new param label
+      result += line 
+    }
+    result 
+  }
 
   def main(args: Array[String]) = {
-    /*val emails = LearningComponent.readEmails("Training Emails - 50")
-    val dict = Dictionary.fromEmails(emails.map(_._2))
-    println("Total number of words: " + dict.words.length)
-    println("Number of feature words: " + dict.featureWords.length)
-    println("\nAll words and counts:\n")
-    println(dict.words.map(word => word + " " + dict.getCount(word)).mkString("\n"))
-    println("\nFeature words and counts:\n")
-    println("Feature words:\n")
-    println(dict.featureWords.map(word => word + " " + dict.getCount(word)).mkString("\n"))*/
+    // NOTE: these param files need to be in the format:
+    // "white" "black" "asian" "something else" 
+    // all on the same line, separated by a NEWLINE 
+    val ageParams = readParams("data/params/age.txt")
+    val raceParams = readParams("data/params/race.txt")
+    val dict = Dictionary.fromParams(ageParams, raceParams)
+
+    println("Total number of age parameters: " + dict.ageList.length)
+    dict.ageList.foreach(println)
+
+    println("\nTotal number of race parameters: " + dict.raceList.length)
+    dict.raceList.foreach(println)
+
+    println("\nAll parameters: " + dict.labels.length)
+    dict.labels.foreach(println) //print all the labels! Woo!
   }
+
 }

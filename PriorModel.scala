@@ -1,4 +1,4 @@
-import com.cra.figaro.language.{Element, Constant, Flip, Universe}
+/*import com.cra.figaro.language.{Element, Constant, Flip, Universe}
 import com.cra.figaro.library.compound.If
 import com.cra.figaro.library.atomic.continuous.{Beta, AtomicBeta}
 import com.cra.figaro.library.atomic.discrete.Binomial
@@ -32,14 +32,14 @@ class PriorParameters(dictionary: Dictionary) {
 	// Can put in household later if time permitting
 
 	//val labelGivenFemaleProbability = Beta(1,1)//dictionary.labels.map(word => (word, Beta(1,1)))
-
+/*
 	val fullParameterList = 
 		femaleProbability ::
 		ageGivenFemaleProbability.map(pair => pair._2) ::
 		ageGivenMaleProbability.map(pair => pair._2) ::
 		raceGivenFemaleProbability.map(pair => pair._2) ::
 		raceGivenMaleProbability.map(pair => pair._2) 
-		Nil
+		Nil*/
 }
 
 class LearnedParameters(
@@ -109,3 +109,5 @@ class ReasoningModel(dictionary: Dictionary, parameters: LearnedParameters) exte
 object Model {
   val binomialNumTrials = 20
 }
+
+*/
