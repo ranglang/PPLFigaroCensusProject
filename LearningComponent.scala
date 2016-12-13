@@ -6,15 +6,15 @@ import com.cra.figaro.language.{Universe, Constant}
 import com.cra.figaro.library.atomic.continuous.{Beta, AtomicBeta}
 import com.cra.figaro.algorithm.learning._
 import scala.collection.mutable.ListBuffer
+import collection.mutable.HashMap
 
 object LearningComponent {
 
   // reads labels from labels.txt
   // labels are in format "label1" "label2"
   // note: each label is on its own line...(for getline to work)
-  def readLables(fileName: String) : ListBuffer[String]
-  {
-    println("Reading labels from " + filename)
+  def readLables(fileName: String) : ListBuffer[String] = {
+    println("Reading labels from " + fileName)
     val source = Source.fromFile(fileName)
     val result = new ListBuffer[String]()
 
@@ -29,20 +29,21 @@ object LearningComponent {
   // 0: male 1:female 
   // 283: population 
   // returns a hashmap of population and list of metadata labels for each dependency 
-  def readDependencies(fileName: String): Map[Int, (Boolean, ListBuffer[String])]
+  def readDependencies(fileName: String): HashMap[Int, (Boolean, ListBuffer[String])] =
   {
     println("Reading dependencies from " + fileName)
     val source = Source.fromFile(fileName)
-    var result: Map[Int, ListBuffer[String]] = Map()
-    while(line <- source.getLines()) {
+    var result: HashMap[Int, (Boolean, ListBuffer[String])] = HashMap()
+    for(line <- source.getLines()) {
         val parts = line.split(' ')
         // parts(0) is the gender 
-        val numLabels = parts(2)
-        val population = parts(1)
+        val numLabels = parts(2).toInt
+        val population = parts(1).toInt
         val isFemale = parts(0) == "1"
 
-        val metadata = ListBuffer[Int]()
-        for (val i = 2; i < numLables; i++) {
+        // metadata is an array of strings
+        val metadata = ListBuffer[String]()
+        for (i <- 2 to numLabels) {
             metadata += parts(i)
         }
 
@@ -110,16 +111,17 @@ object LearningComponent {
     val labelFileName = "labels.txt"
     val learningFileName = args(2)
 
-    val labels = readLables(labelFileName)  // ListBuffer[String]
-    val dependencies = readDependencies(dependenciesFileName)
-    val dictionary = Dictionary.fromLabels(labels)
+    var labels = readLables(labelFileName)  // ListBuffer[String]
+    var dependencies = readDependencies(dependenciesFileName)
+    val dictionary = Dictionary.fromDependenciesAndLables(dependencies, labels)
 
     val params = new PriorParameters(dictionary)
     val models = 
       for { (population, (isFemale, metadata)) <- dependencies }
       yield {
           val model = new LearningModel(dictionary, params)
-          dependency.observeEvidence(model, metadata, true)
+          //metadata.observeEvidence(model, metadata, true)
+          // what should be observing here?
       }
 
     val results = learnMAP(params)
