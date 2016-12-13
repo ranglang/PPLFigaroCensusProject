@@ -24,6 +24,8 @@ object LearningComponent {
     result 
   }
 
+
+
   // reads dependencies from data file
   // format: 0 283 numLabels "skfljkfjslkdj" "slkdjfklsd" "sdkfjlkd"
   // 0: male 1:female 
@@ -107,13 +109,20 @@ object LearningComponent {
   }
 
   def main(args: Array[String]) {
-    val dependenciesFileName = "25data_gender.json"
-    val labelFileName = "labels.txt"
-    val learningFileName = args(2)
+    val stateDataFileName = "25data_gender.json"
+    //val labelFileName = "labels.txt"
+    val ageLabelFileName = "age.JSON"
+    val raceLabelFileName = "race.JSON"
+    val learningFileName = "MYOUTPUT.txt"
 
-    var labels = readLables(labelFileName)  // ListBuffer[String]
+    //var labels = readLables(labelFileName)  // ListBuffer[String]
+    var ageLabels = readLables(ageLabelFileName)
+    var raceLabels = readLables(raceLabelFileName)
+
+
+
     var dependencies = readDependencies(dependenciesFileName)
-    val dictionary = Dictionary.fromDependenciesAndLables(dependencies, labels)
+    val dictionary = Dictionary.fromData(dependencies, labels)
 
     val params = new PriorParameters(dictionary)
     val models = 
