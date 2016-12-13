@@ -2,35 +2,35 @@
 import scala.collection.mutable.Map
 import scala.collection.mutable.ListBuffer
 
-class Dictionary(totalPopulation: Int) {
+class Dictionary(totalPopulationState: Int) {
   val labels: ListBuffer [String]
   val statename: String 
-  val totalPopulation = totalPopulation
+  val totalPopulation = totalPopulationState
 
 // Map[population, (isFemale, [metadata list])]
-  val dependencies: Map[Int, (Boolean, ListBuffer[String])]
-
+  val dependencies : Map[Int, (Boolean, ListBuffer[String])] 
   // TODO: Add here: addMetadataLabelshit
   // need to store all of the metadata stuff here
 
-  def addLabel(labelName: String)
+  def addLabel(labelName: String) 
   {
     labels += labelName
   }
 
 
-  def addDependency(dependency: ListBuffer[String]) {
-    dependencies += 
+  //def addDependency(dependency: ListBuffer[String]) {
+    //dependencies += 
     // prolly not best way to add the dependencies?
+    //}
   }
 
-}
 
 
 // TODO: Make a class for Dependency and for Label
 object Dictionary {
-
-  def fromDependenciesAndLables(dependencies: Traversable[Dependency], labels: Traversable[Label]) = {
+  //labels are just strings
+  // dependencies are also just strings...for now...
+  def fromDependenciesAndLables(dependencies: Map[Int, (Boolean, ListBuffer[String])], labels: Traversable[String]) = {
     val result = new Dictionary(0)
     for { label <- labels } { result.addLabel(label) }
     result
