@@ -9,63 +9,53 @@ import scala.collection.Map
 import scala.collection.mutable.ListBuffer
 
 
-abstract class Model(val dictionary: Dictionary) {
-//	val metadata: ListBuffer[String]
-//	val population: Int
-	val isFemale: Element[Boolean] 
-  val hasLabelElements: List[(String, Element[Boolean])]
- 	///val ageGroup: List[(String, Element[Boolean])]
- 	//val raceGroup: List[(String, Element[Boolean])]
 
- 	// add household if time 
-
-
-}
 
 class PriorParameters(dictionary: Dictionary) {
 	// same probability density to male and female 
 	val femaleProbability = Beta(1,1)
- 	val ageGivenFemaleProbability = dictionary.ageList.map(age => (age, Beta(2, 2)))
-	val ageGivenMaleProbability   = dictionary.ageList.map(age => (age, Beta(2, 2)))
- 	val raceGivenFemaleProbability = dictionary.raceList.map(race => (race, Beta(2, 2)))
-	val raceGivenMaleProbability   = dictionary.raceList.map(race => (race, Beta(2, 2)))
- 	
-	// For now, only dealing with age and race  
-	// Can put in household later if time permitting
-
+ 	val labelGivenFemaleProbability = dictionary.labels.toList.map(label => (label, Beta(2, 2)))
+  val labelGivenMaleProbability = dictionary.labels.toList.map(label => (label, Beta(2, 2)))
+	
 	//val labelGivenFemaleProbability = Beta(1,1)//dictionary.labels.map(word => (word, Beta(1,1)))
 
-	/*val fullParameterList = 
+	val fullParameterList = 
 		femaleProbability ::
-		ageGivenFemaleProbability.map(pair => pair._2) :::
-		ageGivenMaleProbability.map(pair => pair._2) :::
-		raceGivenFemaleProbability.map(pair => pair._2) :::
-		raceGivenMaleProbability.map(pair => pair._2)*/
+		labelGivenFemaleProbability.map(pair => pair._2) :::
+		labelGivenMaleProbability.map(pair => pair._2)
 }
 
 class LearnedParameters(
   val femaleProbability: Double,
-  val ageGivenFemaleProbability : Map[String, Double],
-  val ageGivenMaleProbability: Map[String, Double],
-  val raceGivenFemaleProbability: Map[String, Double],
-  val raceGivenMaleProbability: Map[String, Double]
+  val labelGivenFemaleProbability: Map[String, Double],
+  val labelGivenMaleProbability: Map[String, Double]
+  // val ageGivenFemaleProbability : Map[String, Double],
+  // val ageGivenMaleProbability: Map[String, Double],
+  // val raceGivenFemaleProbability: Map[String, Double],
+  // val raceGivenMaleProbability: Map[String, Double]
 )
 
+abstract class Model(dictionary: Dictionary) {
+  val isFemale: Element[Boolean] 
+
+  val hasLabelElements: List[Any]//List[(String, Element[Boolean])]
+}
 
 class LearningModel(dictionary: Dictionary, parameters: PriorParameters) extends Model(dictionary) {
-  // well this is the only probabilistic thing we got 
   val isFemale = Flip(parameters.femaleProbability)
 
-
   val hasLabelElements = {
-    val labelGivenFemaleMap = Map(parameters.ageGivenFemaleProbability:_*)
-    val labelGivenMaleMap = Map(parameters.ageGivenMaleProbability:_*)
+    val labelGivenFemaleMap = Map(parameters.labelGivenFemaleProbability:_*)
+    val labelGivenMaleMap = Map(parameters.labelGivenMaleProbability:_*)
 
-    for {label <- dictionary.labels} yield {
+    val labelsList = dictionary.labels.toList
+    for {label <- labelsList} yield {
       val givenFemaleProbability = labelGivenFemaleMap(label)
       val givenMaleProbability = labelGivenMaleMap(label)
       val hasLabelIfFemale = Flip(givenFemaleProbability)
       val hasLabelIfMale = Flip(givenMaleProbability)
+      val myAnswer = Flip(0.5)
+      //("label", myAnswer)
       (label, If(isFemale, hasLabelIfFemale, hasLabelIfMale))
       }
   }

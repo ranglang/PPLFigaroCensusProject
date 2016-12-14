@@ -2,7 +2,7 @@
 import java.nio.file.{Files,Paths,Path}
 import java.io._
 import scala.io.Source
-import com.cra.figaro.language.{Universe, Constant}
+import com.cra.figaro.language.{Universe, Constant, Element}
 import com.cra.figaro.library.atomic.continuous.{Beta, AtomicBeta}
 import com.cra.figaro.algorithm.learning._
 import scala.collection.mutable.ListBuffer
@@ -76,12 +76,9 @@ object LearningComponent {
 
 
 // TODO: Need to make learnMAP work for our situation
-  /*def learnMAP(params: PriorParameters): LearnedParameters = {
+  def learnMAP(params: PriorParameters): LearnedParameters = {
     
-
-    println("Beginning training")
-
-    
+    println("Beginning training")    
     println("Number of elements: " + Universe.universe.activeElements.length)
     val algorithm = EMWithBP(params.fullParameterList:_*)
     val time0 = System.currentTimeMillis()
@@ -89,21 +86,19 @@ object LearningComponent {
     val time1 = System.currentTimeMillis()
     println("Training time: " + ((time1 - time0) / 1000.0))
     val femaleProbability = params.femaleProbability.MAPValue
-    val ageGivenFemaleProbability = params.ageGivenFemaleProbability.MAPValue
-    val ageGivenMaleProbability = params.ageGivenMaleProbability.MAPValue
-    val raceGivenFemaleProbability = params.raceGivenFemaleProbability.MAPValue
-    val raceGivenMaleProbability = params.raceGivenMaleProbability.MAPValue
-
+    val labelGivenFemaleProbability = 
+      for {(word, param) <- params.labelGivenFemaleProbability} 
+      yield (word, param.MAPValue)
+    val labelGivenMaleProbability = 
+      for {(word, param) <- params.labelGivenMaleProbability } 
+      yield (word, param.MAPValue)
     algorithm.kill()
     new LearnedParameters(
       femaleProbability,
-      ageGivenFemaleProbability,
-      ageGivenMaleProbability,
-      raceGivenFemaleProbability,
-      raceGivenMaleProbability
+      labelGivenFemaleProbability,
+      labelGivenMaleProbability
     )
-
-  }*/
+  }
 
   /*def saveResults(
       fileName: String,
@@ -131,7 +126,7 @@ object LearningComponent {
   }*/
 
   def main(args: Array[String]) {
-    val stateDataFileName = "data/formatted_data.txt"
+    val stateDataFileName = "data/mini_baby_data.txt"
     val learningFileName = "MYOUTPUT.txt"
     val totalPopMass = 6547629
     val stateName = "Massachusetts"
@@ -142,37 +137,29 @@ object LearningComponent {
     val dictionary = Dictionary.fromParams(ageParams, raceParams)
     val params = new PriorParameters(dictionary)
 
-    def observeEvidence(model: Model, isFemale: Option[Boolean], metadata: ListBuffer[String], learning: Boolean, data: Dictionary) = {
-        isFemale match {
-            case Some(b) => model.isFemale.observe(b)
-            case None => ()
-        }
+    def observeEvidence(model: Model, isFemaleVal: Boolean, metadata: ListBuffer[String], learning: Boolean, data: Dictionary) = {
 
+      model.isFemale.observe(isFemaleVal)
 
         for {
-          (label, element) <- model.hasLabelElements
+          (label: String, element: Element[Boolean]) <- model.hasLabelElements
           }{
             element.observe(dictionary.labels.contains(label))
           }
     }
-}
 
-
-/*
-// DON't NEED POPULATION ... get rid of it later
     val models = 
       for {(isFemale, population, metadata) <- dependencies }
       yield {
           val model = new LearningModel(dictionary, params)
-          var i = 0
-          for (i <- population) {
+          println("\nAbout to start observing " + population + " people......")
+          for (i <- 1 to population) {
             observeEvidence(model, isFemale, metadata, true, dictionary)
           }
+          println("\nDone observing! Yay!!! wee")
           model 
       }
 
-    //val results = learnMAP(params)
-    //saveResults(learningFileName, dictionary, results)*/
     println("Done!")
-  
+  }
 }
