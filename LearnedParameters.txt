@@ -1,64 +1,182 @@
 0.6666666666666666
-Map(some other race alone -> 0.7499998720000001, noninstitutionalized population -> 0.7499998720000001, 30 to 34 years -> 0.7499998720000001, white alone, not hispanic or latino -> 0.7499998720000001, in family households -> 0.7499998720000001, parent -> 0.7499998720000001, 22 to 24 years -> 0.7499998720000001, other relatives -> 0.7499998720000001, son-in-law or daughter-in-law -> 0.7499998720000001, in households -> 0.7499998720000001, female -> 0.7499998720000001, 67 to 69 years -> 0.7499998720000001, 21 years -> 0.7499998720000001, spouse -> 0.7499998720000001, white alone -> 0.7499998720000001, 55 to 59 years -> 0.7499998720000001, nonrelatives -> 0.7499998720000001, under 5 years -> 0.7499998720000001, brother or sister -> 0.7499998720000001, male householder -> 0.7499998720000001, two or more races -> 0.7499998720000001, in nonfamily households -> 0.7499998720000001, other institutional facilities -> 0.7499998720000001, nursing facilities/skilled-nursing facilities -> 0.7499998720000001, 35 to 39 years -> 0.7499998720000001, grandchild -> 0.7499998720000001, 18 and 19 years -> 0.7499998720000001, 50 to 54 years -> 0.7499998720000001, 45 to 49 years -> 0.7499998720000001, group quarters -> 0.7499998720000001, institutionalized population -> 0.7499998720000001, 70 to 74 years -> 0.7499998720000001, 40 to 44 years -> 0.7499998720000001, 75 to 79 years -> 0.7499998720000001, other noninstitutional facilities -> 0.7499998720000001, male -> 0.7499998720000001, parent-in-law -> 0.7499998720000001, asian alone -> 0.7499998720000001, black or african american alone -> 0.7499998720000001, american indian and alaska native alone -> 0.7499998720000001, juvenile facilities -> 0.7499998720000001, stepchild -> 0.7499998720000001, 5 to 9 years -> 0.7499998720000001, biological child -> 0.7499998720000001, correctional facilities for adults -> 0.7499998720000001, 15 to 17 years -> 0.7499998720000001, 65 and 66 years -> 0.7499998720000001, 62 to 64 years -> 0.7499998720000001, hispanic or latino -> 0.7499998720000001, householder -> 0.7499998720000001, 10 to 14 years -> 0.7499998720000001, 85 years and over -> 0.7499998720000001, adopted child -> 0.7499998720000001, 80 to 84 years -> 0.7499998720000001, 25 to 29 years -> 0.7499998720000001, 60 and 61 years -> 0.7499998720000001, native hawaiian and other pacific islander alone -> 0.7499998720000001, 20 years -> 0.7499998720000001, military quarters -> 0.7499998720000001, college/university student housing -> 0.7499998720000001)
-Map(some other race alone -> 0.666622976, noninstitutionalized population -> 0.666622976, 30 to 34 years -> 0.666622976, white alone, not hispanic or latino -> 0.666622976, in family households -> 0.666622976, parent -> 0.666622976, 22 to 24 years -> 0.666622976, other relatives -> 0.666622976, son-in-law or daughter-in-law -> 0.666622976, in households -> 0.666622976, female -> 0.666622976, 67 to 69 years -> 0.666622976, 21 years -> 0.666622976, spouse -> 0.666622976, white alone -> 0.666622976, 55 to 59 years -> 0.666622976, nonrelatives -> 0.666622976, under 5 years -> 0.666622976, brother or sister -> 0.666622976, male householder -> 0.666622976, two or more races -> 0.666622976, in nonfamily households -> 0.666622976, other institutional facilities -> 0.666622976, nursing facilities/skilled-nursing facilities -> 0.666622976, 35 to 39 years -> 0.666622976, grandchild -> 0.666622976, 18 and 19 years -> 0.666622976, 50 to 54 years -> 0.666622976, 45 to 49 years -> 0.666622976, group quarters -> 0.666622976, institutionalized population -> 0.666622976, 70 to 74 years -> 0.666622976, 40 to 44 years -> 0.666622976, 75 to 79 years -> 0.666622976, other noninstitutional facilities -> 0.666622976, male -> 0.666622976, parent-in-law -> 0.666622976, asian alone -> 0.666622976, black or african american alone -> 0.666622976, american indian and alaska native alone -> 0.666622976, juvenile facilities -> 0.666622976, stepchild -> 0.666622976, 5 to 9 years -> 0.666622976, biological child -> 0.666622976, correctional facilities for adults -> 0.666622976, 15 to 17 years -> 0.666622976, 65 and 66 years -> 0.666622976, 62 to 64 years -> 0.666622976, hispanic or latino -> 0.666622976, householder -> 0.666622976, 10 to 14 years -> 0.666622976, 85 years and over -> 0.666622976, adopted child -> 0.666622976, 80 to 84 years -> 0.666622976, 25 to 29 years -> 0.666622976, 60 and 61 years -> 0.666622976, native hawaiian and other pacific islander alone -> 0.666622976, 20 years -> 0.666622976, military quarters -> 0.666622976, college/university student housing -> 0.666622976)
 60
 under 5 years
+0.7499998720000001
+0.666622976
 5 to 9 years
+0.7499998720000001
+0.666622976
 10 to 14 years
+0.7499998720000001
+0.666622976
 15 to 17 years
+0.7499998720000001
+0.666622976
 18 and 19 years
+0.7499998720000001
+0.666622976
 20 years
+0.7499998720000001
+0.666622976
 21 years
+0.7499998720000001
+0.666622976
 22 to 24 years
+0.7499998720000001
+0.666622976
 25 to 29 years
+0.7499998720000001
+0.666622976
 30 to 34 years
+0.7499998720000001
+0.666622976
 35 to 39 years
+0.7499998720000001
+0.666622976
 40 to 44 years
+0.7499998720000001
+0.666622976
 45 to 49 years
+0.7499998720000001
+0.666622976
 50 to 54 years
+0.7499998720000001
+0.666622976
 55 to 59 years
+0.7499998720000001
+0.666622976
 60 and 61 years
+0.7499998720000001
+0.666622976
 62 to 64 years
+0.7499998720000001
+0.666622976
 65 and 66 years
+0.7499998720000001
+0.666622976
 67 to 69 years
+0.7499998720000001
+0.666622976
 70 to 74 years
+0.7499998720000001
+0.666622976
 75 to 79 years
+0.7499998720000001
+0.666622976
 80 to 84 years
+0.7499998720000001
+0.666622976
 85 years and over
+0.7499998720000001
+0.666622976
 institutionalized population
+0.7499998720000001
+0.666622976
 noninstitutionalized population
+0.7499998720000001
+0.666622976
 in households
+0.7499998720000001
+0.666622976
 group quarters
+0.7499998720000001
+0.666622976
 in nonfamily households
+0.7499998720000001
+0.666622976
 in family households
+0.7499998720000001
+0.666622976
 juvenile facilities
+0.7499998720000001
+0.666622976
 correctional facilities for adults
+0.7499998720000001
+0.666622976
 other institutional facilities
+0.7499998720000001
+0.666622976
 adopted child
+0.7499998720000001
+0.666622976
 biological child
+0.7499998720000001
+0.666622976
 brother or sister
+0.7499998720000001
+0.666622976
 grandchild
+0.7499998720000001
+0.666622976
 nonrelatives
+0.7499998720000001
+0.666622976
 other relatives
+0.7499998720000001
+0.666622976
 parent
+0.7499998720000001
+0.666622976
 parent-in-law
+0.7499998720000001
+0.666622976
 son-in-law or daughter-in-law
+0.7499998720000001
+0.666622976
 spouse
+0.7499998720000001
+0.666622976
 stepchild
+0.7499998720000001
+0.666622976
 householder
+0.7499998720000001
+0.666622976
 male householder
+0.7499998720000001
+0.666622976
 college/university student housing
+0.7499998720000001
+0.666622976
 nursing facilities/skilled-nursing facilities
+0.7499998720000001
+0.666622976
 military quarters
+0.7499998720000001
+0.666622976
 other noninstitutional facilities
+0.7499998720000001
+0.666622976
 female
+0.7499998720000001
+0.666622976
 male
+0.7499998720000001
+0.666622976
 two or more races
+0.7499998720000001
+0.666622976
 asian alone
+0.7499998720000001
+0.666622976
 some other race alone
+0.7499998720000001
+0.666622976
 hispanic or latino
+0.7499998720000001
+0.666622976
 white alone
+0.7499998720000001
+0.666622976
 white alone, not hispanic or latino
+0.7499998720000001
+0.666622976
 american indian and alaska native alone
+0.7499998720000001
+0.666622976
 black or african american alone
+0.7499998720000001
+0.666622976
 native hawaiian and other pacific islander alone
+0.7499998720000001
+0.666622976
