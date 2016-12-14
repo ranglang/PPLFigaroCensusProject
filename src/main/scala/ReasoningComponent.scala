@@ -7,6 +7,8 @@ import com.cra.figaro.algorithm.factored.beliefpropagation.BeliefPropagation
 
 import java.nio.charset.CodingErrorAction
 import scala.io.Codec
+import scala.collection.mutable.ListBuffer
+
 
 object ReasoningComponent {
   def loadResults(fileName: String) = {
@@ -16,7 +18,7 @@ object ReasoningComponent {
 
     val source = Source.fromFile(fileName)
     val lines = source.getLines().toList
-    val (femaleLine :: numLablesLine :: rest) = lines
+    val (femaleLine :: numLabelsLine :: rest) = lines
 
     val femaleProbability = femaleLine.toDouble
     val numLabels = numLabelsLine.toInt 
@@ -29,7 +31,7 @@ object ReasoningComponent {
     for { i <- 0 until numLabels } {
       val label :: givenFemaleLine :: givenMaleLine :: rest = linesRemaining 
       linesRemaining = rest 
-      dictionary.addLabel(word)
+      dictionary.addLabel(label)
       labelsGivenFemaleProbabilities += label -> givenFemaleLine.toDouble
       labelsGivenMaleProbabilities += label -> givenMaleLine.toDouble 
 
@@ -49,7 +51,7 @@ object ReasoningComponent {
       for {
         (label: String, element: Element[Boolean]) <- model.hasLabelElements
         }{
-          element.observe(data.labels.contains(label))
+          element.observe(data.toList.contains(label))
         }
   }
 
@@ -65,7 +67,7 @@ object ReasoningComponent {
     }
 
     val model = new ReasoningModel(dictionary, parameters)
-    observeEvidence(model, False, labels)
+    observeEvidence(model, false, labels)
 
     val algorithm = VariableElimination(model.isFemale)
     algorithm.start()
@@ -80,7 +82,7 @@ object ReasoningComponent {
     val learningFileName = "LearnedParameters.txt"
 
     val (dictionary, parameters) = loadResults(learningFileName)
-    classify(dictionary, parameters, emailFileName)
+    classify(dictionary, parameters, testFileName)
     println("Done!")
   }
 }
