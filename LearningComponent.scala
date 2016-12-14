@@ -24,39 +24,36 @@ object LearningComponent {
                            the list of labels
                            isFemale (the answer)
 
-    what I could do is key:   list of the labels/metadata: string
-                       value: probability that it is female: Double
-                       so  if 1, just population/total
-                       and if 0, (1 - population/total)
+    returning a list of tuples
+    (isFemale, population, metadata)
   */
 
-  def readDependencies(fileName: String, totalPopulation: Int): HashMap[Int, (Boolean, ListBuffer[String])] =
+  def readDependencies(fileName: String, totalPopulation: Int): ListBuffer[(Boolean, Int, ListBuffer[String])] =
   {
     println("Reading dependencies from " + fileName)
     val source = Source.fromFile(fileName)
-    var result: HashMap[Int, (Boolean, ListBuffer[String])] = HashMap()
+    var result: ListBuffer[(Boolean, Int, ListBuffer[String])] = ListBuffer()
     for(line <- source.getLines()) {
-        val parts = line.split(' ')
+        val parts = line.split(',')
         // parts(0) is the gender 
         val numLabels = parts(2).toInt
         val population = parts(1).toInt
         val isFemale = parts(0) == "1"
-        val isFemaleProb = isFemale / totalPopulation
+        //val isFemaleProb = isFemale / totalPopulation
         // NOTE: I need to obtain totalPopulation somehow
 
         // metadata is an array of strings
         val metadata = ListBuffer[String]()
         for (i <- 2 to numLabels) {
             metadata += parts(i)
-            metadata += " " // so that all the data separated by spaces
         }
 
         // Our returning result is a hash table
         // Key: population
         // Values: tuple with isFemale and the metadata
-        println("Adding to dependency hashmap: \n")
-        println("Key: " + metadata + " Value: " + isFemaleProb) 
-        result += metadata, isFemaleProb
+        println("Adding to dependency list: \n")
+        println("isFemale: " + isFemale + " population " | population + " metadata " + metadata) 
+        result += (isFemale, population, metadata)
     }
     result 
   }
@@ -73,17 +70,17 @@ object LearningComponent {
     println("Training time: " + ((time1 - time0) / 1000.0))
     val femaleProbability = params.femaleProbability.MAPValue
     val ageGivenFemaleProbability = params.ageGivenFemaleProbability.MAPValue
+    val ageGivenMaleProbability = params.ageGivenMaleProbability.MAPValue
     val raceGivenFemaleProbability = params.raceGivenFemaleProbability.MAPValue
-    val householdGivenFemaleProbability = params.householdGivenFemaleProbability.MAPValue
-    val labelGivenFemaleProbability = params.labelGivenFemaleProbability.MAPValue
+    val raceGivenMaleProbability = params.raceGivenMaaleProbability.MAPValue
+
     algorithm.kill()
     new LearnedParameters(
       femaleProbability,
       ageGivenFemaleProbability,
+      ageGivenMaleProbability,
       raceGivenFemaleProbability,
-      householdGivenFemaleProbability, 
-      labelGivenFemaleProbability
-      
+      raceGivenMaleProbability
     )
   }
 
@@ -98,9 +95,9 @@ object LearningComponent {
     output.println(dictionary.totalPopulation)
     output.println(learningResults.femaleProbability)
     output.println(learningResults.ageGivenFemaleProbability)
+    output.println(learningResults.ageGivenMaleProbability)
     output.println(learningResults.raceGivenFemaleProbability)
-    output.println(learningResults.householdGivenFemaleProbability)
-    output.println(learningResults.labelGivenFemaleProbability)
+    output.println(learningResults.raceGivenMaleProbability)
 
 
     for {
@@ -140,14 +137,42 @@ object LearningComponent {
     val dictionary = Dictionary.fromParams(ageParams, raceParams)
     val params = new PriorParameters(dictionary)
 
+    def observeEvidence(model: Model, isFemale: Option[Boolean], metadata: ListBuffer[String], learning: Boolean) = {
+        model.isFemale.observe()
+
+        isFemale match {
+            case Some(b) => model.isFemale.observe(b)
+            case None => ()
+        }
+
+        // for each label in the list of labels 
+        for {
+            label <- metadata 
+        } {
+            if (model.ageList.contains(label)) {
+                for { 
+                    (agelabel, element) <- model.ageList
+                    } { 
+                    element.observe(label)
+                }
+            }
+            if (model.raceList.contains(label)) {
+                (racelabel, element) <- model.raceList
+                element.observe(label)
+            }
+        }
+    }
+
+
+// DON't NEED POPULATION ... get rid of it later
     val models = 
-      for { ageLabel <- ageParams }
+      for {(isFemale, population, metadata) <- dependencies }
       yield {
           val model = new LearningModel(dictionary, params)
-          //metadata.observeEvidence(model, metadata, true)
-          // what should be observing here?
-          // TODO 
-          
+          for (var x <- population) {
+            observe(model, isFemale, metadata, true)
+          }
+          model 
       }
 
     val results = learnMAP(params)
