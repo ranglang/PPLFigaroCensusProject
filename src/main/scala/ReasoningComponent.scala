@@ -42,17 +42,34 @@ object ReasoningComponent {
     (dictionary, params)
   }
 
+  def observeEvidence(model: Model, learning: Boolean, data: ListBuffer[String]) = {
+      for {
+        (label: String, element: Element[Boolean]) <- model.hasLabelElements
+        }{
+          element.observe(data.labels.contains(label))
+        }
+  }
+
   def classify(dictionary: Dictionary, parameters: LearnedParameters, fileName: String) = {
     val file = new File(fileName)
-    val email = new Email(file)
+    val source = Source.fromFile(fileName)
+    val labels = new ListBuffer [String]()
+    for {
+      line <- source.getLines()
+    } {
+      // each line is a new label
+      labels += line 
+    }
+
     val model = new ReasoningModel(dictionary, parameters)
-    email.observeEvidence(model, None, false)
-    val algorithm = VariableElimination(model.isSpam)
+    observeEvidence(model, False, labels)
+
+    val algorithm = VariableElimination(model.isFemale)
     algorithm.start()
-    val isSpamProbability = algorithm.probability(model.isSpam, true)
-    println("Spam probability: " + isSpamProbability)
+    val isFemaleProbability = algorithm.probability(model.isFemale, true)
+    println("Female probability: " + isFemaleProbability)
     algorithm.kill()
-    isSpamProbability
+    isFemaleProbability
   }
 
   def main(args: Array[String]) {
