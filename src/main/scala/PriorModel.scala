@@ -1,4 +1,4 @@
-/*import com.cra.figaro.language.{Element, Constant, Flip, Universe}
+import com.cra.figaro.language.{Element, Constant, Flip, Universe}
 import com.cra.figaro.library.compound.If
 import com.cra.figaro.library.atomic.continuous.{Beta, AtomicBeta}
 import com.cra.figaro.library.atomic.discrete.Binomial
@@ -13,7 +13,7 @@ abstract class Model(val dictionary: Dictionary) {
 	val isFemale: Element[Boolean] 
 
  	val ageGroup: List[(String, Element[Boolean])]
- 	val race: List[(String, Element[Boolean])]
+ 	val raceGroup: List[(String, Element[Boolean])]
 
  	// add household if time 
 
@@ -55,11 +55,14 @@ class LearningModel(dictionary: Dictionary, parameters: PriorParameters) extends
   // well this is the only probabilistic thing we got 
   val isFemale = Flip(parameters.femaleProbability)
 
+
+
   // outputs List[(String, Element[Boolean])]
   val ageGroup = {
   	val labelGivenFemaleMap = Map(parameters.ageGivenFemaleProbability:_*)
   	val labelGivenMaleMap = Map(parameters.ageGivenMaleProbability:_*)
   	// for each age label in the ageList, assign a probability for each if female or if male 
+
   	for {ageLabel <- dictionary.ageList} yield {
   		val givenFemaleProbability = labelGivenFemaleMap(ageLabel)
   		val givenMaleProbability = labelGivenMaleMap(ageLabel)
@@ -69,7 +72,8 @@ class LearningModel(dictionary: Dictionary, parameters: PriorParameters) extends
   		}
   	}
 
-  	val race = {
+
+  	val raceGroup = {
   		val labelGivenFemaleMap = Map(parameters.raceGivenFemaleProbability:_*)
   		val labelGivenMaleMap = Map(parameters.raceGivenMaleProbability:_*)
   		for {raceLabel <- dictionary.raceList} yield {
@@ -110,4 +114,3 @@ object Model {
   val binomialNumTrials = 20
 }
 
-*/
