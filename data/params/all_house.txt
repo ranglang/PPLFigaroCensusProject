@@ -1,0 +1,26 @@
+institutionalized population
+noninstitutionalized population
+in households
+group quarters
+in nonfamily households
+in family households
+juvenile facilities
+correctional facilities for adults
+other institutional facilities
+adopted child
+biological child
+brother or sister
+grandchild
+nonrelatives
+other relatives
+parent
+parent-in-law
+son-in-law or daughter-in-law
+spouse
+stepchild
+householder
+male householder
+college/university student housing
+nursing facilities/skilled-nursing facilities
+military quarters
+other noninstitutional facilities
