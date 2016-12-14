@@ -90,7 +90,7 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
     )
   }
 
-  /*def saveResults(
+  def saveResults(
       fileName: String,
       dictionary: Dictionary,
       learningResults: LearnedParameters
@@ -98,21 +98,19 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
     val file = new File(fileName)
     val output = new PrintWriter(new BufferedWriter(new FileWriter(file)))
 
+    
     output.println(learningResults.femaleProbability)
-    output.println(learningResults.ageGivenFemaleProbability)
-    output.println(learningResults.ageGivenMaleProbability)
-    output.println(learningResults.raceGivenFemaleProbability)
-    output.println(learningResults.raceGivenMaleProbability)
-
+    output.println(learningResults.labelGivenFemaleProbability)
+    output.println(learningResults.labelGivenMaleProbability)
 
     for {
-      label <- dictionary.labels
+      label <- dictionary.labels.toList
     } {
       output.println(label)
     }
 
     output.close()
-  }*/
+  }
 
 
   /*
@@ -125,7 +123,7 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
         for {
           (label: String, element: Element[Boolean]) <- model.hasLabelElements
           }{
-            element.observe(dictionary.labels.contains(label))
+            element.observe(data.labels.contains(label))
           }
     }
 
@@ -158,6 +156,7 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
       }
 
       val results = learnMAP(params)
+      saveResults(learningFileName, dictionary, results)
 
     println("Done!")
   }
