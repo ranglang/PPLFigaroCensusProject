@@ -5,6 +5,9 @@ import com.cra.figaro.algorithm.sampling.Importance
 import com.cra.figaro.algorithm.factored.VariableElimination
 import com.cra.figaro.algorithm.factored.beliefpropagation.BeliefPropagation
 
+import java.nio.charset.CodingErrorAction
+import scala.io.Codec
+
 object ReasoningComponent {
   def loadResults(fileName: String) = {
     implicit val codec = Codec("UTF-8")
