@@ -38,18 +38,6 @@ class Dictionary(totalPopulationState: Int, stateNameParam: String) {
     labels += labelName
   }
 
-  def addAgeLabel(ageLabel: String) {
-    ageList += ageLabel
-    addLabel(ageLabel)
-  }
-
-  def addRaceLabel(raceLabel: String) {
-    raceList += raceLabel
-    addLabel(raceLabel)
-  }
-
-  //etc
-
   }
 
 
@@ -61,10 +49,11 @@ object Dictionary {
   val stateName = "Massachusetts"
 
   // returns the Dictionary class given a list of ageLabels and a list of raceLabels 
-  def fromParams(ageLabels: Traversable[String], raceLabels: Traversable[String]) = {
+  def fromParams(labelsList: Traversable[String]) = {
     val result = new Dictionary(totalPopMass, stateName)
-    for { agelabel <- ageLabels } { result.addAgeLabel(agelabel) }
-    for { racelabel <- raceLabels} { result.addRaceLabel(racelabel) }
+    for { label <- labelsList } {result.addLabel(label)}
+    //for { agelabel <- ageLabels } { result.addAgeLabel(agelabel) }
+    //for { racelabel <- raceLabels} { result.addRaceLabel(racelabel) }
     result
   }
 
@@ -76,15 +65,16 @@ object Dictionary {
   def main(args: Array[String]) = {
     // NOTE: these param files need to be in the format:
     // "white" "black" "asian" "something else" separated by a NEWLINE 
-    val ageParams = LearningComponent.readParams("data/params/age.txt")
-    val raceParams = LearningComponent.readParams("data/params/race.txt")
-    val dict = Dictionary.fromParams(ageParams, raceParams)
+    // val ageParams = LearningComponent.readParams("data/params/age.txt")
+    // val raceParams = LearningComponent.readParams("data/params/race.txt")
+    val labelsParams = LearningComponent.readParams("data/params/labels.txt")
+    val dict = Dictionary.fromParams(labelsParams)
 
-    println("\nTotal number of age parameters: " + dict.ageList.length)
-    dict.ageList.foreach(println)
+    // println("\nTotal number of age parameters: " + dict.ageList.length)
+    // dict.ageList.foreach(println)
 
-    println("\nTotal number of race parameters: " + dict.raceList.length)
-    dict.raceList.foreach(println)
+    // println("\nTotal number of race parameters: " + dict.raceList.length)
+    // dict.raceList.foreach(println)
 
     println("\nAll parameters: " + dict.labels.length)
     dict.labels.foreach(println) 
