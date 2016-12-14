@@ -10,24 +10,9 @@ import collection.mutable.HashMap
 
 object LearningComponent {
 
-  // reads dependencies from data file
-  // format: 0 283 numLabels "in household" "parent" "white alone"
-  //    0 is the gender | 0: male, 1: female 
-  //    283 is the population 
-  // Each line separated by a newline 
-  // returns a hashmap of population and list of metadata labels for each dependency 
-  // returns HashMap
-  // key:   
-  // value: isFemale (the answer)
   /*
-    things we wanna store: population (probability)
-                           the list of labels
-                           isFemale (the answer)
-
-    returning a list of tuples
-    (isFemale, population, metadata)
+    readParams reads in a text file with all of the labels
   */
-
 
   def readParams(fileName : String) = {
     val source = Source.fromFile(fileName)
@@ -42,32 +27,37 @@ object LearningComponent {
   }
 
 
+  /*
+    readDependencies takes in the fileName for the data file
 
-  def readDependencies(fileName: String, totalPopulation: Int): ListBuffer[(Boolean, Int, ListBuffer[String])] =
+    Format of data file: isFemale population numLabels "in household" "parent" "white alone"
+        isFemale is the gender (0 or 1)
+            0 -> male
+            1 -> female
+        population: Int
+        numLabels:  Int
+
+    Returns a list of tuples of the form:
+        (isFemale, population, metadata)
+    where metadata is a list of labels, where each label is represented by a string
+
+  */
+  def readDependencies(fileName: String): ListBuffer[(Boolean, Int, ListBuffer[String])] =
   {
     println("Reading dependencies from " + fileName)
     val source = Source.fromFile(fileName)
     var result: ListBuffer[(Boolean, Int, ListBuffer[String])] = ListBuffer()
     for(line <- source.getLines()) {
         val parts = line.split(',')
-        // parts(0) is the gender 
         val numLabels = parts(2).toInt
         val population = parts(1).toInt
         val isFemale = parts(0) == "1"
-        //val isFemaleProb = isFemale / totalPopulation
-        // NOTE: I need to obtain totalPopulation somehow
-
+       
         // metadata is an array of strings
         val metadata = ListBuffer[String]()
         for (i <- 1 to numLabels) {
             metadata += parts(i+2)
-        }
-
-        // Our returning result is a hash table
-        // Key: population
-        // Values: tuple with isFemale and the metadata
- //       println("\nAdding to dependency list: ")
-  //      println("isFemale: " + isFemale + " population " + population + " metadata " + metadata) 
+        } 
         val newDependencyData = (isFemale, population, metadata)
         result += newDependencyData
     }
@@ -75,8 +65,7 @@ object LearningComponent {
   }
 
 
-// TODO: Need to make learnMAP work for our situation
-  def learnMAP(params: PriorParameters): LearnedParameters = {
+def learnMAP(params: PriorParameters): LearnedParameters = {
     
     println("Beginning training")    
     println("Number of elements: " + Universe.universe.activeElements.length)
@@ -93,10 +82,11 @@ object LearningComponent {
       for {(word, param) <- params.labelGivenMaleProbability } 
       yield (word, param.MAPValue)
     algorithm.kill()
+
     new LearnedParameters(
       femaleProbability,
-      labelGivenFemaleProbability,
-      labelGivenMaleProbability
+      labelGivenFemaleProbability.toMap,
+      labelGivenMaleProbability.toMap
     )
   }
 
@@ -108,7 +98,6 @@ object LearningComponent {
     val file = new File(fileName)
     val output = new PrintWriter(new BufferedWriter(new FileWriter(file)))
 
-    output.println(dictionary.totalPopulation)
     output.println(learningResults.femaleProbability)
     output.println(learningResults.ageGivenFemaleProbability)
     output.println(learningResults.ageGivenMaleProbability)
@@ -125,19 +114,11 @@ object LearningComponent {
     output.close()
   }*/
 
-  def main(args: Array[String]) {
-    val stateDataFileName = "data/mini_baby_data.txt"
-    val learningFileName = "MYOUTPUT.txt"
-    val totalPopMass = 6547629
-    val stateName = "Massachusetts"
-    val ageParams = readParams("data/params/age.txt")
-    val raceParams = readParams("data/params/race.txt")
-    var dependencies = readDependencies(stateDataFileName, totalPopMass)
-    
-    val dictionary = Dictionary.fromParams(ageParams, raceParams)
-    val params = new PriorParameters(dictionary)
 
-    def observeEvidence(model: Model, isFemaleVal: Boolean, metadata: ListBuffer[String], learning: Boolean, data: Dictionary) = {
+  /*
+    observes the evidence, of course
+  */
+  def observeEvidence(model: Model, isFemaleVal: Boolean, metadata: ListBuffer[String], learning: Boolean, data: Dictionary) = {
 
       model.isFemale.observe(isFemaleVal)
 
@@ -147,6 +128,22 @@ object LearningComponent {
             element.observe(dictionary.labels.contains(label))
           }
     }
+
+
+
+/*
+    NOTE: Our text files are hardcoded in at the moment
+    Later, we will change them so that we read in the text files from the arguments
+*/
+  def main(args: Array[String]) {
+    val stateDataFileName = "data/mini_baby_data.txt"
+    val learningFileName = "MYOUTPUT.txt"
+    val ageParams = readParams("data/params/age.txt")
+    val raceParams = readParams("data/params/race.txt")
+    var dependencies = readDependencies(stateDataFileName)
+    
+    val dictionary = Dictionary.fromParams(ageParams, raceParams)
+    val params = new PriorParameters(dictionary)
 
     val models = 
       for {(isFemale, population, metadata) <- dependencies }
@@ -159,6 +156,8 @@ object LearningComponent {
           println("\nDone observing! Yay!!! wee")
           model 
       }
+
+      val results = learnMAP(params)
 
     println("Done!")
   }
