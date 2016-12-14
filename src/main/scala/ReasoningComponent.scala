@@ -93,8 +93,9 @@ object ReasoningComponent {
   }
 
   def main(args: Array[String]) {
-    val emailFileName = args(0)
-    val learningFileName = args(1)
+    val testFileName = "testData.txt"
+    val learningFileName = "LearnedParameters.txt"
+
     val (dictionary, parameters) = loadResults(learningFileName)
     classify(dictionary, parameters, emailFileName)
     println("Done!")
