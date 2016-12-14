@@ -28,6 +28,21 @@ object LearningComponent {
     (isFemale, population, metadata)
   */
 
+
+  def readParams(fileName : String) = {
+    val source = Source.fromFile(fileName)
+    val result = new ListBuffer [String]()
+    for {
+      line <- source.getLines()
+    } {
+      // each line is a new label
+      result += line 
+    }
+    result 
+  }
+
+
+
   def readDependencies(fileName: String, totalPopulation: Int): ListBuffer[(Boolean, Int, ListBuffer[String])] =
   {
     println("Reading dependencies from " + fileName)
@@ -44,24 +59,29 @@ object LearningComponent {
 
         // metadata is an array of strings
         val metadata = ListBuffer[String]()
-        for (i <- 2 to numLabels) {
-            metadata += parts(i)
+        for (i <- 1 to numLabels) {
+            metadata += parts(i+2)
         }
 
         // Our returning result is a hash table
         // Key: population
         // Values: tuple with isFemale and the metadata
-        println("Adding to dependency list: \n")
-        println("isFemale: " + isFemale + " population " | population + " metadata " + metadata) 
-        result += (isFemale, population, metadata)
+ //       println("\nAdding to dependency list: ")
+  //      println("isFemale: " + isFemale + " population " + population + " metadata " + metadata) 
+        val newDependencyData = (isFemale, population, metadata)
+        result += newDependencyData
     }
     result 
   }
 
 
 // TODO: Need to make learnMAP work for our situation
-  def learnMAP(params: PriorParameters): LearnedParameters = {
+  /*def learnMAP(params: PriorParameters): LearnedParameters = {
+    
+
     println("Beginning training")
+
+    
     println("Number of elements: " + Universe.universe.activeElements.length)
     val algorithm = EMWithBP(params.fullParameterList:_*)
     val time0 = System.currentTimeMillis()
@@ -72,7 +92,7 @@ object LearningComponent {
     val ageGivenFemaleProbability = params.ageGivenFemaleProbability.MAPValue
     val ageGivenMaleProbability = params.ageGivenMaleProbability.MAPValue
     val raceGivenFemaleProbability = params.raceGivenFemaleProbability.MAPValue
-    val raceGivenMaleProbability = params.raceGivenMaaleProbability.MAPValue
+    val raceGivenMaleProbability = params.raceGivenMaleProbability.MAPValue
 
     algorithm.kill()
     new LearnedParameters(
@@ -82,9 +102,10 @@ object LearningComponent {
       raceGivenFemaleProbability,
       raceGivenMaleProbability
     )
-  }
 
-  def saveResults(
+  }*/
+
+  /*def saveResults(
       fileName: String,
       dictionary: Dictionary,
       learningResults: LearnedParameters
@@ -107,76 +128,51 @@ object LearningComponent {
     }
 
     output.close()
-  }
+  }*/
 
   def main(args: Array[String]) {
-    val stateDataFileName = "data/state_data/25data_gender.json"
-    
-    // These may need to eventually be there but not now
-    //val labelFileName = "labels.txt"
-    //val ageLabelFileName = "age.JSON"
-    //val raceLabelFileName = "race.JSON"
+    val stateDataFileName = "data/formatted_data.txt"
     val learningFileName = "MYOUTPUT.txt"
-
-    // need to get this data somehow LOLOLOLOL
     val totalPopMass = 6547629
     val stateName = "Massachusetts"
-
-    //var labels = readLables(labelFileName)  // ListBuffer[String]
-    //var ageLabels = readLables(ageLabelFileName)
-    // var raceLabels = readLables(raceLabelFileName)
-
-
-    // their emails -- my labels/params 
-    // their labels -- my statedata
-
     val ageParams = readParams("data/params/age.txt")
     val raceParams = readParams("data/params/race.txt")
-    var dependencies = readDependencies(stateDataFileName)
+    var dependencies = readDependencies(stateDataFileName, totalPopMass)
     
     val dictionary = Dictionary.fromParams(ageParams, raceParams)
     val params = new PriorParameters(dictionary)
 
-    def observeEvidence(model: Model, isFemale: Option[Boolean], metadata: ListBuffer[String], learning: Boolean) = {
-        model.isFemale.observe()
-
+    def observeEvidence(model: Model, isFemale: Option[Boolean], metadata: ListBuffer[String], learning: Boolean, data: Dictionary) = {
         isFemale match {
             case Some(b) => model.isFemale.observe(b)
             case None => ()
         }
 
-        // for each label in the list of labels 
+
         for {
-            label <- metadata 
-        } {
-            if (model.ageList.contains(label)) {
-                for { 
-                    (agelabel, element) <- model.ageList
-                    } { 
-                    element.observe(label)
-                }
-            }
-            if (model.raceList.contains(label)) {
-                (racelabel, element) <- model.raceList
-                element.observe(label)
-            }
-        }
+          (label, element) <- model.hasLabelElements
+          }{
+            element.observe(dictionary.labels.contains(label))
+          }
     }
+}
 
 
+/*
 // DON't NEED POPULATION ... get rid of it later
     val models = 
       for {(isFemale, population, metadata) <- dependencies }
       yield {
           val model = new LearningModel(dictionary, params)
-          for (var x <- population) {
-            observe(model, isFemale, metadata, true)
+          var i = 0
+          for (i <- population) {
+            observeEvidence(model, isFemale, metadata, true, dictionary)
           }
           model 
       }
 
-    val results = learnMAP(params)
-    saveResults(learningFileName, dictionary, results)
+    //val results = learnMAP(params)
+    //saveResults(learningFileName, dictionary, results)*/
     println("Done!")
-  }
+  
 }

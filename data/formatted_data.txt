@@ -273,15 +273,15 @@
 1,184,2,20 years,american indian and alaska native alone 
 1,345,2,18 and 19 years,american indian and alaska native alone 
 1,448,2,15 to 17 years,american indian and alaska native alone 
-1,10627,10,in households,in family households,other relatives,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,2667,10,in households,in family households,nonrelatives,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,273000,10,in households,in nonfamily households,nonrelatives,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,73920,10,in households,in nonfamily households,male householder,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,62674,10,in households,in family households,householder,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,179627,10,in households,in family households,spouse,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-0,200392,10,in households,in family households,householder,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,11866,10,in households,in family households,parent-in-law,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,28270,10,in households,in family households,parent,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,10627,10,in households,in family households,other relatives,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,2667,10,in households,in family households,nonrelatives,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,273000,10,in households,in nonfamily households,nonrelatives,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,73920,10,in households,in nonfamily households,male householder,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,62674,10,in households,in family households,householder,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,179627,10,in households,in family households,spouse,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,200392,10,in households,in family households,householder,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,11866,10,in households,in family households,parent-in-law,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,28270,10,in households,in family households,parent,white alone;not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 0,167156,1,asian alone 
 0,3135,2,21 years,asian alone 
 0,6236,2,18 and 19 years,asian alone 
@@ -370,11 +370,11 @@
 0,70,2,45 to 49 years,native hawaiian and other pacific islander alone 
 0,12,2,60 and 61 years,native hawaiian and other pacific islander alone 
 0,50,2,55 to 59 years,native hawaiian and other pacific islander alone 
-1,1225575,4,in households,in family households,biological child,white alone, not hispanic or latino 
-1,21517,4,in households,in family households,adopted child,white alone, not hispanic or latino 
-1,388965,4,in households,in family households,householder,white alone, not hispanic or latino 
-1,985029,4,in households,in family households,spouse,white alone, not hispanic or latino 
-0,879439,4,in households,in family households,householder,white alone, not hispanic or latino 
+1,1225575,4,in households,in family households,biological child,white alone;not hispanic or latino 
+1,21517,4,in households,in family households,adopted child,white alone;not hispanic or latino 
+1,388965,4,in households,in family households,householder,white alone;not hispanic or latino 
+1,985029,4,in households,in family households,spouse,white alone;not hispanic or latino 
+0,879439,4,in households,in family households,householder,white alone;not hispanic or latino 
 0,1118,1,native hawaiian and other pacific islander alone 
 0,70,2,under 5 years,native hawaiian and other pacific islander alone 
 0,24,2,21 years,native hawaiian and other pacific islander alone 
@@ -383,16 +383,16 @@
 0,46,2,15 to 17 years,native hawaiian and other pacific islander alone 
 0,62,2,10 to 14 years,native hawaiian and other pacific islander alone 
 0,83,2,5 to 9 years,native hawaiian and other pacific islander alone 
-1,57234,4,in households,in family households,grandchild,white alone, not hispanic or latino 
-1,34554,4,in households,in family households,brother or sister,white alone, not hispanic or latino 
-1,34647,4,in households,in family households,stepchild,white alone, not hispanic or latino 
-1,346022,4,in households,in nonfamily households,male householder,white alone, not hispanic or latino 
-1,1010503,4,in households,in nonfamily households,nonrelatives,white alone, not hispanic or latino 
-1,79069,4,in households,in family households,nonrelatives,white alone, not hispanic or latino 
-1,27794,4,in households,in family households,other relatives,white alone, not hispanic or latino 
-1,12758,4,in households,in family households,son-in-law or daughter-in-law,white alone, not hispanic or latino 
-1,14316,4,in households,in family households,parent-in-law,white alone, not hispanic or latino 
-1,39779,4,in households,in family households,parent,white alone, not hispanic or latino 
+1,57234,4,in households,in family households,grandchild,white alone;not hispanic or latino 
+1,34554,4,in households,in family households,brother or sister,white alone;not hispanic or latino 
+1,34647,4,in households,in family households,stepchild,white alone;not hispanic or latino 
+1,346022,4,in households,in nonfamily households,male householder,white alone;not hispanic or latino 
+1,1010503,4,in households,in nonfamily households,nonrelatives,white alone;not hispanic or latino 
+1,79069,4,in households,in family households,nonrelatives,white alone;not hispanic or latino 
+1,27794,4,in households,in family households,other relatives,white alone;not hispanic or latino 
+1,12758,4,in households,in family households,son-in-law or daughter-in-law,white alone;not hispanic or latino 
+1,14316,4,in households,in family households,parent-in-law,white alone;not hispanic or latino 
+1,39779,4,in households,in family households,parent,white alone;not hispanic or latino 
 1,27824,2,5 to 9 years,hispanic or latino 
 1,30912,2,under 5 years,hispanic or latino 
 1,319559,2,85 years and over,hispanic or latino 
@@ -489,68 +489,68 @@
 0,6505,2,21 years,hispanic or latino 
 0,6815,2,20 years,hispanic or latino 
 0,13847,2,18 and 19 years,hispanic or latino 
-0,1566,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
-0,242,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
-0,488,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-0,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+0,1566,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+0,242,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+0,488,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
 0,119289,1,group quarters population by sex by age by group quarters type 
-0,2296,6,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),group quarters population by sex by age by group quarters type 
+0,2296,6,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),group quarters population by sex by age by group quarters type 
 0,4035,5,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,group quarters population by sex by age by group quarters type 
-0,1739,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-0,224,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
-0,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
-1,119593,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-0,1409,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
-0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
-0,371,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
-0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
-0,12393,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-0,10984,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-0,1409,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-0,10376,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
-0,237,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-0,61119,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
-0,14178,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-0,416,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
-0,1515,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-0,102861,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-0,27148,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-0,22355,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
-0,237,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
-0,3206,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
-0,1350,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-0,75713,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-1,28080,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,29938,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,7755,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,82,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
-1,74139,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
-1,81976,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-1,718,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-1,234,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
-1,2370,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
-1,4979,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,1657,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
-1,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
-1,291,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
-1,86955,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,1229,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,1520,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-1,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
-1,284,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-1,2700,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,1180,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,6,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
-1,890,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
-1,1858,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
-1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
-1,1858,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
-1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
-1,52,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
-1,147,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
-1,27881,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+0,1739,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,224,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+0,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+1,119593,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,1409,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+0,371,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+0,12393,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,10984,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,1409,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,10376,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+0,237,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,61119,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+0,14178,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,416,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+0,1515,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,102861,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,27148,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,22355,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+0,237,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+0,3206,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+0,1350,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,75713,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,28080,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,29938,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,7755,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,82,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+1,74139,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+1,81976,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,718,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,234,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+1,2370,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+1,4979,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,1657,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106;201-203;301;401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+1,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+1,291,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+1,86955,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,1229,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,1520,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+1,284,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,2700,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,1180,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,6,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+1,890,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106;201-203;301;401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+1,1858,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+1,1858,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+1,52,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+1,147,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,27881,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106;201-203;301;401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
 1,8901,4,in households,in family households,parent,hispanic or latino 
 1,13510,4,in households,in family households,brother or sister,hispanic or latino 
 1,3040,4,in households,in family households,son-in-law or daughter-in-law,hispanic or latino 
@@ -713,69 +713,69 @@
 1,301113,9,in households,in nonfamily households,nonrelatives,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,3893,9,in households,in family households,nonrelatives,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,14214,9,in households,in family households,other relatives,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-0,47405,2,65 and 66 years,white alone, not hispanic or latino 
-0,61132,2,67 to 69 years,white alone, not hispanic or latino 
+0,47405,2,65 and 66 years,white alone;not hispanic or latino 
+0,61132,2,67 to 69 years,white alone;not hispanic or latino 
 1,4818,10,in households,in family households,householder,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 0,5390,10,in households,in family households,householder,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,3771,10,in households,in family households,parent,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,4301,10,in households,in family households,spouse,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,2577846,2,85 years and over,white alone, not hispanic or latino 
+1,2577846,2,85 years and over,white alone;not hispanic or latino 
 1,969,10,in households,in family households,parent-in-law,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,112147,2,under 5 years,white alone, not hispanic or latino 
-1,126488,2,5 to 9 years,white alone, not hispanic or latino 
-1,137797,2,10 to 14 years,white alone, not hispanic or latino 
-0,75499,2,70 to 74 years,white alone, not hispanic or latino 
-0,61983,2,75 to 79 years,white alone, not hispanic or latino 
-0,49402,2,80 to 84 years,white alone, not hispanic or latino 
-0,41950,2,85 years and over,white alone, not hispanic or latino 
-1,68790,2,18 and 19 years,white alone, not hispanic or latino 
-1,34375,2,20 years,white alone, not hispanic or latino 
-1,88632,2,15 to 17 years,white alone, not hispanic or latino 
-1,210971,2,45 to 49 years,white alone, not hispanic or latino 
-1,152660,2,35 to 39 years,white alone, not hispanic or latino 
-1,182934,2,40 to 44 years,white alone, not hispanic or latino 
+1,112147,2,under 5 years,white alone;not hispanic or latino 
+1,126488,2,5 to 9 years,white alone;not hispanic or latino 
+1,137797,2,10 to 14 years,white alone;not hispanic or latino 
+0,75499,2,70 to 74 years,white alone;not hispanic or latino 
+0,61983,2,75 to 79 years,white alone;not hispanic or latino 
+0,49402,2,80 to 84 years,white alone;not hispanic or latino 
+0,41950,2,85 years and over,white alone;not hispanic or latino 
+1,68790,2,18 and 19 years,white alone;not hispanic or latino 
+1,34375,2,20 years,white alone;not hispanic or latino 
+1,88632,2,15 to 17 years,white alone;not hispanic or latino 
+1,210971,2,45 to 49 years,white alone;not hispanic or latino 
+1,152660,2,35 to 39 years,white alone;not hispanic or latino 
+1,182934,2,40 to 44 years,white alone;not hispanic or latino 
 1,824,10,in households,in family households,other relatives,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,153292,2,25 to 29 years,white alone, not hispanic or latino 
+1,153292,2,25 to 29 years,white alone;not hispanic or latino 
 1,253,10,in households,in family households,nonrelatives,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,139014,2,30 to 34 years,white alone, not hispanic or latino 
+1,139014,2,30 to 34 years,white alone;not hispanic or latino 
 1,4449,10,in households,in nonfamily households,nonrelatives,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,33130,2,21 years,white alone, not hispanic or latino 
+1,33130,2,21 years,white alone;not hispanic or latino 
 1,1249,10,in households,in nonfamily households,male householder,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,98264,2,22 to 24 years,white alone, not hispanic or latino 
+1,98264,2,22 to 24 years,white alone;not hispanic or latino 
 1,2174,10,in households,in family households,parent-in-law,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,4730,10,in households,in family households,parent,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,4538,10,in households,in family households,spouse,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,1267,10,in households,in family households,householder,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 0,5664,10,in households,in family households,householder,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-1,210930,2,50 to 54 years,white alone, not hispanic or latino 
-1,189692,2,55 to 59 years,white alone, not hispanic or latino 
-1,69803,2,60 and 61 years,white alone, not hispanic or latino 
-1,97842,2,62 to 64 years,white alone, not hispanic or latino 
-1,52748,2,65 and 66 years,white alone, not hispanic or latino 
-1,70211,2,67 to 69 years,white alone, not hispanic or latino 
-1,92474,2,70 to 74 years,white alone, not hispanic or latino 
-1,83598,2,75 to 79 years,white alone, not hispanic or latino 
-1,78012,2,80 to 84 years,white alone, not hispanic or latino 
-1,94042,2,85 years and over,white alone, not hispanic or latino 
+1,210930,2,50 to 54 years,white alone;not hispanic or latino 
+1,189692,2,55 to 59 years,white alone;not hispanic or latino 
+1,69803,2,60 and 61 years,white alone;not hispanic or latino 
+1,97842,2,62 to 64 years,white alone;not hispanic or latino 
+1,52748,2,65 and 66 years,white alone;not hispanic or latino 
+1,70211,2,67 to 69 years,white alone;not hispanic or latino 
+1,92474,2,70 to 74 years,white alone;not hispanic or latino 
+1,83598,2,75 to 79 years,white alone;not hispanic or latino 
+1,78012,2,80 to 84 years,white alone;not hispanic or latino 
+1,94042,2,85 years and over,white alone;not hispanic or latino 
 1,446,10,in households,in family households,nonrelatives,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,1423,10,in households,in family households,other relatives,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,12143,10,in households,in nonfamily households,nonrelatives,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
 1,3958,10,in households,in nonfamily households,male householder,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
-0,117802,2,under 5 years,white alone, not hispanic or latino 
-0,2406954,1,white alone, not hispanic or latino 
-0,69062,2,18 and 19 years,white alone, not hispanic or latino 
-0,94179,2,15 to 17 years,white alone, not hispanic or latino 
-0,145691,2,10 to 14 years,white alone, not hispanic or latino 
-0,132606,2,5 to 9 years,white alone, not hispanic or latino 
-0,34923,2,20 years,white alone, not hispanic or latino 
-0,32830,2,21 years,white alone, not hispanic or latino 
-0,136261,2,30 to 34 years,white alone, not hispanic or latino 
-0,151207,2,25 to 29 years,white alone, not hispanic or latino 
-0,175810,2,40 to 44 years,white alone, not hispanic or latino 
-0,146388,2,35 to 39 years,white alone, not hispanic or latino 
-0,201315,2,50 to 54 years,white alone, not hispanic or latino 
-0,203003,2,45 to 49 years,white alone, not hispanic or latino 
-0,64617,2,60 and 61 years,white alone, not hispanic or latino 
-0,178172,2,55 to 59 years,white alone, not hispanic or latino 
-0,96403,2,22 to 24 years,white alone, not hispanic or latino 
-0,89314,2,62 to 64 years,white alone, not hispanic or latino 
+0,117802,2,under 5 years,white alone;not hispanic or latino 
+0,2406954,1,white alone;not hispanic or latino 
+0,69062,2,18 and 19 years,white alone;not hispanic or latino 
+0,94179,2,15 to 17 years,white alone;not hispanic or latino 
+0,145691,2,10 to 14 years,white alone;not hispanic or latino 
+0,132606,2,5 to 9 years,white alone;not hispanic or latino 
+0,34923,2,20 years,white alone;not hispanic or latino 
+0,32830,2,21 years,white alone;not hispanic or latino 
+0,136261,2,30 to 34 years,white alone;not hispanic or latino 
+0,151207,2,25 to 29 years,white alone;not hispanic or latino 
+0,175810,2,40 to 44 years,white alone;not hispanic or latino 
+0,146388,2,35 to 39 years,white alone;not hispanic or latino 
+0,201315,2,50 to 54 years,white alone;not hispanic or latino 
+0,203003,2,45 to 49 years,white alone;not hispanic or latino 
+0,64617,2,60 and 61 years,white alone;not hispanic or latino 
+0,178172,2,55 to 59 years,white alone;not hispanic or latino 
+0,96403,2,22 to 24 years,white alone;not hispanic or latino 
+0,89314,2,62 to 64 years,white alone;not hispanic or latino 

@@ -1,3 +1,5 @@
+
+
 import com.cra.figaro.language.{Element, Constant, Flip, Universe}
 import com.cra.figaro.library.compound.If
 import com.cra.figaro.library.atomic.continuous.{Beta, AtomicBeta}
@@ -8,12 +10,12 @@ import scala.collection.mutable.ListBuffer
 
 
 abstract class Model(val dictionary: Dictionary) {
-	val metadata: ListBuffer[String]
-	val population: Int
+//	val metadata: ListBuffer[String]
+//	val population: Int
 	val isFemale: Element[Boolean] 
-
- 	val ageGroup: List[(String, Element[Boolean])]
- 	val raceGroup: List[(String, Element[Boolean])]
+  val hasLabelElements: List[(String, Element[Boolean])]
+ 	///val ageGroup: List[(String, Element[Boolean])]
+ 	//val raceGroup: List[(String, Element[Boolean])]
 
  	// add household if time 
 
@@ -32,14 +34,13 @@ class PriorParameters(dictionary: Dictionary) {
 	// Can put in household later if time permitting
 
 	//val labelGivenFemaleProbability = Beta(1,1)//dictionary.labels.map(word => (word, Beta(1,1)))
-/*
-	val fullParameterList = 
+
+	/*val fullParameterList = 
 		femaleProbability ::
-		ageGivenFemaleProbability.map(pair => pair._2) ::
-		ageGivenMaleProbability.map(pair => pair._2) ::
-		raceGivenFemaleProbability.map(pair => pair._2) ::
-		raceGivenMaleProbability.map(pair => pair._2) 
-		Nil*/
+		ageGivenFemaleProbability.map(pair => pair._2) :::
+		ageGivenMaleProbability.map(pair => pair._2) :::
+		raceGivenFemaleProbability.map(pair => pair._2) :::
+		raceGivenMaleProbability.map(pair => pair._2)*/
 }
 
 class LearnedParameters(
@@ -56,9 +57,21 @@ class LearningModel(dictionary: Dictionary, parameters: PriorParameters) extends
   val isFemale = Flip(parameters.femaleProbability)
 
 
+  val hasLabelElements = {
+    val labelGivenFemaleMap = Map(parameters.ageGivenFemaleProbability:_*)
+    val labelGivenMaleMap = Map(parameters.ageGivenMaleProbability:_*)
+
+    for {label <- dictionary.labels} yield {
+      val givenFemaleProbability = labelGivenFemaleMap(label)
+      val givenMaleProbability = labelGivenMaleMap(label)
+      val hasLabelIfFemale = Flip(givenFemaleProbability)
+      val hasLabelIfMale = Flip(givenMaleProbability)
+      (label, If(isFemale, hasLabelIfFemale, hasLabelIfMale))
+      }
+  }
 
   // outputs List[(String, Element[Boolean])]
-  val ageGroup = {
+  /*val ageGroup = {
   	val labelGivenFemaleMap = Map(parameters.ageGivenFemaleProbability:_*)
   	val labelGivenMaleMap = Map(parameters.ageGivenMaleProbability:_*)
   	// for each age label in the ageList, assign a probability for each if female or if male 
@@ -83,10 +96,10 @@ class LearningModel(dictionary: Dictionary, parameters: PriorParameters) extends
   			val isThisRaceIfMale = Flip(givenMaleProbability)
   			(raceLabel, If(isFemale, isThisRaceIfFemale, isThisRaceIfMale))
   		}
-  	}
+  	}*/
 }
 
-class ReasoningModel(dictionary: Dictionary, parameters: LearnedParameters) extends Model(dictionary) {
+/*class ReasoningModel(dictionary: Dictionary, parameters: LearnedParameters) extends Model(dictionary) {
   val isFemale = Flip(parameters.femaleProbability)
 
   val ageGroup = {
@@ -109,8 +122,10 @@ class ReasoningModel(dictionary: Dictionary, parameters: LearnedParameters) exte
   	}
   }
 }
-
+*/
 object Model {
   val binomialNumTrials = 20
 }
+
+
 

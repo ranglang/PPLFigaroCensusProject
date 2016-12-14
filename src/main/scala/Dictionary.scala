@@ -70,24 +70,14 @@ object Dictionary {
 
   // Reads in all of the parameters for a category given the file. Returns a string List (actually, a listBuffer) of each label
   // Eventually, this function will go in LearningComponent
-  def readParams(fileName : String) = {
-    val source = Source.fromFile(fileName)
-    val result = new ListBuffer [String]()
-    for {
-      line <- source.getLines()
-    } {
-      // each line is a new label
-      result += line 
-    }
-    result 
-  }
+  
 
 
   def main(args: Array[String]) = {
     // NOTE: these param files need to be in the format:
     // "white" "black" "asian" "something else" separated by a NEWLINE 
-    val ageParams = readParams("data/params/age.txt")
-    val raceParams = readParams("data/params/race.txt")
+    val ageParams = LearningComponent.readParams("data/params/age.txt")
+    val raceParams = LearningComponent.readParams("data/params/race.txt")
     val dict = Dictionary.fromParams(ageParams, raceParams)
 
     println("\nTotal number of age parameters: " + dict.ageList.length)
