@@ -1,2 +1,8 @@
 .DS_Store
 */.DS_Store
+target/*
+target
+project
+project/*
+lib_managed
+lib_managed/*
