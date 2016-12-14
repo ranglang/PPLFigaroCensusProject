@@ -1,5 +1,3 @@
-package chap03
-
 import scala.io.Source
 import java.io.File
 import com.cra.figaro.language.{Constant, Element, Universe}
