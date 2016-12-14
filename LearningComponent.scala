@@ -9,9 +9,6 @@ import scala.collection.mutable.ListBuffer
 import collection.mutable.HashMap
 
 object LearningComponent {
-    def readDependencies(fileName: String) = {
-
-    }
 
   // reads dependencies from data file
   // format: 0 283 numLabels "in household" "parent" "white alone"
@@ -19,7 +16,21 @@ object LearningComponent {
   //    283 is the population 
   // Each line separated by a newline 
   // returns a hashmap of population and list of metadata labels for each dependency 
-  def readDependencies(fileName: String): HashMap[Int, (Boolean, ListBuffer[String])] =
+  // returns HashMap
+  // key:   
+  // value: isFemale (the answer)
+  /*
+    things we wanna store: population (probability)
+                           the list of labels
+                           isFemale (the answer)
+
+    what I could do is key:   list of the labels/metadata: string
+                       value: probability that it is female: Double
+                       so  if 1, just population/total
+                       and if 0, (1 - population/total)
+  */
+
+  def readDependencies(fileName: String, totalPopulation: Int): HashMap[Int, (Boolean, ListBuffer[String])] =
   {
     println("Reading dependencies from " + fileName)
     val source = Source.fromFile(fileName)
@@ -30,19 +41,24 @@ object LearningComponent {
         val numLabels = parts(2).toInt
         val population = parts(1).toInt
         val isFemale = parts(0) == "1"
+        val isFemaleProb = isFemale / totalPopulation
+        // NOTE: I need to obtain totalPopulation somehow
 
         // metadata is an array of strings
         val metadata = ListBuffer[String]()
         for (i <- 2 to numLabels) {
             metadata += parts(i)
+            metadata += " " // so that all the data separated by spaces
         }
 
         // Our returning result is a hash table
         // Key: population
-        // Values: tuple with isFemale and the metadata 
-        result += population -> (isFemale, metadata)
+        // Values: tuple with isFemale and the metadata
+        println("Adding to dependency hashmap: \n")
+        println("Key: " + metadata + " Value: " + isFemaleProb) 
+        result += metadata, isFemaleProb
     }
-    result //WHERE DO I SAVE THE DEPENDENCIES???!?!??!?!??!?!?!?!?!?!?!?!?
+    result 
   }
 
 
@@ -97,28 +113,41 @@ object LearningComponent {
   }
 
   def main(args: Array[String]) {
-    val stateDataFileName = "25data_gender.json"
+    val stateDataFileName = "data/state_data/25data_gender.json"
+    
+    // These may need to eventually be there but not now
     //val labelFileName = "labels.txt"
-    val ageLabelFileName = "age.JSON"
-    val raceLabelFileName = "race.JSON"
+    //val ageLabelFileName = "age.JSON"
+    //val raceLabelFileName = "race.JSON"
     val learningFileName = "MYOUTPUT.txt"
 
+    // need to get this data somehow LOLOLOLOL
+    val totalPopMass = 6547629
+    val stateName = "Massachusetts"
+
     //var labels = readLables(labelFileName)  // ListBuffer[String]
-    var ageLabels = readLables(ageLabelFileName)
-    var raceLabels = readLables(raceLabelFileName)
+    //var ageLabels = readLables(ageLabelFileName)
+    // var raceLabels = readLables(raceLabelFileName)
 
 
+    // their emails -- my labels/params 
+    // their labels -- my statedata
 
-    var dependencies = readDependencies(dependenciesFileName)
-    val dictionary = Dictionary.fromData(dependencies, labels)
-
+    val ageParams = readParams("data/params/age.txt")
+    val raceParams = readParams("data/params/race.txt")
+    var dependencies = readDependencies(stateDataFileName)
+    
+    val dictionary = Dictionary.fromParams(ageParams, raceParams)
     val params = new PriorParameters(dictionary)
+
     val models = 
-      for { (population, (isFemale, metadata)) <- dependencies }
+      for { ageLabel <- ageParams }
       yield {
           val model = new LearningModel(dictionary, params)
           //metadata.observeEvidence(model, metadata, true)
           // what should be observing here?
+          // TODO 
+          
       }
 
     val results = learnMAP(params)

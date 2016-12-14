@@ -56,6 +56,7 @@ class Dictionary(totalPopulationState: Int, stateNameParam: String) {
 object Dictionary {
 
   // some extra information
+  // where is this coming from??
   val totalPopMass = 6547629
   val stateName = "Massachusetts"
 
