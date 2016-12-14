@@ -1,782 +1,781 @@
-1 258 10 "in households" "in family households" "nonrelatives" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 620 10 "in households" "in family households" "other relatives" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1159 10 "in households" "in nonfamily households" "male householder" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 3566 10 "in households" "in nonfamily households" "nonrelatives" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 35425 4 "in households" "in family households" "other relatives" "white alone" 
-1 14103 4 "in households" "in family households" "son-in-law or daughter-in-law" "white alone" 
-1 15300 4 "in households" "in family households" "parent-in-law" "white alone" 
-1 43211 4 "in households" "in family households" "parent" "white alone" 
-1 358305 4 "in households" "in nonfamily households" "male householder" "white alone" 
-1 1046154 4 "in households" "in nonfamily households" "nonrelatives" "white alone" 
-1 92121 4 "in households" "in family households" "nonrelatives" "white alone" 
-1 39510 4 "in households" "in family households" "brother or sister" "white alone" 
-1 65160 4 "in households" "in family households" "grandchild" "white alone" 
-1 38706 4 "in households" "in family households" "stepchild" "white alone" 
-1 1321480 4 "in households" "in family households" "biological child" "white alone" 
-1 25165 4 "in households" "in family households" "adopted child" "white alone" 
-1 418975 4 "in households" "in family households" "householder" "white alone" 
-1 1017185 4 "in households" "in family households" "spouse" "white alone" 
-0 906148 4 "in households" "in family households" "householder" "white alone" 
-1 94887 3 "in households" "in family households" "grandchild" 
-1 51090 3 "in households" "in family households" "stepchild" 
-1 138045 3 "in households" "in family households" "nonrelatives" 
-1 71384 3 "in households" "in family households" "other relatives" 
-1 421309 3 "in households" "in nonfamily households" "male householder" 
-1 1225690 3 "in households" "in nonfamily households" "nonrelatives" 
-1 66233 3 "in households" "in family households" "parent" 
-1 65629 3 "in households" "in family households" "brother or sister" 
-1 19394 3 "in households" "in family households" "son-in-law or daughter-in-law" 
-1 21629 3 "in households" "in family households" "parent-in-law" 
-1 41861 3 "in households" "in family households" "adopted child" 
-1 1586 10 "in households" "in family households" "householder" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 1713 10 "in households" "in family households" "householder" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 2036 10 "in households" "in family households" "parent" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1473 10 "in households" "in family households" "spouse" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 604 10 "in households" "in family households" "parent-in-law" "some other race alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1730624 3 "in households" "in family households" "biological child" 
-1 1178690 3 "in households" "in family households" "spouse" 
-1 554887 3 "in households" "in family households" "householder" 
-0 1048704 3 "in households" "in family households" "householder" 
-1 1072 2 "70 to 74 years" "two or more races" 
-1 750 2 "75 to 79 years" "two or more races" 
-1 566 2 "80 to 84 years" "two or more races" 
-1 575 2 "85 years and over" "two or more races" 
-1 925 2 "60 and 61 years" "two or more races" 
-1 1051 2 "62 to 64 years" "two or more races" 
-1 660 2 "65 and 66 years" "two or more races" 
-1 777 2 "67 to 69 years" "two or more races" 
-1 3760 2 "50 to 54 years" "two or more races" 
-1 2821 2 "55 to 59 years" "two or more races" 
-0 592 2 "67 to 69 years" "two or more races" 
-0 503 2 "65 and 66 years" "two or more races" 
-0 527 2 "75 to 79 years" "two or more races" 
-0 753 2 "70 to 74 years" "two or more races" 
-0 252 2 "85 years and over" "two or more races" 
-0 362 2 "80 to 84 years" "two or more races" 
-1 12349 2 "under 5 years" "two or more races" 
-1 88897 2 "85 years and over" "two or more races" 
-1 10280 2 "5 to 9 years" "two or more races" 
-1 9026 2 "10 to 14 years" "two or more races" 
-1 5036 2 "15 to 17 years" "two or more races" 
-1 4565 2 "22 to 24 years" "two or more races" 
-1 1809 2 "21 years" "two or more races" 
-1 1930 2 "20 years" "two or more races" 
-1 4101 2 "18 and 19 years" "two or more races" 
-1 4739 2 "40 to 44 years" "two or more races" 
-1 5219 2 "35 to 39 years" "two or more races" 
-1 5912 2 "30 to 34 years" "two or more races" 
-1 6616 2 "25 to 29 years" "two or more races" 
-1 4358 2 "45 to 49 years" "two or more races" 
-0 12553 2 "under 5 years" "two or more races" 
-0 83106 1 "two or more races" 
-0 9036 2 "10 to 14 years" "two or more races" 
-0 10580 2 "5 to 9 years" "two or more races" 
-0 5127 2 "15 to 17 years" "two or more races" 
-0 3740 2 "18 and 19 years" "two or more races" 
-0 1809 2 "20 years" "two or more races" 
-0 1557 2 "21 years" "two or more races" 
-0 3217 2 "50 to 54 years" "two or more races" 
-0 3996 2 "45 to 49 years" "two or more races" 
-0 4324 2 "40 to 44 years" "two or more races" 
-0 4512 2 "35 to 39 years" "two or more races" 
-0 5206 2 "30 to 34 years" "two or more races" 
-0 6142 2 "25 to 29 years" "two or more races" 
-0 4107 2 "22 to 24 years" "two or more races" 
-0 935 2 "62 to 64 years" "two or more races" 
-0 2503 2 "55 to 59 years" "two or more races" 
-0 773 2 "60 and 61 years" "two or more races" 
-1 100174 1 "85 years and over" 
-1 84922 1 "80 to 84 years" 
-1 93661 1 "75 to 79 years" 
-1 106210 1 "70 to 74 years" 
-1 80434 1 "67 to 69 years" 
-1 60898 1 "65 and 66 years" 
-1 112452 1 "62 to 64 years" 
-0 35647 2 "21 years" "white alone" 
-0 37921 2 "20 years" "white alone" 
-0 132039 2 "under 5 years" "white alone" 
-0 2545285 1 "white alone" 
-0 74930 2 "18 and 19 years" "white alone" 
-0 101829 2 "15 to 17 years" "white alone" 
-0 158246 2 "10 to 14 years" "white alone" 
-0 145386 2 "5 to 9 years" "white alone" 
-0 103857 2 "22 to 24 years" "white alone" 
-0 91307 2 "62 to 64 years" "white alone" 
-0 147845 2 "30 to 34 years" "white alone" 
-0 163444 2 "25 to 29 years" "white alone" 
-0 185113 2 "40 to 44 years" "white alone" 
-0 156563 2 "35 to 39 years" "white alone" 
-0 207814 2 "50 to 54 years" "white alone" 
-0 211180 2 "45 to 49 years" "white alone" 
-0 66168 2 "60 and 61 years" "white alone" 
-0 182873 2 "55 to 59 years" "white alone" 
-1 25337 4 "in households" "in nonfamily households" "male householder" "black or african american alone" 
-1 67680 4 "in households" "in nonfamily households" "nonrelatives" "black or african american alone" 
-1 1241 4 "in households" "in family households" "son-in-law or daughter-in-law" "black or african american alone" 
-1 1331 4 "in households" "in family households" "parent-in-law" "black or african american alone" 
-1 14708 4 "in households" "in family households" "nonrelatives" "black or african american alone" 
-1 12523 4 "in households" "in family households" "other relatives" "black or african american alone" 
-1 12377 4 "in households" "in family households" "grandchild" "black or african american alone" 
-1 4406 4 "in households" "in family households" "stepchild" "black or african american alone" 
-1 7053 4 "in households" "in family households" "parent" "black or african american alone" 
-1 8896 4 "in households" "in family households" "brother or sister" "black or african american alone" 
-1 4507 4 "in households" "in family households" "adopted child" "black or african american alone" 
-1 136888 4 "in households" "in family households" "biological child" "black or african american alone" 
-1 42463 4 "in households" "in family households" "spouse" "black or african american alone" 
-1 57451 4 "in households" "in family households" "householder" "black or african american alone" 
-0 40713 4 "in households" "in family households" "householder" "black or african american alone" 
-1 198194 1 "10 to 14 years" 
-0 45025 1 "85 years and over" 
-1 3381001 1 "85 years and over" 
-1 6466 4 "in households" "in family households" "adopted child" "asian alone" 
-1 179482 1 "under 5 years" 
-1 189140 1 "5 to 9 years" 
-0 69267 1 "67 to 69 years" 
-1 20074 4 "in households" "in family households" "householder" "asian alone" 
-0 85791 1 "70 to 74 years" 
-0 57166 4 "in households" "in family households" "householder" "asian alone" 
-0 68931 1 "75 to 79 years" 
-1 88270 4 "in households" "in family households" "biological child" "asian alone" 
-0 53551 1 "80 to 84 years" 
-1 69878 4 "in households" "in family households" "spouse" "asian alone" 
-1 101168 1 "18 and 19 years" 
-1 126708 1 "15 to 17 years" 
-1 1890 4 "in households" "in family households" "son-in-law or daughter-in-law" "asian alone" 
-1 3452 4 "in households" "in family households" "parent-in-law" "asian alone" 
-1 9029 4 "in households" "in family households" "parent" "asian alone" 
-1 6435 4 "in households" "in family households" "brother or sister" "asian alone" 
-1 3438 4 "in households" "in family households" "grandchild" "asian alone" 
-1 1317 4 "in households" "in family households" "stepchild" "asian alone" 
-1 240302 1 "40 to 44 years" 
-1 263497 1 "45 to 49 years" 
-1 205278 1 "30 to 34 years" 
-1 214438 1 "35 to 39 years" 
-1 140458 1 "22 to 24 years" 
-1 15793 4 "in households" "in nonfamily households" "male householder" "asian alone" 
-1 223270 1 "25 to 29 years" 
-1 49288 4 "in households" "in nonfamily households" "nonrelatives" "asian alone" 
-1 50360 1 "20 years" 
-1 7042 4 "in households" "in family households" "nonrelatives" "asian alone" 
-1 48594 1 "21 years" 
-1 8038 4 "in households" "in family households" "other relatives" "asian alone" 
-1 81800 1 "60 and 61 years" 
-1 224228 1 "55 to 59 years" 
-1 255333 1 "50 to 54 years" 
-0 101052 1 "18 and 19 years" 
-0 50888 1 "20 years" 
-0 47778 1 "21 years" 
-0 3166628 0 
-0 187605 1 "under 5 years" 
-0 196547 1 "5 to 9 years" 
-0 207419 1 "10 to 14 years" 
-0 133828 1 "15 to 17 years" 
-0 74794 1 "60 and 61 years" 
-0 101501 1 "62 to 64 years" 
-0 198338 1 "30 to 34 years" 
-0 203757 1 "35 to 39 years" 
-0 137590 1 "22 to 24 years" 
-0 218255 1 "25 to 29 years" 
-0 241668 1 "50 to 54 years" 
-0 208594 1 "55 to 59 years" 
-0 228652 1 "40 to 44 years" 
-0 251937 1 "45 to 49 years" 
-0 53860 1 "65 and 66 years" 
-1 79008 2 "80 to 84 years" "white alone" 
-1 94921 2 "85 years and over" "white alone" 
-1 54075 2 "65 and 66 years" "white alone" 
-1 71843 2 "67 to 69 years" "white alone" 
-1 94544 2 "70 to 74 years" "white alone" 
-1 85109 2 "75 to 79 years" "white alone" 
-1 195156 2 "55 to 59 years" "white alone" 
-1 217994 2 "50 to 54 years" "white alone" 
-1 100335 2 "62 to 64 years" "white alone" 
-1 71751 2 "60 and 61 years" "white alone" 
-1 165304 2 "25 to 29 years" "white alone" 
-1 150720 2 "30 to 34 years" "white alone" 
-1 35839 2 "21 years" "white alone" 
-1 105534 2 "22 to 24 years" "white alone" 
-1 219694 2 "45 to 49 years" "white alone" 
-1 163151 2 "35 to 39 years" "white alone" 
-1 192618 2 "40 to 44 years" "white alone" 
-1 37187 2 "20 years" "white alone" 
-1 74467 2 "18 and 19 years" "white alone" 
-1 96053 2 "15 to 17 years" "white alone" 
-0 76994 2 "70 to 74 years" "white alone" 
-0 62926 2 "75 to 79 years" "white alone" 
-0 49983 2 "80 to 84 years" "white alone" 
-0 42377 2 "85 years and over" "white alone" 
-1 2719951 2 "85 years and over" "white alone" 
-1 125842 2 "under 5 years" "white alone" 
-1 139000 2 "5 to 9 years" "white alone" 
-1 149806 2 "10 to 14 years" "white alone" 
-0 62403 2 "67 to 69 years" "white alone" 
-0 48440 2 "65 and 66 years" "white alone" 
-0 254 4 "in households" "in family households" "householder" "native hawaiian and other pacific islander alone" 
-1 642 2 "50 to 54 years" "american indian and alaska native alone" 
-1 498 4 "in households" "in family households" "biological child" "native hawaiian and other pacific islander alone" 
-1 72 4 "in households" "in family households" "adopted child" "native hawaiian and other pacific islander alone" 
-1 523 2 "55 to 59 years" "american indian and alaska native alone" 
-1 205 4 "in households" "in family households" "householder" "native hawaiian and other pacific islander alone" 
-1 321 4 "in households" "in family households" "spouse" "native hawaiian and other pacific islander alone" 
-1 95 2 "65 and 66 years" "american indian and alaska native alone" 
-1 131 2 "67 to 69 years" "american indian and alaska native alone" 
-1 147 2 "60 and 61 years" "american indian and alaska native alone" 
-1 209 2 "62 to 64 years" "american indian and alaska native alone" 
-1 88 2 "85 years and over" "american indian and alaska native alone" 
-1 88 2 "80 to 84 years" "american indian and alaska native alone" 
-1 145 2 "75 to 79 years" "american indian and alaska native alone" 
-1 175 2 "70 to 74 years" "american indian and alaska native alone" 
-1 424 4 "in households" "in nonfamily households" "nonrelatives" "native hawaiian and other pacific islander alone" 
-1 108 4 "in households" "in family households" "nonrelatives" "native hawaiian and other pacific islander alone" 
-1 132 4 "in households" "in nonfamily households" "male householder" "native hawaiian and other pacific islander alone" 
-1 7 4 "in households" "in family households" "parent-in-law" "native hawaiian and other pacific islander alone" 
-1 25 4 "in households" "in family households" "parent" "native hawaiian and other pacific islander alone" 
-1 45 4 "in households" "in family households" "other relatives" "native hawaiian and other pacific islander alone" 
-1 18 4 "in households" "in family households" "son-in-law or daughter-in-law" "native hawaiian and other pacific islander alone" 
-1 22 4 "in households" "in family households" "stepchild" "native hawaiian and other pacific islander alone" 
-1 50 4 "in households" "in family households" "brother or sister" "native hawaiian and other pacific islander alone" 
-1 53 4 "in households" "in family households" "grandchild" "native hawaiian and other pacific islander alone" 
-0 9588 1 "american indian and alaska native alone" 
-0 740 2 "under 5 years" "american indian and alaska native alone" 
-0 713 2 "5 to 9 years" "american indian and alaska native alone" 
-0 707 2 "10 to 14 years" "american indian and alaska native alone" 
-0 470 2 "15 to 17 years" "american indian and alaska native alone" 
-0 405 2 "18 and 19 years" "american indian and alaska native alone" 
-0 221 2 "20 years" "american indian and alaska native alone" 
-0 219 2 "21 years" "american indian and alaska native alone" 
-0 725 2 "45 to 49 years" "american indian and alaska native alone" 
-0 604 2 "50 to 54 years" "american indian and alaska native alone" 
-0 675 2 "35 to 39 years" "american indian and alaska native alone" 
-0 673 2 "40 to 44 years" "american indian and alaska native alone" 
-0 182 2 "62 to 64 years" "american indian and alaska native alone" 
-0 481 2 "55 to 59 years" "american indian and alaska native alone" 
-0 165 2 "60 and 61 years" "american indian and alaska native alone" 
-0 660 2 "30 to 34 years" "american indian and alaska native alone" 
-0 798 2 "25 to 29 years" "american indian and alaska native alone" 
-0 499 2 "22 to 24 years" "american indian and alaska native alone" 
-1 711 2 "5 to 9 years" "american indian and alaska native alone" 
-1 688 2 "10 to 14 years" "american indian and alaska native alone" 
-0 74 2 "80 to 84 years" "american indian and alaska native alone" 
-0 50 2 "85 years and over" "american indian and alaska native alone" 
-1 9262 2 "85 years and over" "american indian and alaska native alone" 
-1 751 2 "under 5 years" "american indian and alaska native alone" 
-0 124 2 "67 to 69 years" "american indian and alaska native alone" 
-0 118 2 "65 and 66 years" "american indian and alaska native alone" 
-0 122 2 "75 to 79 years" "american indian and alaska native alone" 
-0 163 2 "70 to 74 years" "american indian and alaska native alone" 
-1 703 2 "45 to 49 years" "american indian and alaska native alone" 
-1 610 2 "35 to 39 years" "american indian and alaska native alone" 
-1 655 2 "40 to 44 years" "american indian and alaska native alone" 
-1 697 2 "25 to 29 years" "american indian and alaska native alone" 
-1 628 2 "30 to 34 years" "american indian and alaska native alone" 
-1 452 2 "22 to 24 years" "american indian and alaska native alone" 
-1 147 2 "21 years" "american indian and alaska native alone" 
-1 184 2 "20 years" "american indian and alaska native alone" 
-1 345 2 "18 and 19 years" "american indian and alaska native alone" 
-1 448 2 "15 to 17 years" "american indian and alaska native alone" 
-1 10627 10 "in households" "in family households" "other relatives" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 2667 10 "in households" "in family households" "nonrelatives" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 273000 10 "in households" "in nonfamily households" "nonrelatives" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 73920 10 "in households" "in nonfamily households" "male householder" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 62674 10 "in households" "in family households" "householder" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 179627 10 "in households" "in family households" "spouse" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 200392 10 "in households" "in family households" "householder" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 11866 10 "in households" "in family households" "parent-in-law" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 28270 10 "in households" "in family households" "parent" "white alone, not hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 167156 1 "asian alone" 
-0 3135 2 "21 years" "asian alone" 
-0 6236 2 "18 and 19 years" "asian alone" 
-0 3272 2 "20 years" "asian alone" 
-0 9973 2 "10 to 14 years" "asian alone" 
-0 5936 2 "15 to 17 years" "asian alone" 
-0 11979 2 "under 5 years" "asian alone" 
-0 11462 2 "5 to 9 years" "asian alone" 
-1 12172 2 "45 to 49 years" "asian alone" 
-1 14002 2 "40 to 44 years" "asian alone" 
-1 17068 2 "35 to 39 years" "asian alone" 
-1 17856 2 "30 to 34 years" "asian alone" 
-1 10107 2 "22 to 24 years" "asian alone" 
-1 18988 2 "25 to 29 years" "asian alone" 
-1 3586 2 "20 years" "asian alone" 
-1 3646 2 "21 years" "asian alone" 
-1 6064 2 "15 to 17 years" "asian alone" 
-1 7014 2 "18 and 19 years" "asian alone" 
-1 1623 2 "80 to 84 years" "asian alone" 
-1 2442 2 "75 to 79 years" "asian alone" 
-1 1250 2 "85 years and over" "asian alone" 
-1 3430 2 "62 to 64 years" "asian alone" 
-1 1902 2 "65 and 66 years" "asian alone" 
-1 2556 2 "67 to 69 years" "asian alone" 
-1 3470 2 "70 to 74 years" "asian alone" 
-1 10098 2 "50 to 54 years" "asian alone" 
-1 8461 2 "55 to 59 years" "asian alone" 
-1 3037 2 "60 and 61 years" "asian alone" 
-0 7464 2 "55 to 59 years" "asian alone" 
-0 9337 2 "50 to 54 years" "asian alone" 
-0 11456 2 "45 to 49 years" "asian alone" 
-0 12808 2 "40 to 44 years" "asian alone" 
-0 2969 2 "62 to 64 years" "asian alone" 
-0 2669 2 "60 and 61 years" "asian alone" 
-0 15612 2 "30 to 34 years" "asian alone" 
-0 16020 2 "35 to 39 years" "asian alone" 
-0 9096 2 "22 to 24 years" "asian alone" 
-0 16629 2 "25 to 29 years" "asian alone" 
-1 182612 2 "85 years and over" "asian alone" 
-0 818 2 "85 years and over" "asian alone" 
-1 11904 2 "5 to 9 years" "asian alone" 
-1 11547 2 "under 5 years" "asian alone" 
-1 10389 2 "10 to 14 years" "asian alone" 
-0 1667 2 "65 and 66 years" "asian alone" 
-0 2272 2 "67 to 69 years" "asian alone" 
-0 3099 2 "70 to 74 years" "asian alone" 
-0 2107 2 "75 to 79 years" "asian alone" 
-0 1140 2 "80 to 84 years" "asian alone" 
-1 41 2 "15 to 17 years" "native hawaiian and other pacific islander alone" 
-1 28 2 "20 years" "native hawaiian and other pacific islander alone" 
-1 44 2 "18 and 19 years" "native hawaiian and other pacific islander alone" 
-1 90 2 "22 to 24 years" "native hawaiian and other pacific islander alone" 
-1 31 2 "21 years" "native hawaiian and other pacific islander alone" 
-1 85 2 "30 to 34 years" "native hawaiian and other pacific islander alone" 
-1 106 2 "25 to 29 years" "native hawaiian and other pacific islander alone" 
-1 74 2 "35 to 39 years" "native hawaiian and other pacific islander alone" 
-1 70 2 "40 to 44 years" "native hawaiian and other pacific islander alone" 
-1 82 2 "45 to 49 years" "native hawaiian and other pacific islander alone" 
-0 14 2 "67 to 69 years" "native hawaiian and other pacific islander alone" 
-0 12 2 "65 and 66 years" "native hawaiian and other pacific islander alone" 
-0 7 2 "85 years and over" "native hawaiian and other pacific islander alone" 
-0 13 2 "80 to 84 years" "native hawaiian and other pacific islander alone" 
-0 7 2 "75 to 79 years" "native hawaiian and other pacific islander alone" 
-0 21 2 "70 to 74 years" "native hawaiian and other pacific islander alone" 
-1 73 2 "5 to 9 years" "native hawaiian and other pacific islander alone" 
-1 67 2 "10 to 14 years" "native hawaiian and other pacific islander alone" 
-1 1105 2 "85 years and over" "native hawaiian and other pacific islander alone" 
-1 89 2 "under 5 years" "native hawaiian and other pacific islander alone" 
-1 17 2 "75 to 79 years" "native hawaiian and other pacific islander alone" 
-1 19 2 "70 to 74 years" "native hawaiian and other pacific islander alone" 
-1 16 2 "67 to 69 years" "native hawaiian and other pacific islander alone" 
-1 7 2 "65 and 66 years" "native hawaiian and other pacific islander alone" 
-1 16 2 "62 to 64 years" "native hawaiian and other pacific islander alone" 
-1 23 2 "60 and 61 years" "native hawaiian and other pacific islander alone" 
-1 56 2 "55 to 59 years" "native hawaiian and other pacific islander alone" 
-1 54 2 "50 to 54 years" "native hawaiian and other pacific islander alone" 
-1 7 2 "80 to 84 years" "native hawaiian and other pacific islander alone" 
-1 10 2 "85 years and over" "native hawaiian and other pacific islander alone" 
-0 132 2 "25 to 29 years" "native hawaiian and other pacific islander alone" 
-0 94 2 "30 to 34 years" "native hawaiian and other pacific islander alone" 
-0 79 2 "35 to 39 years" "native hawaiian and other pacific islander alone" 
-0 81 2 "40 to 44 years" "native hawaiian and other pacific islander alone" 
-0 80 2 "22 to 24 years" "native hawaiian and other pacific islander alone" 
-0 27 2 "62 to 64 years" "native hawaiian and other pacific islander alone" 
-0 61 2 "50 to 54 years" "native hawaiian and other pacific islander alone" 
-0 70 2 "45 to 49 years" "native hawaiian and other pacific islander alone" 
-0 12 2 "60 and 61 years" "native hawaiian and other pacific islander alone" 
-0 50 2 "55 to 59 years" "native hawaiian and other pacific islander alone" 
-1 1225575 4 "in households" "in family households" "biological child" "white alone, not hispanic or latino" 
-1 21517 4 "in households" "in family households" "adopted child" "white alone, not hispanic or latino" 
-1 388965 4 "in households" "in family households" "householder" "white alone, not hispanic or latino" 
-1 985029 4 "in households" "in family households" "spouse" "white alone, not hispanic or latino" 
-0 879439 4 "in households" "in family households" "householder" "white alone, not hispanic or latino" 
-0 1118 1 "native hawaiian and other pacific islander alone" 
-0 70 2 "under 5 years" "native hawaiian and other pacific islander alone" 
-0 24 2 "21 years" "native hawaiian and other pacific islander alone" 
-0 21 2 "20 years" "native hawaiian and other pacific islander alone" 
-0 52 2 "18 and 19 years" "native hawaiian and other pacific islander alone" 
-0 46 2 "15 to 17 years" "native hawaiian and other pacific islander alone" 
-0 62 2 "10 to 14 years" "native hawaiian and other pacific islander alone" 
-0 83 2 "5 to 9 years" "native hawaiian and other pacific islander alone" 
-1 57234 4 "in households" "in family households" "grandchild" "white alone, not hispanic or latino" 
-1 34554 4 "in households" "in family households" "brother or sister" "white alone, not hispanic or latino" 
-1 34647 4 "in households" "in family households" "stepchild" "white alone, not hispanic or latino" 
-1 346022 4 "in households" "in nonfamily households" "male householder" "white alone, not hispanic or latino" 
-1 1010503 4 "in households" "in nonfamily households" "nonrelatives" "white alone, not hispanic or latino" 
-1 79069 4 "in households" "in family households" "nonrelatives" "white alone, not hispanic or latino" 
-1 27794 4 "in households" "in family households" "other relatives" "white alone, not hispanic or latino" 
-1 12758 4 "in households" "in family households" "son-in-law or daughter-in-law" "white alone, not hispanic or latino" 
-1 14316 4 "in households" "in family households" "parent-in-law" "white alone, not hispanic or latino" 
-1 39779 4 "in households" "in family households" "parent" "white alone, not hispanic or latino" 
-1 27824 2 "5 to 9 years" "hispanic or latino" 
-1 30912 2 "under 5 years" "hispanic or latino" 
-1 319559 2 "85 years and over" "hispanic or latino" 
-0 763 2 "85 years and over" "hispanic or latino" 
-0 1041 2 "80 to 84 years" "hispanic or latino" 
-0 1818 2 "75 to 79 years" "hispanic or latino" 
-0 2855 2 "70 to 74 years" "hispanic or latino" 
-0 2431 2 "67 to 69 years" "hispanic or latino" 
-0 2004 2 "65 and 66 years" "hispanic or latino" 
-1 27334 2 "10 to 14 years" "hispanic or latino" 
-0 17705 2 "45 to 49 years" "hispanic or latino" 
-0 20462 2 "40 to 44 years" "hispanic or latino" 
-0 9835 2 "55 to 59 years" "hispanic or latino" 
-0 13782 2 "50 to 54 years" "hispanic or latino" 
-0 27970 2 "25 to 29 years" "hispanic or latino" 
-0 17522 2 "22 to 24 years" "hispanic or latino" 
-0 22179 2 "35 to 39 years" "hispanic or latino" 
-0 25907 2 "30 to 34 years" "hispanic or latino" 
-0 15945 2 "5 to 9 years" "black or african american alone" 
-0 16138 2 "under 5 years" "black or african american alone" 
-0 209693 1 "black or african american alone" 
-0 4432 2 "20 years" "black or african american alone" 
-0 9124 2 "18 and 19 years" "black or african american alone" 
-0 11679 2 "15 to 17 years" "black or african american alone" 
-0 16877 2 "10 to 14 years" "black or african american alone" 
-0 4004 2 "21 years" "black or african american alone" 
-0 3139 2 "60 and 61 years" "hispanic or latino" 
-0 3944 2 "62 to 64 years" "hispanic or latino" 
-1 4183 2 "70 to 74 years" "hispanic or latino" 
-1 3240 2 "67 to 69 years" "hispanic or latino" 
-1 2613 2 "65 and 66 years" "hispanic or latino" 
-1 5019 2 "62 to 64 years" "hispanic or latino" 
-1 1476 2 "85 years and over" "hispanic or latino" 
-1 1798 2 "80 to 84 years" "hispanic or latino" 
-1 2914 2 "75 to 79 years" "hispanic or latino" 
-0 10800 2 "22 to 24 years" "black or african american alone" 
-0 15632 2 "25 to 29 years" "black or african american alone" 
-1 3956 2 "60 and 61 years" "hispanic or latino" 
-1 11667 2 "55 to 59 years" "hispanic or latino" 
-1 15612 2 "50 to 54 years" "hispanic or latino" 
-0 10438 2 "55 to 59 years" "black or african american alone" 
-0 13680 2 "50 to 54 years" "black or african american alone" 
-0 4331 2 "62 to 64 years" "black or african american alone" 
-0 3566 2 "60 and 61 years" "black or african american alone" 
-0 14427 2 "35 to 39 years" "black or african american alone" 
-0 14690 2 "30 to 34 years" "black or african american alone" 
-0 15331 2 "45 to 49 years" "black or african american alone" 
-0 14949 2 "40 to 44 years" "black or african american alone" 
-1 6217 2 "21 years" "hispanic or latino" 
-1 6539 2 "20 years" "hispanic or latino" 
-1 27724 2 "25 to 29 years" "hispanic or latino" 
-1 17125 2 "22 to 24 years" "hispanic or latino" 
-1 23941 2 "35 to 39 years" "hispanic or latino" 
-1 26750 2 "30 to 34 years" "hispanic or latino" 
-1 19834 2 "45 to 49 years" "hispanic or latino" 
-1 22204 2 "40 to 44 years" "hispanic or latino" 
-0 2851 2 "67 to 69 years" "black or african american alone" 
-0 3521 2 "70 to 74 years" "black or african american alone" 
-0 2291 2 "65 and 66 years" "black or african american alone" 
-1 13439 2 "18 and 19 years" "hispanic or latino" 
-1 17238 2 "15 to 17 years" "hispanic or latino" 
-1 15952 2 "10 to 14 years" "black or african american alone" 
-1 15323 2 "5 to 9 years" "black or african american alone" 
-1 15728 2 "under 5 years" "black or african american alone" 
-1 224705 2 "85 years and over" "black or african american alone" 
-0 1136 2 "85 years and over" "black or african american alone" 
-0 1481 2 "80 to 84 years" "black or african american alone" 
-0 2370 2 "75 to 79 years" "black or african american alone" 
-1 8760 2 "18 and 19 years" "black or african american alone" 
-1 10854 2 "15 to 17 years" "black or african american alone" 
-1 4096 2 "21 years" "black or african american alone" 
-1 4342 2 "20 years" "black or african american alone" 
-1 10864 2 "22 to 24 years" "black or african american alone" 
-1 16828 2 "25 to 29 years" "black or african american alone" 
-1 16224 2 "30 to 34 years" "black or african american alone" 
-1 15904 2 "35 to 39 years" "black or african american alone" 
-1 16529 2 "40 to 44 years" "black or african american alone" 
-1 16180 2 "45 to 49 years" "black or african american alone" 
-1 14887 2 "50 to 54 years" "black or african american alone" 
-1 3026 2 "65 and 66 years" "black or african american alone" 
-1 5213 2 "62 to 64 years" "black or african american alone" 
-1 4126 2 "60 and 61 years" "black or african american alone" 
-1 11726 2 "55 to 59 years" "black or african american alone" 
-1 3865 2 "75 to 79 years" "black or african american alone" 
-1 2803 2 "80 to 84 years" "black or african american alone" 
-1 3740 2 "67 to 69 years" "black or african american alone" 
-1 5048 2 "70 to 74 years" "black or african american alone" 
-1 2687 2 "85 years and over" "black or african american alone" 
-0 308095 1 "hispanic or latino" 
-0 28272 2 "10 to 14 years" "hispanic or latino" 
-0 18260 2 "15 to 17 years" "hispanic or latino" 
-0 32138 2 "under 5 years" "hispanic or latino" 
-0 28901 2 "5 to 9 years" "hispanic or latino" 
-0 6505 2 "21 years" "hispanic or latino" 
-0 6815 2 "20 years" "hispanic or latino" 
-0 13847 2 "18 and 19 years" "hispanic or latino" 
-0 1566 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "juvenile facilities" "group quarters population by sex by age by group quarters type" 
-0 242 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "correctional facilities for adults (101-106)" "group quarters population by sex by age by group quarters type" 
-0 488 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-0 0 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "nursing facilities/skilled-nursing facilities" "group quarters population by sex by age by group quarters type" 
-0 119289 1 "group quarters population by sex by age by group quarters type" 
-0 2296 6 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "group quarters population by sex by age by group quarters type" 
-0 4035 5 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "group quarters population by sex by age by group quarters type" 
-0 1739 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-0 224 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "college/university student housing" "group quarters population by sex by age by group quarters type" 
-0 0 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "military quarters (601-602)" "group quarters population by sex by age by group quarters type" 
-1 119593 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-0 1409 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-0 0 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "military quarters (601-602)" "group quarters population by sex by age by group quarters type" 
-0 0 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "college/university student housing" "group quarters population by sex by age by group quarters type" 
-0 371 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "correctional facilities for adults (101-106)" "group quarters population by sex by age by group quarters type" 
-0 0 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "juvenile facilities" "group quarters population by sex by age by group quarters type" 
-0 12393 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-0 10984 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-0 1409 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-0 10376 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "nursing facilities/skilled-nursing facilities" "group quarters population by sex by age by group quarters type" 
-0 237 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-0 61119 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "college/university student housing" "group quarters population by sex by age by group quarters type" 
-0 14178 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-0 416 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "military quarters (601-602)" "group quarters population by sex by age by group quarters type" 
-0 1515 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-0 102861 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-0 27148 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-0 22355 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "correctional facilities for adults (101-106)" "group quarters population by sex by age by group quarters type" 
-0 237 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "juvenile facilities" "group quarters population by sex by age by group quarters type" 
-0 3206 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "nursing facilities/skilled-nursing facilities" "group quarters population by sex by age by group quarters type" 
-0 1350 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-0 75713 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-1 28080 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 29938 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 7755 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 82 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "military quarters (601-602)" "group quarters population by sex by age by group quarters type" 
-1 74139 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "college/university student housing" "group quarters population by sex by age by group quarters type" 
-1 81976 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-1 718 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-1 234 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "juvenile facilities" "group quarters population by sex by age by group quarters type" 
-1 2370 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "nursing facilities/skilled-nursing facilities" "group quarters population by sex by age by group quarters type" 
-1 4979 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 1657 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "correctional facilities for adults (101-106)" "group quarters population by sex by age by group quarters type" 
-1 0 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "military quarters (601-602)" "group quarters population by sex by age by group quarters type" 
-1 291 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "college/university student housing" "group quarters population by sex by age by group quarters type" 
-1 86955 16 "18 and 19 years" "20 years" "21 years" "22 to 24 years" "25 to 29 years" "30 to 34 years" "35 to 39 years" "40 to 44 years" "45 to 49 years" "50 to 54 years" "55 to 59 years" "60 and 61 years" "62 to 64 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 1229 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 1520 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-1 0 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "nursing facilities/skilled-nursing facilities" "group quarters population by sex by age by group quarters type" 
-1 284 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-1 2700 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 1180 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 6 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "correctional facilities for adults (101-106)" "group quarters population by sex by age by group quarters type" 
-1 890 7 "under 5 years" "5 to 9 years" "10 to 14 years" "15 to 17 years" "institutionalized population (101-106, 201-203, 301, 401-405)" "juvenile facilities" "group quarters population by sex by age by group quarters type" 
-1 1858 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-1 0 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "college/university student housing" "group quarters population by sex by age by group quarters type" 
-1 0 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "military quarters (601-602)" "group quarters population by sex by age by group quarters type" 
-1 1858 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904)" "other noninstitutional facilities" "group quarters population by sex by age by group quarters type" 
-1 0 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "juvenile facilities" "group quarters population by sex by age by group quarters type" 
-1 52 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "correctional facilities for adults (101-106)" "group quarters population by sex by age by group quarters type" 
-1 147 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "other institutional facilities (401-405)" "group quarters population by sex by age by group quarters type" 
-1 27881 9 "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" "institutionalized population (101-106, 201-203, 301, 401-405)" "nursing facilities/skilled-nursing facilities" "group quarters population by sex by age by group quarters type" 
-1 8901 4 "in households" "in family households" "parent" "hispanic or latino" 
-1 13510 4 "in households" "in family households" "brother or sister" "hispanic or latino" 
-1 3040 4 "in households" "in family households" "son-in-law or daughter-in-law" "hispanic or latino" 
-1 2167 4 "in households" "in family households" "parent-in-law" "hispanic or latino" 
-1 33369 4 "in households" "in family households" "nonrelatives" "hispanic or latino" 
-1 20131 4 "in households" "in family households" "other relatives" "hispanic or latino" 
-1 25972 4 "in households" "in nonfamily households" "male householder" "hispanic or latino" 
-1 74028 4 "in households" "in nonfamily households" "nonrelatives" "hispanic or latino" 
-1 9111 4 "in households" "in family households" "stepchild" "hispanic or latino" 
-1 17695 4 "in households" "in family households" "grandchild" "hispanic or latino" 
-1 220859 4 "in households" "in family households" "biological child" "hispanic or latino" 
-1 63865 4 "in households" "in family households" "spouse" "hispanic or latino" 
-1 77306 4 "in households" "in family households" "householder" "hispanic or latino" 
-0 55537 4 "in households" "in family households" "householder" "hispanic or latino" 
-1 7748 4 "in households" "in family households" "adopted child" "hispanic or latino" 
-1 64174 10 "in households" "in family households" "householder" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 181778 10 "in households" "in family households" "spouse" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 202881 10 "in households" "in family households" "householder" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 29808 10 "in households" "in family households" "parent" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 12417 10 "in households" "in family households" "parent-in-law" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 2844 10 "in households" "in family households" "nonrelatives" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 277755 10 "in households" "in nonfamily households" "nonrelatives" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 75402 10 "in households" "in nonfamily households" "male householder" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 11075 10 "in households" "in family households" "other relatives" "white alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 3192 2 "21 years" "some other race alone" 
-0 3212 2 "20 years" "some other race alone" 
-0 6565 2 "18 and 19 years" "some other race alone" 
-0 8741 2 "15 to 17 years" "some other race alone" 
-0 12518 2 "10 to 14 years" "some other race alone" 
-0 14086 2 "under 5 years" "some other race alone" 
-0 12378 2 "5 to 9 years" "some other race alone" 
-0 150682 1 "some other race alone" 
-0 4785 2 "55 to 59 years" "some other race alone" 
-0 6955 2 "50 to 54 years" "some other race alone" 
-0 1750 2 "62 to 64 years" "some other race alone" 
-0 1441 2 "60 and 61 years" "some other race alone" 
-0 9151 2 "22 to 24 years" "some other race alone" 
-0 15478 2 "25 to 29 years" "some other race alone" 
-0 14231 2 "30 to 34 years" "some other race alone" 
-0 11481 2 "35 to 39 years" "some other race alone" 
-0 10704 2 "40 to 44 years" "some other race alone" 
-0 9179 2 "45 to 49 years" "some other race alone" 
-1 12266 2 "10 to 14 years" "some other race alone" 
-1 11849 2 "5 to 9 years" "some other race alone" 
-1 13176 2 "under 5 years" "some other race alone" 
-0 1011 2 "67 to 69 years" "some other race alone" 
-0 1240 2 "70 to 74 years" "some other race alone" 
-0 829 2 "65 and 66 years" "some other race alone" 
-0 385 2 "85 years and over" "some other race alone" 
-1 154469 2 "85 years and over" "some other race alone" 
-0 872 2 "75 to 79 years" "some other race alone" 
-0 498 2 "80 to 84 years" "some other race alone" 
-1 1791 2 "60 and 61 years" "some other race alone" 
-1 5485 2 "55 to 59 years" "some other race alone" 
-1 1133 2 "65 and 66 years" "some other race alone" 
-1 2198 2 "62 to 64 years" "some other race alone" 
-1 1882 2 "70 to 74 years" "some other race alone" 
-1 1371 2 "67 to 69 years" "some other race alone" 
-1 827 2 "80 to 84 years" "some other race alone" 
-1 1333 2 "75 to 79 years" "some other race alone" 
-1 7898 2 "50 to 54 years" "some other race alone" 
-1 643 2 "85 years and over" "some other race alone" 
-1 3026 2 "21 years" "some other race alone" 
-1 3103 2 "20 years" "some other race alone" 
-1 6437 2 "18 and 19 years" "some other race alone" 
-1 8212 2 "15 to 17 years" "some other race alone" 
-1 12412 2 "35 to 39 years" "some other race alone" 
-1 13853 2 "30 to 34 years" "some other race alone" 
-1 14731 2 "25 to 29 years" "some other race alone" 
-1 8846 2 "22 to 24 years" "some other race alone" 
-1 11689 2 "40 to 44 years" "some other race alone" 
-1 10308 2 "45 to 49 years" "some other race alone" 
-1 8856 10 "in households" "in nonfamily households" "nonrelatives" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 2799 10 "in households" "in nonfamily households" "male householder" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1075 10 "in households" "in family households" "other relatives" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 460 10 "in households" "in family households" "nonrelatives" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 4210 10 "in households" "in family households" "householder" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 3252 10 "in households" "in family households" "householder" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 3740 10 "in households" "in family households" "parent" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 3619 10 "in households" "in family households" "spouse" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1140 10 "in households" "in family households" "parent-in-law" "hispanic or latino" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 14660 4 "in households" "in family households" "spouse" "two or more races" 
-1 15177 4 "in households" "in family households" "householder" "two or more races" 
-0 14243 4 "in households" "in family households" "householder" "two or more races" 
-1 2434 4 "in households" "in family households" "adopted child" "two or more races" 
-1 75941 4 "in households" "in family households" "biological child" "two or more races" 
-1 2224 4 "in households" "in family households" "stepchild" "two or more races" 
-1 3300 4 "in households" "in family households" "other relatives" "two or more races" 
-1 573 4 "in households" "in family households" "son-in-law or daughter-in-law" "two or more races" 
-1 21753 4 "in households" "in nonfamily households" "nonrelatives" "two or more races" 
-1 5062 4 "in households" "in family households" "nonrelatives" "two or more races" 
-1 2303 4 "in households" "in family households" "brother or sister" "two or more races" 
-1 6157 4 "in households" "in family households" "grandchild" "two or more races" 
-1 333 4 "in households" "in family households" "parent-in-law" "two or more races" 
-1 1519 4 "in households" "in family households" "parent" "two or more races" 
-1 7464 4 "in households" "in nonfamily households" "male householder" "two or more races" 
-1 9 10 "in households" "in family households" "parent" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 4 10 "in households" "in family households" "parent-in-law" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 33 10 "in households" "in family households" "householder" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 10 10 "in households" "in family households" "householder" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 33 10 "in households" "in family households" "spouse" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 14 10 "in households" "in nonfamily households" "male householder" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 31 10 "in households" "in nonfamily households" "nonrelatives" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 0 10 "in households" "in family households" "nonrelatives" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 4 10 "in households" "in family households" "other relatives" "native hawaiian and other pacific islander alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 804 10 "in households" "in nonfamily households" "male householder" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 228 10 "in households" "in family households" "other relatives" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 84 10 "in households" "in family households" "nonrelatives" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 2605 10 "in households" "in nonfamily households" "nonrelatives" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 1402 10 "in households" "in family households" "householder" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 216 10 "in households" "in family households" "parent-in-law" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 752 10 "in households" "in family households" "parent" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1030 10 "in households" "in family households" "spouse" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 865 10 "in households" "in family households" "householder" "two or more races" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 2691 4 "in households" "in family households" "adopted child" "some other race alone" 
-1 102093 4 "in households" "in family households" "biological child" "some other race alone" 
-1 32228 4 "in households" "in family households" "spouse" "some other race alone" 
-1 40938 4 "in households" "in family households" "householder" "some other race alone" 
-0 28242 4 "in households" "in family households" "householder" "some other race alone" 
-1 13005 4 "in households" "in nonfamily households" "male householder" "some other race alone" 
-1 37058 4 "in households" "in nonfamily households" "nonrelatives" "some other race alone" 
-1 1480 4 "in households" "in family households" "son-in-law or daughter-in-law" "some other race alone" 
-1 1169 4 "in households" "in family households" "parent-in-law" "some other race alone" 
-1 18122 4 "in households" "in family households" "nonrelatives" "some other race alone" 
-1 11509 4 "in households" "in family households" "other relatives" "some other race alone" 
-1 7148 4 "in households" "in family households" "grandchild" "some other race alone" 
-1 4207 4 "in households" "in family households" "stepchild" "some other race alone" 
-1 5172 4 "in households" "in family households" "parent" "some other race alone" 
-1 8018 4 "in households" "in family households" "brother or sister" "some other race alone" 
-1 1955 4 "in households" "in family households" "spouse" "american indian and alaska native alone" 
-1 2067 4 "in households" "in family households" "householder" "american indian and alaska native alone" 
-0 1938 4 "in households" "in family households" "householder" "american indian and alaska native alone" 
-1 526 4 "in households" "in family households" "adopted child" "american indian and alaska native alone" 
-1 5454 4 "in households" "in family households" "biological child" "american indian and alaska native alone" 
-1 223 10 "in households" "in nonfamily households" "male householder" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 417 4 "in households" "in family households" "brother or sister" "american indian and alaska native alone" 
-1 554 4 "in households" "in family households" "grandchild" "american indian and alaska native alone" 
-1 37 4 "in households" "in family households" "parent-in-law" "american indian and alaska native alone" 
-1 224 4 "in households" "in family households" "parent" "american indian and alaska native alone" 
-1 40 10 "in households" "in family households" "other relatives" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 564 10 "in households" "in nonfamily households" "nonrelatives" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 208 4 "in households" "in family households" "stepchild" "american indian and alaska native alone" 
-1 8 10 "in households" "in family households" "nonrelatives" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1273 4 "in households" "in nonfamily households" "male householder" "american indian and alaska native alone" 
-1 544 4 "in households" "in family households" "other relatives" "american indian and alaska native alone" 
-1 89 4 "in households" "in family households" "son-in-law or daughter-in-law" "american indian and alaska native alone" 
-1 3333 4 "in households" "in nonfamily households" "nonrelatives" "american indian and alaska native alone" 
-1 882 4 "in households" "in family households" "nonrelatives" "american indian and alaska native alone" 
-0 265 10 "in households" "in family households" "householder" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 106 10 "in households" "in family households" "parent" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 23 10 "in households" "in family households" "parent-in-law" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 150 10 "in households" "in family households" "householder" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 183 10 "in households" "in family households" "spouse" "american indian and alaska native alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 72870 9 "in households" "in family households" "householder" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 217348 9 "in households" "in family households" "householder" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 41212 9 "in households" "in family households" "parent" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 193336 9 "in households" "in family households" "spouse" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 16407 9 "in households" "in family households" "parent-in-law" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 82809 9 "in households" "in nonfamily households" "male householder" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 301113 9 "in households" "in nonfamily households" "nonrelatives" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 3893 9 "in households" "in family households" "nonrelatives" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 14214 9 "in households" "in family households" "other relatives" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 47405 2 "65 and 66 years" "white alone, not hispanic or latino" 
-0 61132 2 "67 to 69 years" "white alone, not hispanic or latino" 
-1 4818 10 "in households" "in family households" "householder" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 5390 10 "in households" "in family households" "householder" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 3771 10 "in households" "in family households" "parent" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 4301 10 "in households" "in family households" "spouse" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 2577846 2 "85 years and over" "white alone, not hispanic or latino" 
-1 969 10 "in households" "in family households" "parent-in-law" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 112147 2 "under 5 years" "white alone, not hispanic or latino" 
-1 126488 2 "5 to 9 years" "white alone, not hispanic or latino" 
-1 137797 2 "10 to 14 years" "white alone, not hispanic or latino" 
-0 75499 2 "70 to 74 years" "white alone, not hispanic or latino" 
-0 61983 2 "75 to 79 years" "white alone, not hispanic or latino" 
-0 49402 2 "80 to 84 years" "white alone, not hispanic or latino" 
-0 41950 2 "85 years and over" "white alone, not hispanic or latino" 
-1 68790 2 "18 and 19 years" "white alone, not hispanic or latino" 
-1 34375 2 "20 years" "white alone, not hispanic or latino" 
-1 88632 2 "15 to 17 years" "white alone, not hispanic or latino" 
-1 210971 2 "45 to 49 years" "white alone, not hispanic or latino" 
-1 152660 2 "35 to 39 years" "white alone, not hispanic or latino" 
-1 182934 2 "40 to 44 years" "white alone, not hispanic or latino" 
-1 824 10 "in households" "in family households" "other relatives" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 153292 2 "25 to 29 years" "white alone, not hispanic or latino" 
-1 253 10 "in households" "in family households" "nonrelatives" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 139014 2 "30 to 34 years" "white alone, not hispanic or latino" 
-1 4449 10 "in households" "in nonfamily households" "nonrelatives" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 33130 2 "21 years" "white alone, not hispanic or latino" 
-1 1249 10 "in households" "in nonfamily households" "male householder" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 98264 2 "22 to 24 years" "white alone, not hispanic or latino" 
-1 2174 10 "in households" "in family households" "parent-in-law" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 4730 10 "in households" "in family households" "parent" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 4538 10 "in households" "in family households" "spouse" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1267 10 "in households" "in family households" "householder" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 5664 10 "in households" "in family households" "householder" "asian alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 210930 2 "50 to 54 years" "white alone, not hispanic or latino" 
-1 189692 2 "55 to 59 years" "white alone, not hispanic or latino" 
-1 69803 2 "60 and 61 years" "white alone, not hispanic or latino" 
-1 97842 2 "62 to 64 years" "white alone, not hispanic or latino" 
-1 52748 2 "65 and 66 years" "white alone, not hispanic or latino" 
-1 70211 2 "67 to 69 years" "white alone, not hispanic or latino" 
-1 92474 2 "70 to 74 years" "white alone, not hispanic or latino" 
-1 83598 2 "75 to 79 years" "white alone, not hispanic or latino" 
-1 78012 2 "80 to 84 years" "white alone, not hispanic or latino" 
-1 94042 2 "85 years and over" "white alone, not hispanic or latino" 
-1 446 10 "in households" "in family households" "nonrelatives" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 1423 10 "in households" "in family households" "other relatives" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 12143 10 "in households" "in nonfamily households" "nonrelatives" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-1 3958 10 "in households" "in nonfamily households" "male householder" "black or african american alone" "65 and 66 years" "67 to 69 years" "70 to 74 years" "75 to 79 years" "80 to 84 years" "85 years and over" 
-0 117802 2 "under 5 years" "white alone, not hispanic or latino" 
-0 2406954 1 "white alone, not hispanic or latino" 
-0 69062 2 "18 and 19 years" "white alone, not hispanic or latino" 
-0 94179 2 "15 to 17 years" "white alone, not hispanic or latino" 
-0 145691 2 "10 to 14 years" "white alone, not hispanic or latino" 
-0 132606 2 "5 to 9 years" "white alone, not hispanic or latino" 
-0 34923 2 "20 years" "white alone, not hispanic or latino" 
-0 32830 2 "21 years" "white alone, not hispanic or latino" 
-0 136261 2 "30 to 34 years" "white alone, not hispanic or latino" 
-0 151207 2 "25 to 29 years" "white alone, not hispanic or latino" 
-0 175810 2 "40 to 44 years" "white alone, not hispanic or latino" 
-0 146388 2 "35 to 39 years" "white alone, not hispanic or latino" 
-0 201315 2 "50 to 54 years" "white alone, not hispanic or latino" 
-0 203003 2 "45 to 49 years" "white alone, not hispanic or latino" 
-0 64617 2 "60 and 61 years" "white alone, not hispanic or latino" 
-0 178172 2 "55 to 59 years" "white alone, not hispanic or latino" 
-0 96403 2 "22 to 24 years" "white alone, not hispanic or latino" 
-0 89314 2 "62 to 64 years" "white alone, not hispanic or latino" 
+1,258,10,in households,in family households,nonrelatives,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,620,10,in households,in family households,other relatives,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1159,10,in households,in nonfamily households,male householder,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,3566,10,in households,in nonfamily households,nonrelatives,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,35425,4,in households,in family households,other relatives,white alone 
+1,14103,4,in households,in family households,son-in-law or daughter-in-law,white alone 
+1,15300,4,in households,in family households,parent-in-law,white alone 
+1,43211,4,in households,in family households,parent,white alone 
+1,358305,4,in households,in nonfamily households,male householder,white alone 
+1,1046154,4,in households,in nonfamily households,nonrelatives,white alone 
+1,92121,4,in households,in family households,nonrelatives,white alone 
+1,39510,4,in households,in family households,brother or sister,white alone 
+1,65160,4,in households,in family households,grandchild,white alone 
+1,38706,4,in households,in family households,stepchild,white alone 
+1,1321480,4,in households,in family households,biological child,white alone 
+1,25165,4,in households,in family households,adopted child,white alone 
+1,418975,4,in households,in family households,householder,white alone 
+1,1017185,4,in households,in family households,spouse,white alone 
+0,906148,4,in households,in family households,householder,white alone 
+1,94887,3,in households,in family households,grandchild 
+1,51090,3,in households,in family households,stepchild 
+1,138045,3,in households,in family households,nonrelatives 
+1,71384,3,in households,in family households,other relatives 
+1,421309,3,in households,in nonfamily households,male householder 
+1,1225690,3,in households,in nonfamily households,nonrelatives 
+1,66233,3,in households,in family households,parent 
+1,65629,3,in households,in family households,brother or sister 
+1,19394,3,in households,in family households,son-in-law or daughter-in-law 
+1,21629,3,in households,in family households,parent-in-law 
+1,41861,3,in households,in family households,adopted child 
+1,1586,10,in households,in family households,householder,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,1713,10,in households,in family households,householder,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,2036,10,in households,in family households,parent,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1473,10,in households,in family households,spouse,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,604,10,in households,in family households,parent-in-law,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1730624,3,in households,in family households,biological child 
+1,1178690,3,in households,in family households,spouse 
+1,554887,3,in households,in family households,householder 
+0,1048704,3,in households,in family households,householder 
+1,1072,2,70 to 74 years,two or more races 
+1,750,2,75 to 79 years,two or more races 
+1,566,2,80 to 84 years,two or more races 
+1,575,2,85 years and over,two or more races 
+1,925,2,60 and 61 years,two or more races 
+1,1051,2,62 to 64 years,two or more races 
+1,660,2,65 and 66 years,two or more races 
+1,777,2,67 to 69 years,two or more races 
+1,3760,2,50 to 54 years,two or more races 
+1,2821,2,55 to 59 years,two or more races 
+0,592,2,67 to 69 years,two or more races 
+0,503,2,65 and 66 years,two or more races 
+0,527,2,75 to 79 years,two or more races 
+0,753,2,70 to 74 years,two or more races 
+0,252,2,85 years and over,two or more races 
+0,362,2,80 to 84 years,two or more races 
+1,12349,2,under 5 years,two or more races 
+1,88897,2,85 years and over,two or more races 
+1,10280,2,5 to 9 years,two or more races 
+1,9026,2,10 to 14 years,two or more races 
+1,5036,2,15 to 17 years,two or more races 
+1,4565,2,22 to 24 years,two or more races 
+1,1809,2,21 years,two or more races 
+1,1930,2,20 years,two or more races 
+1,4101,2,18 and 19 years,two or more races 
+1,4739,2,40 to 44 years,two or more races 
+1,5219,2,35 to 39 years,two or more races 
+1,5912,2,30 to 34 years,two or more races 
+1,6616,2,25 to 29 years,two or more races 
+1,4358,2,45 to 49 years,two or more races 
+0,12553,2,under 5 years,two or more races 
+0,83106,1,two or more races 
+0,9036,2,10 to 14 years,two or more races 
+0,10580,2,5 to 9 years,two or more races 
+0,5127,2,15 to 17 years,two or more races 
+0,3740,2,18 and 19 years,two or more races 
+0,1809,2,20 years,two or more races 
+0,1557,2,21 years,two or more races 
+0,3217,2,50 to 54 years,two or more races 
+0,3996,2,45 to 49 years,two or more races 
+0,4324,2,40 to 44 years,two or more races 
+0,4512,2,35 to 39 years,two or more races 
+0,5206,2,30 to 34 years,two or more races 
+0,6142,2,25 to 29 years,two or more races 
+0,4107,2,22 to 24 years,two or more races 
+0,935,2,62 to 64 years,two or more races 
+0,2503,2,55 to 59 years,two or more races 
+0,773,2,60 and 61 years,two or more races 
+1,100174,1,85 years and over 
+1,84922,1,80 to 84 years 
+1,93661,1,75 to 79 years 
+1,106210,1,70 to 74 years 
+1,80434,1,67 to 69 years 
+1,60898,1,65 and 66 years 
+1,112452,1,62 to 64 years 
+0,35647,2,21 years,white alone 
+0,37921,2,20 years,white alone 
+0,132039,2,under 5 years,white alone 
+0,2545285,1,white alone 
+0,74930,2,18 and 19 years,white alone 
+0,101829,2,15 to 17 years,white alone 
+0,158246,2,10 to 14 years,white alone 
+0,145386,2,5 to 9 years,white alone 
+0,103857,2,22 to 24 years,white alone 
+0,91307,2,62 to 64 years,white alone 
+0,147845,2,30 to 34 years,white alone 
+0,163444,2,25 to 29 years,white alone 
+0,185113,2,40 to 44 years,white alone 
+0,156563,2,35 to 39 years,white alone 
+0,207814,2,50 to 54 years,white alone 
+0,211180,2,45 to 49 years,white alone 
+0,66168,2,60 and 61 years,white alone 
+0,182873,2,55 to 59 years,white alone 
+1,25337,4,in households,in nonfamily households,male householder,black or african american alone 
+1,67680,4,in households,in nonfamily households,nonrelatives,black or african american alone 
+1,1241,4,in households,in family households,son-in-law or daughter-in-law,black or african american alone 
+1,1331,4,in households,in family households,parent-in-law,black or african american alone 
+1,14708,4,in households,in family households,nonrelatives,black or african american alone 
+1,12523,4,in households,in family households,other relatives,black or african american alone 
+1,12377,4,in households,in family households,grandchild,black or african american alone 
+1,4406,4,in households,in family households,stepchild,black or african american alone 
+1,7053,4,in households,in family households,parent,black or african american alone 
+1,8896,4,in households,in family households,brother or sister,black or african american alone 
+1,4507,4,in households,in family households,adopted child,black or african american alone 
+1,136888,4,in households,in family households,biological child,black or african american alone 
+1,42463,4,in households,in family households,spouse,black or african american alone 
+1,57451,4,in households,in family households,householder,black or african american alone 
+0,40713,4,in households,in family households,householder,black or african american alone 
+1,198194,1,10 to 14 years 
+0,45025,1,85 years and over 
+1,3381001,1,85 years and over 
+1,6466,4,in households,in family households,adopted child,asian alone 
+1,179482,1,under 5 years 
+1,189140,1,5 to 9 years 
+0,69267,1,67 to 69 years 
+1,20074,4,in households,in family households,householder,asian alone 
+0,85791,1,70 to 74 years 
+0,57166,4,in households,in family households,householder,asian alone 
+0,68931,1,75 to 79 years 
+1,88270,4,in households,in family households,biological child,asian alone 
+0,53551,1,80 to 84 years 
+1,69878,4,in households,in family households,spouse,asian alone 
+1,101168,1,18 and 19 years 
+1,126708,1,15 to 17 years 
+1,1890,4,in households,in family households,son-in-law or daughter-in-law,asian alone 
+1,3452,4,in households,in family households,parent-in-law,asian alone 
+1,9029,4,in households,in family households,parent,asian alone 
+1,6435,4,in households,in family households,brother or sister,asian alone 
+1,3438,4,in households,in family households,grandchild,asian alone 
+1,1317,4,in households,in family households,stepchild,asian alone 
+1,240302,1,40 to 44 years 
+1,263497,1,45 to 49 years 
+1,205278,1,30 to 34 years 
+1,214438,1,35 to 39 years 
+1,140458,1,22 to 24 years 
+1,15793,4,in households,in nonfamily households,male householder,asian alone 
+1,223270,1,25 to 29 years 
+1,49288,4,in households,in nonfamily households,nonrelatives,asian alone 
+1,50360,1,20 years 
+1,7042,4,in households,in family households,nonrelatives,asian alone 
+1,48594,1,21 years 
+1,8038,4,in households,in family households,other relatives,asian alone 
+1,81800,1,60 and 61 years 
+1,224228,1,55 to 59 years 
+1,255333,1,50 to 54 years 
+0,101052,1,18 and 19 years 
+0,50888,1,20 years 
+0,47778,1,21 years 
+0,3166628,0,0,187605,1,under 5 years 
+0,196547,1,5 to 9 years 
+0,207419,1,10 to 14 years 
+0,133828,1,15 to 17 years 
+0,74794,1,60 and 61 years 
+0,101501,1,62 to 64 years 
+0,198338,1,30 to 34 years 
+0,203757,1,35 to 39 years 
+0,137590,1,22 to 24 years 
+0,218255,1,25 to 29 years 
+0,241668,1,50 to 54 years 
+0,208594,1,55 to 59 years 
+0,228652,1,40 to 44 years 
+0,251937,1,45 to 49 years 
+0,53860,1,65 and 66 years 
+1,79008,2,80 to 84 years,white alone 
+1,94921,2,85 years and over,white alone 
+1,54075,2,65 and 66 years,white alone 
+1,71843,2,67 to 69 years,white alone 
+1,94544,2,70 to 74 years,white alone 
+1,85109,2,75 to 79 years,white alone 
+1,195156,2,55 to 59 years,white alone 
+1,217994,2,50 to 54 years,white alone 
+1,100335,2,62 to 64 years,white alone 
+1,71751,2,60 and 61 years,white alone 
+1,165304,2,25 to 29 years,white alone 
+1,150720,2,30 to 34 years,white alone 
+1,35839,2,21 years,white alone 
+1,105534,2,22 to 24 years,white alone 
+1,219694,2,45 to 49 years,white alone 
+1,163151,2,35 to 39 years,white alone 
+1,192618,2,40 to 44 years,white alone 
+1,37187,2,20 years,white alone 
+1,74467,2,18 and 19 years,white alone 
+1,96053,2,15 to 17 years,white alone 
+0,76994,2,70 to 74 years,white alone 
+0,62926,2,75 to 79 years,white alone 
+0,49983,2,80 to 84 years,white alone 
+0,42377,2,85 years and over,white alone 
+1,2719951,2,85 years and over,white alone 
+1,125842,2,under 5 years,white alone 
+1,139000,2,5 to 9 years,white alone 
+1,149806,2,10 to 14 years,white alone 
+0,62403,2,67 to 69 years,white alone 
+0,48440,2,65 and 66 years,white alone 
+0,254,4,in households,in family households,householder,native hawaiian and other pacific islander alone 
+1,642,2,50 to 54 years,american indian and alaska native alone 
+1,498,4,in households,in family households,biological child,native hawaiian and other pacific islander alone 
+1,72,4,in households,in family households,adopted child,native hawaiian and other pacific islander alone 
+1,523,2,55 to 59 years,american indian and alaska native alone 
+1,205,4,in households,in family households,householder,native hawaiian and other pacific islander alone 
+1,321,4,in households,in family households,spouse,native hawaiian and other pacific islander alone 
+1,95,2,65 and 66 years,american indian and alaska native alone 
+1,131,2,67 to 69 years,american indian and alaska native alone 
+1,147,2,60 and 61 years,american indian and alaska native alone 
+1,209,2,62 to 64 years,american indian and alaska native alone 
+1,88,2,85 years and over,american indian and alaska native alone 
+1,88,2,80 to 84 years,american indian and alaska native alone 
+1,145,2,75 to 79 years,american indian and alaska native alone 
+1,175,2,70 to 74 years,american indian and alaska native alone 
+1,424,4,in households,in nonfamily households,nonrelatives,native hawaiian and other pacific islander alone 
+1,108,4,in households,in family households,nonrelatives,native hawaiian and other pacific islander alone 
+1,132,4,in households,in nonfamily households,male householder,native hawaiian and other pacific islander alone 
+1,7,4,in households,in family households,parent-in-law,native hawaiian and other pacific islander alone 
+1,25,4,in households,in family households,parent,native hawaiian and other pacific islander alone 
+1,45,4,in households,in family households,other relatives,native hawaiian and other pacific islander alone 
+1,18,4,in households,in family households,son-in-law or daughter-in-law,native hawaiian and other pacific islander alone 
+1,22,4,in households,in family households,stepchild,native hawaiian and other pacific islander alone 
+1,50,4,in households,in family households,brother or sister,native hawaiian and other pacific islander alone 
+1,53,4,in households,in family households,grandchild,native hawaiian and other pacific islander alone 
+0,9588,1,american indian and alaska native alone 
+0,740,2,under 5 years,american indian and alaska native alone 
+0,713,2,5 to 9 years,american indian and alaska native alone 
+0,707,2,10 to 14 years,american indian and alaska native alone 
+0,470,2,15 to 17 years,american indian and alaska native alone 
+0,405,2,18 and 19 years,american indian and alaska native alone 
+0,221,2,20 years,american indian and alaska native alone 
+0,219,2,21 years,american indian and alaska native alone 
+0,725,2,45 to 49 years,american indian and alaska native alone 
+0,604,2,50 to 54 years,american indian and alaska native alone 
+0,675,2,35 to 39 years,american indian and alaska native alone 
+0,673,2,40 to 44 years,american indian and alaska native alone 
+0,182,2,62 to 64 years,american indian and alaska native alone 
+0,481,2,55 to 59 years,american indian and alaska native alone 
+0,165,2,60 and 61 years,american indian and alaska native alone 
+0,660,2,30 to 34 years,american indian and alaska native alone 
+0,798,2,25 to 29 years,american indian and alaska native alone 
+0,499,2,22 to 24 years,american indian and alaska native alone 
+1,711,2,5 to 9 years,american indian and alaska native alone 
+1,688,2,10 to 14 years,american indian and alaska native alone 
+0,74,2,80 to 84 years,american indian and alaska native alone 
+0,50,2,85 years and over,american indian and alaska native alone 
+1,9262,2,85 years and over,american indian and alaska native alone 
+1,751,2,under 5 years,american indian and alaska native alone 
+0,124,2,67 to 69 years,american indian and alaska native alone 
+0,118,2,65 and 66 years,american indian and alaska native alone 
+0,122,2,75 to 79 years,american indian and alaska native alone 
+0,163,2,70 to 74 years,american indian and alaska native alone 
+1,703,2,45 to 49 years,american indian and alaska native alone 
+1,610,2,35 to 39 years,american indian and alaska native alone 
+1,655,2,40 to 44 years,american indian and alaska native alone 
+1,697,2,25 to 29 years,american indian and alaska native alone 
+1,628,2,30 to 34 years,american indian and alaska native alone 
+1,452,2,22 to 24 years,american indian and alaska native alone 
+1,147,2,21 years,american indian and alaska native alone 
+1,184,2,20 years,american indian and alaska native alone 
+1,345,2,18 and 19 years,american indian and alaska native alone 
+1,448,2,15 to 17 years,american indian and alaska native alone 
+1,10627,10,in households,in family households,other relatives,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,2667,10,in households,in family households,nonrelatives,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,273000,10,in households,in nonfamily households,nonrelatives,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,73920,10,in households,in nonfamily households,male householder,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,62674,10,in households,in family households,householder,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,179627,10,in households,in family households,spouse,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,200392,10,in households,in family households,householder,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,11866,10,in households,in family households,parent-in-law,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,28270,10,in households,in family households,parent,white alone, not hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,167156,1,asian alone 
+0,3135,2,21 years,asian alone 
+0,6236,2,18 and 19 years,asian alone 
+0,3272,2,20 years,asian alone 
+0,9973,2,10 to 14 years,asian alone 
+0,5936,2,15 to 17 years,asian alone 
+0,11979,2,under 5 years,asian alone 
+0,11462,2,5 to 9 years,asian alone 
+1,12172,2,45 to 49 years,asian alone 
+1,14002,2,40 to 44 years,asian alone 
+1,17068,2,35 to 39 years,asian alone 
+1,17856,2,30 to 34 years,asian alone 
+1,10107,2,22 to 24 years,asian alone 
+1,18988,2,25 to 29 years,asian alone 
+1,3586,2,20 years,asian alone 
+1,3646,2,21 years,asian alone 
+1,6064,2,15 to 17 years,asian alone 
+1,7014,2,18 and 19 years,asian alone 
+1,1623,2,80 to 84 years,asian alone 
+1,2442,2,75 to 79 years,asian alone 
+1,1250,2,85 years and over,asian alone 
+1,3430,2,62 to 64 years,asian alone 
+1,1902,2,65 and 66 years,asian alone 
+1,2556,2,67 to 69 years,asian alone 
+1,3470,2,70 to 74 years,asian alone 
+1,10098,2,50 to 54 years,asian alone 
+1,8461,2,55 to 59 years,asian alone 
+1,3037,2,60 and 61 years,asian alone 
+0,7464,2,55 to 59 years,asian alone 
+0,9337,2,50 to 54 years,asian alone 
+0,11456,2,45 to 49 years,asian alone 
+0,12808,2,40 to 44 years,asian alone 
+0,2969,2,62 to 64 years,asian alone 
+0,2669,2,60 and 61 years,asian alone 
+0,15612,2,30 to 34 years,asian alone 
+0,16020,2,35 to 39 years,asian alone 
+0,9096,2,22 to 24 years,asian alone 
+0,16629,2,25 to 29 years,asian alone 
+1,182612,2,85 years and over,asian alone 
+0,818,2,85 years and over,asian alone 
+1,11904,2,5 to 9 years,asian alone 
+1,11547,2,under 5 years,asian alone 
+1,10389,2,10 to 14 years,asian alone 
+0,1667,2,65 and 66 years,asian alone 
+0,2272,2,67 to 69 years,asian alone 
+0,3099,2,70 to 74 years,asian alone 
+0,2107,2,75 to 79 years,asian alone 
+0,1140,2,80 to 84 years,asian alone 
+1,41,2,15 to 17 years,native hawaiian and other pacific islander alone 
+1,28,2,20 years,native hawaiian and other pacific islander alone 
+1,44,2,18 and 19 years,native hawaiian and other pacific islander alone 
+1,90,2,22 to 24 years,native hawaiian and other pacific islander alone 
+1,31,2,21 years,native hawaiian and other pacific islander alone 
+1,85,2,30 to 34 years,native hawaiian and other pacific islander alone 
+1,106,2,25 to 29 years,native hawaiian and other pacific islander alone 
+1,74,2,35 to 39 years,native hawaiian and other pacific islander alone 
+1,70,2,40 to 44 years,native hawaiian and other pacific islander alone 
+1,82,2,45 to 49 years,native hawaiian and other pacific islander alone 
+0,14,2,67 to 69 years,native hawaiian and other pacific islander alone 
+0,12,2,65 and 66 years,native hawaiian and other pacific islander alone 
+0,7,2,85 years and over,native hawaiian and other pacific islander alone 
+0,13,2,80 to 84 years,native hawaiian and other pacific islander alone 
+0,7,2,75 to 79 years,native hawaiian and other pacific islander alone 
+0,21,2,70 to 74 years,native hawaiian and other pacific islander alone 
+1,73,2,5 to 9 years,native hawaiian and other pacific islander alone 
+1,67,2,10 to 14 years,native hawaiian and other pacific islander alone 
+1,1105,2,85 years and over,native hawaiian and other pacific islander alone 
+1,89,2,under 5 years,native hawaiian and other pacific islander alone 
+1,17,2,75 to 79 years,native hawaiian and other pacific islander alone 
+1,19,2,70 to 74 years,native hawaiian and other pacific islander alone 
+1,16,2,67 to 69 years,native hawaiian and other pacific islander alone 
+1,7,2,65 and 66 years,native hawaiian and other pacific islander alone 
+1,16,2,62 to 64 years,native hawaiian and other pacific islander alone 
+1,23,2,60 and 61 years,native hawaiian and other pacific islander alone 
+1,56,2,55 to 59 years,native hawaiian and other pacific islander alone 
+1,54,2,50 to 54 years,native hawaiian and other pacific islander alone 
+1,7,2,80 to 84 years,native hawaiian and other pacific islander alone 
+1,10,2,85 years and over,native hawaiian and other pacific islander alone 
+0,132,2,25 to 29 years,native hawaiian and other pacific islander alone 
+0,94,2,30 to 34 years,native hawaiian and other pacific islander alone 
+0,79,2,35 to 39 years,native hawaiian and other pacific islander alone 
+0,81,2,40 to 44 years,native hawaiian and other pacific islander alone 
+0,80,2,22 to 24 years,native hawaiian and other pacific islander alone 
+0,27,2,62 to 64 years,native hawaiian and other pacific islander alone 
+0,61,2,50 to 54 years,native hawaiian and other pacific islander alone 
+0,70,2,45 to 49 years,native hawaiian and other pacific islander alone 
+0,12,2,60 and 61 years,native hawaiian and other pacific islander alone 
+0,50,2,55 to 59 years,native hawaiian and other pacific islander alone 
+1,1225575,4,in households,in family households,biological child,white alone, not hispanic or latino 
+1,21517,4,in households,in family households,adopted child,white alone, not hispanic or latino 
+1,388965,4,in households,in family households,householder,white alone, not hispanic or latino 
+1,985029,4,in households,in family households,spouse,white alone, not hispanic or latino 
+0,879439,4,in households,in family households,householder,white alone, not hispanic or latino 
+0,1118,1,native hawaiian and other pacific islander alone 
+0,70,2,under 5 years,native hawaiian and other pacific islander alone 
+0,24,2,21 years,native hawaiian and other pacific islander alone 
+0,21,2,20 years,native hawaiian and other pacific islander alone 
+0,52,2,18 and 19 years,native hawaiian and other pacific islander alone 
+0,46,2,15 to 17 years,native hawaiian and other pacific islander alone 
+0,62,2,10 to 14 years,native hawaiian and other pacific islander alone 
+0,83,2,5 to 9 years,native hawaiian and other pacific islander alone 
+1,57234,4,in households,in family households,grandchild,white alone, not hispanic or latino 
+1,34554,4,in households,in family households,brother or sister,white alone, not hispanic or latino 
+1,34647,4,in households,in family households,stepchild,white alone, not hispanic or latino 
+1,346022,4,in households,in nonfamily households,male householder,white alone, not hispanic or latino 
+1,1010503,4,in households,in nonfamily households,nonrelatives,white alone, not hispanic or latino 
+1,79069,4,in households,in family households,nonrelatives,white alone, not hispanic or latino 
+1,27794,4,in households,in family households,other relatives,white alone, not hispanic or latino 
+1,12758,4,in households,in family households,son-in-law or daughter-in-law,white alone, not hispanic or latino 
+1,14316,4,in households,in family households,parent-in-law,white alone, not hispanic or latino 
+1,39779,4,in households,in family households,parent,white alone, not hispanic or latino 
+1,27824,2,5 to 9 years,hispanic or latino 
+1,30912,2,under 5 years,hispanic or latino 
+1,319559,2,85 years and over,hispanic or latino 
+0,763,2,85 years and over,hispanic or latino 
+0,1041,2,80 to 84 years,hispanic or latino 
+0,1818,2,75 to 79 years,hispanic or latino 
+0,2855,2,70 to 74 years,hispanic or latino 
+0,2431,2,67 to 69 years,hispanic or latino 
+0,2004,2,65 and 66 years,hispanic or latino 
+1,27334,2,10 to 14 years,hispanic or latino 
+0,17705,2,45 to 49 years,hispanic or latino 
+0,20462,2,40 to 44 years,hispanic or latino 
+0,9835,2,55 to 59 years,hispanic or latino 
+0,13782,2,50 to 54 years,hispanic or latino 
+0,27970,2,25 to 29 years,hispanic or latino 
+0,17522,2,22 to 24 years,hispanic or latino 
+0,22179,2,35 to 39 years,hispanic or latino 
+0,25907,2,30 to 34 years,hispanic or latino 
+0,15945,2,5 to 9 years,black or african american alone 
+0,16138,2,under 5 years,black or african american alone 
+0,209693,1,black or african american alone 
+0,4432,2,20 years,black or african american alone 
+0,9124,2,18 and 19 years,black or african american alone 
+0,11679,2,15 to 17 years,black or african american alone 
+0,16877,2,10 to 14 years,black or african american alone 
+0,4004,2,21 years,black or african american alone 
+0,3139,2,60 and 61 years,hispanic or latino 
+0,3944,2,62 to 64 years,hispanic or latino 
+1,4183,2,70 to 74 years,hispanic or latino 
+1,3240,2,67 to 69 years,hispanic or latino 
+1,2613,2,65 and 66 years,hispanic or latino 
+1,5019,2,62 to 64 years,hispanic or latino 
+1,1476,2,85 years and over,hispanic or latino 
+1,1798,2,80 to 84 years,hispanic or latino 
+1,2914,2,75 to 79 years,hispanic or latino 
+0,10800,2,22 to 24 years,black or african american alone 
+0,15632,2,25 to 29 years,black or african american alone 
+1,3956,2,60 and 61 years,hispanic or latino 
+1,11667,2,55 to 59 years,hispanic or latino 
+1,15612,2,50 to 54 years,hispanic or latino 
+0,10438,2,55 to 59 years,black or african american alone 
+0,13680,2,50 to 54 years,black or african american alone 
+0,4331,2,62 to 64 years,black or african american alone 
+0,3566,2,60 and 61 years,black or african american alone 
+0,14427,2,35 to 39 years,black or african american alone 
+0,14690,2,30 to 34 years,black or african american alone 
+0,15331,2,45 to 49 years,black or african american alone 
+0,14949,2,40 to 44 years,black or african american alone 
+1,6217,2,21 years,hispanic or latino 
+1,6539,2,20 years,hispanic or latino 
+1,27724,2,25 to 29 years,hispanic or latino 
+1,17125,2,22 to 24 years,hispanic or latino 
+1,23941,2,35 to 39 years,hispanic or latino 
+1,26750,2,30 to 34 years,hispanic or latino 
+1,19834,2,45 to 49 years,hispanic or latino 
+1,22204,2,40 to 44 years,hispanic or latino 
+0,2851,2,67 to 69 years,black or african american alone 
+0,3521,2,70 to 74 years,black or african american alone 
+0,2291,2,65 and 66 years,black or african american alone 
+1,13439,2,18 and 19 years,hispanic or latino 
+1,17238,2,15 to 17 years,hispanic or latino 
+1,15952,2,10 to 14 years,black or african american alone 
+1,15323,2,5 to 9 years,black or african american alone 
+1,15728,2,under 5 years,black or african american alone 
+1,224705,2,85 years and over,black or african american alone 
+0,1136,2,85 years and over,black or african american alone 
+0,1481,2,80 to 84 years,black or african american alone 
+0,2370,2,75 to 79 years,black or african american alone 
+1,8760,2,18 and 19 years,black or african american alone 
+1,10854,2,15 to 17 years,black or african american alone 
+1,4096,2,21 years,black or african american alone 
+1,4342,2,20 years,black or african american alone 
+1,10864,2,22 to 24 years,black or african american alone 
+1,16828,2,25 to 29 years,black or african american alone 
+1,16224,2,30 to 34 years,black or african american alone 
+1,15904,2,35 to 39 years,black or african american alone 
+1,16529,2,40 to 44 years,black or african american alone 
+1,16180,2,45 to 49 years,black or african american alone 
+1,14887,2,50 to 54 years,black or african american alone 
+1,3026,2,65 and 66 years,black or african american alone 
+1,5213,2,62 to 64 years,black or african american alone 
+1,4126,2,60 and 61 years,black or african american alone 
+1,11726,2,55 to 59 years,black or african american alone 
+1,3865,2,75 to 79 years,black or african american alone 
+1,2803,2,80 to 84 years,black or african american alone 
+1,3740,2,67 to 69 years,black or african american alone 
+1,5048,2,70 to 74 years,black or african american alone 
+1,2687,2,85 years and over,black or african american alone 
+0,308095,1,hispanic or latino 
+0,28272,2,10 to 14 years,hispanic or latino 
+0,18260,2,15 to 17 years,hispanic or latino 
+0,32138,2,under 5 years,hispanic or latino 
+0,28901,2,5 to 9 years,hispanic or latino 
+0,6505,2,21 years,hispanic or latino 
+0,6815,2,20 years,hispanic or latino 
+0,13847,2,18 and 19 years,hispanic or latino 
+0,1566,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+0,242,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+0,488,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+0,119289,1,group quarters population by sex by age by group quarters type 
+0,2296,6,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),group quarters population by sex by age by group quarters type 
+0,4035,5,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,group quarters population by sex by age by group quarters type 
+0,1739,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,224,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+0,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+1,119593,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,1409,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+0,371,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+0,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+0,12393,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,10984,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,1409,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,10376,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+0,237,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,61119,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+0,14178,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,416,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+0,1515,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,102861,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,27148,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+0,22355,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+0,237,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+0,3206,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+0,1350,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+0,75713,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,28080,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,29938,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,7755,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,82,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+1,74139,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+1,81976,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,718,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,234,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+1,2370,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+1,4979,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,1657,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+1,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+1,291,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+1,86955,16,18 and 19 years,20 years,21 years,22 to 24 years,25 to 29 years,30 to 34 years,35 to 39 years,40 to 44 years,45 to 49 years,50 to 54 years,55 to 59 years,60 and 61 years,62 to 64 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,1229,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,1520,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,0,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+1,284,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,2700,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,1180,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,6,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+1,890,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+1,1858,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),college/university student housing,group quarters population by sex by age by group quarters type 
+1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),military quarters (601-602),group quarters population by sex by age by group quarters type 
+1,1858,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,noninstitutionalized population (501, 601-602, 701-702, 704, 706, 801-802, 900-901, 903-904),other noninstitutional facilities,group quarters population by sex by age by group quarters type 
+1,0,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),juvenile facilities,group quarters population by sex by age by group quarters type 
+1,52,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),correctional facilities for adults (101-106),group quarters population by sex by age by group quarters type 
+1,147,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),other institutional facilities (401-405),group quarters population by sex by age by group quarters type 
+1,27881,9,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over,institutionalized population (101-106, 201-203, 301, 401-405),nursing facilities/skilled-nursing facilities,group quarters population by sex by age by group quarters type 
+1,8901,4,in households,in family households,parent,hispanic or latino 
+1,13510,4,in households,in family households,brother or sister,hispanic or latino 
+1,3040,4,in households,in family households,son-in-law or daughter-in-law,hispanic or latino 
+1,2167,4,in households,in family households,parent-in-law,hispanic or latino 
+1,33369,4,in households,in family households,nonrelatives,hispanic or latino 
+1,20131,4,in households,in family households,other relatives,hispanic or latino 
+1,25972,4,in households,in nonfamily households,male householder,hispanic or latino 
+1,74028,4,in households,in nonfamily households,nonrelatives,hispanic or latino 
+1,9111,4,in households,in family households,stepchild,hispanic or latino 
+1,17695,4,in households,in family households,grandchild,hispanic or latino 
+1,220859,4,in households,in family households,biological child,hispanic or latino 
+1,63865,4,in households,in family households,spouse,hispanic or latino 
+1,77306,4,in households,in family households,householder,hispanic or latino 
+0,55537,4,in households,in family households,householder,hispanic or latino 
+1,7748,4,in households,in family households,adopted child,hispanic or latino 
+1,64174,10,in households,in family households,householder,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,181778,10,in households,in family households,spouse,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,202881,10,in households,in family households,householder,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,29808,10,in households,in family households,parent,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,12417,10,in households,in family households,parent-in-law,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,2844,10,in households,in family households,nonrelatives,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,277755,10,in households,in nonfamily households,nonrelatives,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,75402,10,in households,in nonfamily households,male householder,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,11075,10,in households,in family households,other relatives,white alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,3192,2,21 years,some other race alone 
+0,3212,2,20 years,some other race alone 
+0,6565,2,18 and 19 years,some other race alone 
+0,8741,2,15 to 17 years,some other race alone 
+0,12518,2,10 to 14 years,some other race alone 
+0,14086,2,under 5 years,some other race alone 
+0,12378,2,5 to 9 years,some other race alone 
+0,150682,1,some other race alone 
+0,4785,2,55 to 59 years,some other race alone 
+0,6955,2,50 to 54 years,some other race alone 
+0,1750,2,62 to 64 years,some other race alone 
+0,1441,2,60 and 61 years,some other race alone 
+0,9151,2,22 to 24 years,some other race alone 
+0,15478,2,25 to 29 years,some other race alone 
+0,14231,2,30 to 34 years,some other race alone 
+0,11481,2,35 to 39 years,some other race alone 
+0,10704,2,40 to 44 years,some other race alone 
+0,9179,2,45 to 49 years,some other race alone 
+1,12266,2,10 to 14 years,some other race alone 
+1,11849,2,5 to 9 years,some other race alone 
+1,13176,2,under 5 years,some other race alone 
+0,1011,2,67 to 69 years,some other race alone 
+0,1240,2,70 to 74 years,some other race alone 
+0,829,2,65 and 66 years,some other race alone 
+0,385,2,85 years and over,some other race alone 
+1,154469,2,85 years and over,some other race alone 
+0,872,2,75 to 79 years,some other race alone 
+0,498,2,80 to 84 years,some other race alone 
+1,1791,2,60 and 61 years,some other race alone 
+1,5485,2,55 to 59 years,some other race alone 
+1,1133,2,65 and 66 years,some other race alone 
+1,2198,2,62 to 64 years,some other race alone 
+1,1882,2,70 to 74 years,some other race alone 
+1,1371,2,67 to 69 years,some other race alone 
+1,827,2,80 to 84 years,some other race alone 
+1,1333,2,75 to 79 years,some other race alone 
+1,7898,2,50 to 54 years,some other race alone 
+1,643,2,85 years and over,some other race alone 
+1,3026,2,21 years,some other race alone 
+1,3103,2,20 years,some other race alone 
+1,6437,2,18 and 19 years,some other race alone 
+1,8212,2,15 to 17 years,some other race alone 
+1,12412,2,35 to 39 years,some other race alone 
+1,13853,2,30 to 34 years,some other race alone 
+1,14731,2,25 to 29 years,some other race alone 
+1,8846,2,22 to 24 years,some other race alone 
+1,11689,2,40 to 44 years,some other race alone 
+1,10308,2,45 to 49 years,some other race alone 
+1,8856,10,in households,in nonfamily households,nonrelatives,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,2799,10,in households,in nonfamily households,male householder,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1075,10,in households,in family households,other relatives,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,460,10,in households,in family households,nonrelatives,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,4210,10,in households,in family households,householder,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,3252,10,in households,in family households,householder,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,3740,10,in households,in family households,parent,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,3619,10,in households,in family households,spouse,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1140,10,in households,in family households,parent-in-law,hispanic or latino,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,14660,4,in households,in family households,spouse,two or more races 
+1,15177,4,in households,in family households,householder,two or more races 
+0,14243,4,in households,in family households,householder,two or more races 
+1,2434,4,in households,in family households,adopted child,two or more races 
+1,75941,4,in households,in family households,biological child,two or more races 
+1,2224,4,in households,in family households,stepchild,two or more races 
+1,3300,4,in households,in family households,other relatives,two or more races 
+1,573,4,in households,in family households,son-in-law or daughter-in-law,two or more races 
+1,21753,4,in households,in nonfamily households,nonrelatives,two or more races 
+1,5062,4,in households,in family households,nonrelatives,two or more races 
+1,2303,4,in households,in family households,brother or sister,two or more races 
+1,6157,4,in households,in family households,grandchild,two or more races 
+1,333,4,in households,in family households,parent-in-law,two or more races 
+1,1519,4,in households,in family households,parent,two or more races 
+1,7464,4,in households,in nonfamily households,male householder,two or more races 
+1,9,10,in households,in family households,parent,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,4,10,in households,in family households,parent-in-law,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,33,10,in households,in family households,householder,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,10,10,in households,in family households,householder,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,33,10,in households,in family households,spouse,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,14,10,in households,in nonfamily households,male householder,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,31,10,in households,in nonfamily households,nonrelatives,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,0,10,in households,in family households,nonrelatives,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,4,10,in households,in family households,other relatives,native hawaiian and other pacific islander alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,804,10,in households,in nonfamily households,male householder,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,228,10,in households,in family households,other relatives,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,84,10,in households,in family households,nonrelatives,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,2605,10,in households,in nonfamily households,nonrelatives,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,1402,10,in households,in family households,householder,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,216,10,in households,in family households,parent-in-law,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,752,10,in households,in family households,parent,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1030,10,in households,in family households,spouse,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,865,10,in households,in family households,householder,two or more races,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,2691,4,in households,in family households,adopted child,some other race alone 
+1,102093,4,in households,in family households,biological child,some other race alone 
+1,32228,4,in households,in family households,spouse,some other race alone 
+1,40938,4,in households,in family households,householder,some other race alone 
+0,28242,4,in households,in family households,householder,some other race alone 
+1,13005,4,in households,in nonfamily households,male householder,some other race alone 
+1,37058,4,in households,in nonfamily households,nonrelatives,some other race alone 
+1,1480,4,in households,in family households,son-in-law or daughter-in-law,some other race alone 
+1,1169,4,in households,in family households,parent-in-law,some other race alone 
+1,18122,4,in households,in family households,nonrelatives,some other race alone 
+1,11509,4,in households,in family households,other relatives,some other race alone 
+1,7148,4,in households,in family households,grandchild,some other race alone 
+1,4207,4,in households,in family households,stepchild,some other race alone 
+1,5172,4,in households,in family households,parent,some other race alone 
+1,8018,4,in households,in family households,brother or sister,some other race alone 
+1,1955,4,in households,in family households,spouse,american indian and alaska native alone 
+1,2067,4,in households,in family households,householder,american indian and alaska native alone 
+0,1938,4,in households,in family households,householder,american indian and alaska native alone 
+1,526,4,in households,in family households,adopted child,american indian and alaska native alone 
+1,5454,4,in households,in family households,biological child,american indian and alaska native alone 
+1,223,10,in households,in nonfamily households,male householder,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,417,4,in households,in family households,brother or sister,american indian and alaska native alone 
+1,554,4,in households,in family households,grandchild,american indian and alaska native alone 
+1,37,4,in households,in family households,parent-in-law,american indian and alaska native alone 
+1,224,4,in households,in family households,parent,american indian and alaska native alone 
+1,40,10,in households,in family households,other relatives,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,564,10,in households,in nonfamily households,nonrelatives,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,208,4,in households,in family households,stepchild,american indian and alaska native alone 
+1,8,10,in households,in family households,nonrelatives,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1273,4,in households,in nonfamily households,male householder,american indian and alaska native alone 
+1,544,4,in households,in family households,other relatives,american indian and alaska native alone 
+1,89,4,in households,in family households,son-in-law or daughter-in-law,american indian and alaska native alone 
+1,3333,4,in households,in nonfamily households,nonrelatives,american indian and alaska native alone 
+1,882,4,in households,in family households,nonrelatives,american indian and alaska native alone 
+0,265,10,in households,in family households,householder,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,106,10,in households,in family households,parent,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,23,10,in households,in family households,parent-in-law,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,150,10,in households,in family households,householder,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,183,10,in households,in family households,spouse,american indian and alaska native alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,72870,9,in households,in family households,householder,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,217348,9,in households,in family households,householder,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,41212,9,in households,in family households,parent,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,193336,9,in households,in family households,spouse,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,16407,9,in households,in family households,parent-in-law,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,82809,9,in households,in nonfamily households,male householder,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,301113,9,in households,in nonfamily households,nonrelatives,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,3893,9,in households,in family households,nonrelatives,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,14214,9,in households,in family households,other relatives,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,47405,2,65 and 66 years,white alone, not hispanic or latino 
+0,61132,2,67 to 69 years,white alone, not hispanic or latino 
+1,4818,10,in households,in family households,householder,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,5390,10,in households,in family households,householder,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,3771,10,in households,in family households,parent,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,4301,10,in households,in family households,spouse,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,2577846,2,85 years and over,white alone, not hispanic or latino 
+1,969,10,in households,in family households,parent-in-law,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,112147,2,under 5 years,white alone, not hispanic or latino 
+1,126488,2,5 to 9 years,white alone, not hispanic or latino 
+1,137797,2,10 to 14 years,white alone, not hispanic or latino 
+0,75499,2,70 to 74 years,white alone, not hispanic or latino 
+0,61983,2,75 to 79 years,white alone, not hispanic or latino 
+0,49402,2,80 to 84 years,white alone, not hispanic or latino 
+0,41950,2,85 years and over,white alone, not hispanic or latino 
+1,68790,2,18 and 19 years,white alone, not hispanic or latino 
+1,34375,2,20 years,white alone, not hispanic or latino 
+1,88632,2,15 to 17 years,white alone, not hispanic or latino 
+1,210971,2,45 to 49 years,white alone, not hispanic or latino 
+1,152660,2,35 to 39 years,white alone, not hispanic or latino 
+1,182934,2,40 to 44 years,white alone, not hispanic or latino 
+1,824,10,in households,in family households,other relatives,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,153292,2,25 to 29 years,white alone, not hispanic or latino 
+1,253,10,in households,in family households,nonrelatives,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,139014,2,30 to 34 years,white alone, not hispanic or latino 
+1,4449,10,in households,in nonfamily households,nonrelatives,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,33130,2,21 years,white alone, not hispanic or latino 
+1,1249,10,in households,in nonfamily households,male householder,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,98264,2,22 to 24 years,white alone, not hispanic or latino 
+1,2174,10,in households,in family households,parent-in-law,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,4730,10,in households,in family households,parent,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,4538,10,in households,in family households,spouse,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1267,10,in households,in family households,householder,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,5664,10,in households,in family households,householder,asian alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,210930,2,50 to 54 years,white alone, not hispanic or latino 
+1,189692,2,55 to 59 years,white alone, not hispanic or latino 
+1,69803,2,60 and 61 years,white alone, not hispanic or latino 
+1,97842,2,62 to 64 years,white alone, not hispanic or latino 
+1,52748,2,65 and 66 years,white alone, not hispanic or latino 
+1,70211,2,67 to 69 years,white alone, not hispanic or latino 
+1,92474,2,70 to 74 years,white alone, not hispanic or latino 
+1,83598,2,75 to 79 years,white alone, not hispanic or latino 
+1,78012,2,80 to 84 years,white alone, not hispanic or latino 
+1,94042,2,85 years and over,white alone, not hispanic or latino 
+1,446,10,in households,in family households,nonrelatives,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,1423,10,in households,in family households,other relatives,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,12143,10,in households,in nonfamily households,nonrelatives,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,3958,10,in households,in nonfamily households,male householder,black or african american alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,117802,2,under 5 years,white alone, not hispanic or latino 
+0,2406954,1,white alone, not hispanic or latino 
+0,69062,2,18 and 19 years,white alone, not hispanic or latino 
+0,94179,2,15 to 17 years,white alone, not hispanic or latino 
+0,145691,2,10 to 14 years,white alone, not hispanic or latino 
+0,132606,2,5 to 9 years,white alone, not hispanic or latino 
+0,34923,2,20 years,white alone, not hispanic or latino 
+0,32830,2,21 years,white alone, not hispanic or latino 
+0,136261,2,30 to 34 years,white alone, not hispanic or latino 
+0,151207,2,25 to 29 years,white alone, not hispanic or latino 
+0,175810,2,40 to 44 years,white alone, not hispanic or latino 
+0,146388,2,35 to 39 years,white alone, not hispanic or latino 
+0,201315,2,50 to 54 years,white alone, not hispanic or latino 
+0,203003,2,45 to 49 years,white alone, not hispanic or latino 
+0,64617,2,60 and 61 years,white alone, not hispanic or latino 
+0,178172,2,55 to 59 years,white alone, not hispanic or latino 
+0,96403,2,22 to 24 years,white alone, not hispanic or latino 
+0,89314,2,62 to 64 years,white alone, not hispanic or latino 
