@@ -9,6 +9,10 @@ import com.cra.figaro.algorithm.factored.beliefpropagation.BeliefPropagation
 
 object ReasoningComponent {
   def loadResults(fileName: String) = {
+    implicit val codec = Codec("UTF-8")
+    codec.onMalformedInput(CodingErrorAction.REPLACE)
+    codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
+
     val source = Source.fromFile(fileName)
     val lines = source.getLines().toList
     val (numEmailsLine :: spamLine :: hasManyUnusualWordsGivenSpamLine :: hasManyUnusualWordsGivenNormalLine ::
