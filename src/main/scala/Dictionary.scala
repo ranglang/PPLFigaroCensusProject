@@ -17,18 +17,18 @@ import scala.io.Source
  * the different labels with gender - "isFemale"
 */
 
-class Dictionary(totalPopulationState: Int, stateNameParam: String) {
+class Dictionary() {
 
   // These are member variables of the Dictionary class 
-  val statename: String = stateNameParam
-  val totalPopulation = totalPopulationState
+  //val statename: String = stateNameParam
+  //val totalPopulation = totalPopulationState
 
   // Master list of labels (all of them)
   val labels: ListBuffer [String] = ListBuffer()
   //val dependencies: ListBuffer[String] = ListBuffer()
 
-  val ageList: ListBuffer[String] = ListBuffer()
-  val raceList: ListBuffer[String] = ListBuffer()
+  //val ageList: ListBuffer[String] = ListBuffer()
+  //val raceList: ListBuffer[String] = ListBuffer()
   // can have other lists here too .... 
   // I just have age and race for now to keep things simple
 
@@ -45,12 +45,12 @@ object Dictionary {
 
   // some extra information
   // where is this coming from??
-  val totalPopMass = 6547629
-  val stateName = "Massachusetts"
+  //val totalPopMass = 6547629
+  //val stateName = "Massachusetts"
 
   // returns the Dictionary class given a list of ageLabels and a list of raceLabels 
   def fromParams(labelsList: Traversable[String]) = {
-    val result = new Dictionary(totalPopMass, stateName)
+    val result = new Dictionary()
     for { label <- labelsList } {result.addLabel(label)}
     //for { agelabel <- ageLabels } { result.addAgeLabel(agelabel) }
     //for { racelabel <- raceLabels} { result.addRaceLabel(racelabel) }

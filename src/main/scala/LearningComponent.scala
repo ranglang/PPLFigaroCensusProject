@@ -98,17 +98,15 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
     val file = new File(fileName)
     val output = new PrintWriter(new BufferedWriter(new FileWriter(file)))
 
-
     output.println(learningResults.femaleProbability)
-    output.println(learningResults.labelGivenFemaleProbability)
-    output.println(learningResults.labelGivenMaleProbability)
-
     output.println(dictionary.labels.toList.length)
 
     for {
       label <- dictionary.labels.toList
     } {
       output.println(label)
+      output.println(learningResults.labelGivenFemaleProbability(label))
+      output.println(learningResults.labelGivenMaleProbability(label))
     }
 
     output.close()

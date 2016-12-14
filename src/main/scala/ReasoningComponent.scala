@@ -16,52 +16,32 @@ object ReasoningComponent {
 
     val source = Source.fromFile(fileName)
     val lines = source.getLines().toList
-    val (numEmailsLine :: spamLine :: hasManyUnusualWordsGivenSpamLine :: hasManyUnusualWordsGivenNormalLine ::
-        unusualWordGivenManyLine :: unusualWordGivenFewLine :: numWordsLine :: numFeatureWordsLine :: rest) = lines
-    val numEmails = numEmailsLine.toInt
-    val spamProbability = spamLine.toDouble
-    val hasUnusualWordsGivenSpamProbability = hasManyUnusualWordsGivenSpamLine.toDouble
-    val hasUnusualWordsGivenNormalProbability = hasManyUnusualWordsGivenNormalLine.toDouble
-    val unusualWordGivenHasUnusualProbability = unusualWordGivenManyLine.toDouble
-    val unusualWordGivenNotHasUnusualProbability = unusualWordGivenFewLine.toDouble
-    val numWords = numWordsLine.toInt
-    val numFeatureWords = numFeatureWordsLine.toInt
+    val (femaleLine :: numLablesLine :: rest)
 
-    var linesRemaining = rest
-    var wordsGivenSpamProbabilities = Map[String, Double]()
-    var wordsGivenNormalProbabilities = Map[String, Double]()
-    var wordsAndCounts = List[(String, Int)]()
+    val femaleProbability = femaleLine.toDouble
+    val numLabels = numLabelsLine.toInt 
 
-    for { i <- 0 until numWords } {
-      val word :: countLine :: rest = linesRemaining
-      linesRemaining = rest
-      wordsAndCounts ::= (word, countLine.toInt)
+    var linesRemaining = rest 
+    var labelsGivenFemaleProbabilities = Map[String, Double] ()
+    var labelsGivenMaleProbabilities = Map[String, Double] ()
+
+    val dictionary = new Dictionary()
+    for { i <- 0 until numLabels } {
+      val label :: givenFemaleLine :: givenMaleLine :: rest = linesRemaining 
+      linesRemaining = rest 
+      dictionary.addLabel(word)
+      labelsGivenFemaleProbabilities += label -> givenFemaleLine.toDouble
+      labelsGivenMaleProbabilities += label -> givenMaleLine.toDouble 
+
     }
 
-    for { i <- 0 until numFeatureWords } {
-      val word :: givenSpamLine :: givenNormalLine :: rest = linesRemaining
-      linesRemaining = rest
-      wordsGivenSpamProbabilities += word -> givenSpamLine.toDouble
-      wordsGivenNormalProbabilities += word -> givenNormalLine.toDouble
-    }
-
-    val dictionary = new Dictionary(numEmails)
-    for {
-      (word, count) <- wordsAndCounts
-      i <- 0 until count
-    } {
-      dictionary.addWord(word)
-    }
 
     val params = new LearnedParameters(
-      spamProbability,
-      hasUnusualWordsGivenSpamProbability,
-      hasUnusualWordsGivenNormalProbability,
-      unusualWordGivenHasUnusualProbability,
-      unusualWordGivenNotHasUnusualProbability,
-      wordsGivenSpamProbabilities,
-      wordsGivenNormalProbabilities
-    )
+      femaleProbability,
+      labelsGivenFemaleProbabilities,
+      labelsGivenMaleProbabilities
+      )
+    
     (dictionary, params)
   }
 
