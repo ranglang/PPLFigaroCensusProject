@@ -13,7 +13,7 @@ object ReasoningComponent {
 
     val source = Source.fromFile(fileName)
     val lines = source.getLines().toList
-    val (femaleLine :: numLablesLine :: rest)
+    val (femaleLine :: numLablesLine :: rest) = lines
 
     val femaleProbability = femaleLine.toDouble
     val numLabels = numLabelsLine.toInt 
