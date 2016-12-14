@@ -98,10 +98,12 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
     val file = new File(fileName)
     val output = new PrintWriter(new BufferedWriter(new FileWriter(file)))
 
-    
+
     output.println(learningResults.femaleProbability)
     output.println(learningResults.labelGivenFemaleProbability)
     output.println(learningResults.labelGivenMaleProbability)
+
+    output.println(dictionary.labels.toList.length)
 
     for {
       label <- dictionary.labels.toList
@@ -136,11 +138,14 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
   def main(args: Array[String]) {
     val stateDataFileName = "data/mini_baby_data.txt"
     val learningFileName = "MYOUTPUT.txt"
-    val ageParams = readParams("data/params/age.txt")
-    val raceParams = readParams("data/params/race.txt")
+    val labelsFileName = "data/params/labels.txt"
+    val labelsParams = readParams(labelsFileName)
+
+    //val ageParams = readParams("data/params/age.txt")
+    //val raceParams = readParams("data/params/race.txt")
     var dependencies = readDependencies(stateDataFileName)
     
-    val dictionary = Dictionary.fromParams(ageParams, raceParams)
+    val dictionary = Dictionary.fromParams(labelsParams)
     val params = new PriorParameters(dictionary)
 
     val models = 
