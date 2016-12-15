@@ -152,9 +152,9 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
     Later, we will change them so that we read in the text files from the arguments
 */
   def main(args: Array[String]) {
-    val stateDataFileName = "data/mini_baby_data.txt"
+    val stateDataFileName = "data/mini_baby_data_male.txt"
     val labelsFileName = "data/params/labels.txt"
-    val learningFileName = "LearnedParameters.txt"
+    val learningFileName = "LearnedParametersMale.txt"
 
 
     val labelsParams = readParams(labelsFileName)
