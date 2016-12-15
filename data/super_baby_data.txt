@@ -1,0 +1,10 @@
+0,25,10,in households,in family households,nonrelatives,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,62,10,in households,in family households,other relatives,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+1,115,10,in households,in nonfamily households,male householder,some other race alone,65 and 66 years,67 to 69 years,70 to 74 years,75 to 79 years,80 to 84 years,85 years and over 
+0,403,4,in households,in family households,householder,black or african american alone 
+1,198,1,10 to 14 years 
+0,450,1,85 years and over 
+1,338,1,85 years and over 
+1,64,4,in households,in family households,adopted child,asian alone 
+0,725,2,45 to 49 years,american indian and alaska native alone 
+1,21,7,under 5 years,5 to 9 years,10 to 14 years,15 to 17 years,noninstitutionalized population (501;601-602;701-702;704;706;801-802;900-901;903-904),college/university student housing,group quarters population by sex by age by group quarters type 

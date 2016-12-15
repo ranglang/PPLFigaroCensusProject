@@ -3,6 +3,7 @@ import java.io.File
 import com.cra.figaro.language.{Constant, Element, Universe}
 import com.cra.figaro.algorithm.sampling.Importance
 import com.cra.figaro.algorithm.factored.VariableElimination
+import com.cra.figaro.algorithm.sampling._
 import com.cra.figaro.algorithm.factored.beliefpropagation.BeliefPropagation
 
 import java.nio.charset.CodingErrorAction
@@ -64,6 +65,7 @@ object ReasoningComponent {
       for {
         (label: String, element: Element[Boolean]) <- model.hasLabelElements
         }{
+ //         println("Observing: " + element) 
           element.observe(data.toList.contains(label))
         }
   }
@@ -81,12 +83,17 @@ object ReasoningComponent {
     } {
       // each line is a new label
       labels += line 
+ //     println("New label: " + line)
     }
 
     val model = new ReasoningModel(dictionary, parameters)
     observeEvidence(model, false, labels)
 
     val algorithm = VariableElimination(model.isFemale)
+    
+    //val algorithm = Importance(5000, model.isFemale)
+
+
     algorithm.start()
     val isFemaleProbability = algorithm.probability(model.isFemale, true)
     println("Female probability: " + isFemaleProbability)
@@ -100,8 +107,11 @@ object ReasoningComponent {
       Eventually the files will be read in from the console line.    
    */
   def main(args: Array[String]) {
-    val testFileName = "testData.txt"
-    val learningFileName = "LearnedParameters.txt"
+   // val testFileName = "testData.txt"
+   // val learningFileName = "LearnedParametersSuperBaby.txt"
+
+    val testFileName = args(0)
+    val learningFileName = args(1)
 
     val (dictionary, parameters) = loadResults(learningFileName)
     classify(dictionary, parameters, testFileName)

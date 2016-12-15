@@ -134,14 +134,21 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
   /*
     observes the evidence, of course
   */
-  def observeEvidence(model: Model, isFemaleVal: Boolean, metadata: ListBuffer[String], learning: Boolean, data: Dictionary) = {
+  def observeEvidence(model: Model, isFemaleVal: Boolean, metadata: ListBuffer[String], learning: Boolean, data: Dictionary, population: Int, totalPopulation: Int) = {
+
+      val probability = population.toDouble/totalPopulation.toDouble
+      println("population: " + population + " totalPopulation " + totalPopulation + " probability " + probability)
 
       model.isFemale.observe(isFemaleVal)
+      model.isFemale.addConstraint((isFemaleVal: Boolean) => if (isFemaleVal) probability; else (1-probability))
+
 
         for {
           (label: String, element: Element[Boolean]) <- model.hasLabelElements
           }{
             element.observe(data.labels.contains(label))
+            val b = data.labels.contains(label)
+            element.addConstraint((b: Boolean) => if (b) probability; else (1-probability))
           }
     }
 
@@ -152,10 +159,15 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
     Later, we will change them so that we read in the text files from the arguments
 */
   def main(args: Array[String]) {
-    val stateDataFileName = "data/mini_baby_data_male.txt"
-    val labelsFileName = "data/params/labels.txt"
-    val learningFileName = "LearnedParametersMale.txt"
+   // val stateDataFileName = "data/super_baby_data.txt"
+   //val labelsFileName = "data/params/labels.txt"
+   //val learningFileName = "LearnedParametersSuperBaby.txt"
 
+    val stateDataFileName = args(0)
+    val labelsFileName = args(1)
+    val learningFileName = args(2)
+
+    val totalPopulation = 6547629
 
     val labelsParams = readParams(labelsFileName)
     var dependencies = readDependencies(stateDataFileName)
@@ -168,10 +180,14 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
       yield {
           val model = new LearningModel(dictionary, params)
           println("\nAbout to start observing " + population + " people......")
-          for (i <- 1 to population) {
-            observeEvidence(model, isFemale, metadata, true, dictionary)
-          }
-          println("\nDone observing! Yay!!! wee")
+
+          // NOTE: need to send totalPopulation as variable instead of bad data 
+          observeEvidence(model, isFemale, metadata, true, dictionary, population, 10000)
+
+          /*for (i <- 1 to population) {
+            observeEvidence(model, isFemale, metadata, true, dictionary, population, totalPopulation)
+          }*/
+          println("\nDone observing!")
           model 
       }
 
