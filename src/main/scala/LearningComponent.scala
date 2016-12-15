@@ -8,6 +8,12 @@ import com.cra.figaro.algorithm.learning._
 import scala.collection.mutable.ListBuffer
 import collection.mutable.HashMap
 
+/*
+ * Learning Component of our model.
+ * This is where we train the data to our labels and dependencies
+ */
+
+
 object LearningComponent {
 
   /*
@@ -42,6 +48,7 @@ object LearningComponent {
     where metadata is a list of labels, where each label is represented by a string
 
   */
+
   def readDependencies(fileName: String): ListBuffer[(Boolean, Int, ListBuffer[String])] =
   {
     println("Reading dependencies from " + fileName)
@@ -64,6 +71,12 @@ object LearningComponent {
     result 
   }
 
+
+/*
+  learnMap takes the PriorParameters as its argument and returns the LearnedParameters.
+  MAP = Maximum a Posteriori, which is the learning approach we're using
+  The MAP values are produced by the EM algorithm.
+*/
 
 def learnMAP(params: PriorParameters): LearnedParameters = {
     
@@ -89,6 +102,11 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
       labelGivenMaleProbability.toMap
     )
   }
+
+  /*
+      saveResults saves our learned results to the given file in a specified format.
+      The resulting text file will be used by the reasoning component for inference.
+   */
 
   def saveResults(
       fileName: String,
@@ -137,10 +155,8 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
     val stateDataFileName = "data/mini_baby_data.txt"
     val learningFileName = "LearnedParameters.txt"
     val labelsFileName = "data/params/labels.txt"
-    val labelsParams = readParams(labelsFileName)
 
-    //val ageParams = readParams("data/params/age.txt")
-    //val raceParams = readParams("data/params/race.txt")
+    val labelsParams = readParams(labelsFileName)
     var dependencies = readDependencies(stateDataFileName)
     
     val dictionary = Dictionary.fromParams(labelsParams)

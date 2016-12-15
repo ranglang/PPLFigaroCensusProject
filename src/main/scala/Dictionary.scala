@@ -18,64 +18,43 @@ import scala.io.Source
 */
 
 class Dictionary() {
-
-  // These are member variables of the Dictionary class 
-  //val statename: String = stateNameParam
-  //val totalPopulation = totalPopulationState
-
-  // Master list of labels (all of them)
   val labels: ListBuffer [String] = ListBuffer()
-  //val dependencies: ListBuffer[String] = ListBuffer()
-
-  //val ageList: ListBuffer[String] = ListBuffer()
-  //val raceList: ListBuffer[String] = ListBuffer()
-  // can have other lists here too .... 
-  // I just have age and race for now to keep things simple
-
 
   def addLabel(labelName: String) 
   {
-    labels += labelName
+      labels += labelName
   }
 
-  }
+}
 
 
 object Dictionary {
 
-  // some extra information
-  // where is this coming from??
-  //val totalPopMass = 6547629
-  //val stateName = "Massachusetts"
-
-  // returns the Dictionary class given a list of ageLabels and a list of raceLabels 
+  /*
+      fromParams takes in a list of labels and adds them to the labels
+      list in a new dictionary
+  */
   def fromParams(labelsList: Traversable[String]) = {
-    val result = new Dictionary()
-    for { label <- labelsList } {result.addLabel(label)}
-    //for { agelabel <- ageLabels } { result.addAgeLabel(agelabel) }
-    //for { racelabel <- raceLabels} { result.addRaceLabel(racelabel) }
-    result
+      val result = new Dictionary()
+      for { label <- labelsList } {result.addLabel(label)}
+      result
   }
 
-  // Reads in all of the parameters for a category given the file. Returns a string List (actually, a listBuffer) of each label
-  // Eventually, this function will go in LearningComponent
-  
 
 
+  /*
+      Console arguments include the file which contains all of the unique labels.
+      labels.txt should be in the follownig format:
+          label1 
+          label2
+          label3
+      Each label is separated by a newline.
+  */
   def main(args: Array[String]) = {
-    // NOTE: these param files need to be in the format:
-    // "white" "black" "asian" "something else" separated by a NEWLINE 
-    // val ageParams = LearningComponent.readParams("data/params/age.txt")
-    // val raceParams = LearningComponent.readParams("data/params/race.txt")
     val labelsParams = LearningComponent.readParams("data/params/labels.txt")
     val dict = Dictionary.fromParams(labelsParams)
 
-    // println("\nTotal number of age parameters: " + dict.ageList.length)
-    // dict.ageList.foreach(println)
-
-    // println("\nTotal number of race parameters: " + dict.raceList.length)
-    // dict.raceList.foreach(println)
-
+    // a print statement just for testing purposes 
     println("\nAll parameters: " + dict.labels.length)
     dict.labels.foreach(println) 
   }

@@ -10,7 +10,18 @@ import scala.io.Codec
 import scala.collection.mutable.ListBuffer
 
 
+/*
+ * Reasoning Component of our model.
+ * This is where we used the trained model to reason about test data
+ */
+
 object ReasoningComponent {
+
+
+  /*
+      loadResults takes in the fileName of the learned parameters
+      We parse the file and add the elements to our dictionary as necessary.
+   */
   def loadResults(fileName: String) = {
     implicit val codec = Codec("UTF-8")
     codec.onMalformedInput(CodingErrorAction.REPLACE)
@@ -37,7 +48,7 @@ object ReasoningComponent {
 
     }
 
-
+    /* these are the parameters that were learned from the training data */
     val params = new LearnedParameters(
       femaleProbability,
       labelsGivenFemaleProbabilities,
@@ -47,6 +58,8 @@ object ReasoningComponent {
     (dictionary, params)
   }
 
+
+  /* observe the evidence */
   def observeEvidence(model: Model, learning: Boolean, data: ListBuffer[String]) = {
       for {
         (label: String, element: Element[Boolean]) <- model.hasLabelElements
@@ -55,6 +68,10 @@ object ReasoningComponent {
         }
   }
 
+
+  /*
+      classify runs the variable elimination algorithm on the isFemale variable
+   */
   def classify(dictionary: Dictionary, parameters: LearnedParameters, fileName: String) = {
     val file = new File(fileName)
     val source = Source.fromFile(fileName)
@@ -77,6 +94,11 @@ object ReasoningComponent {
     isFemaleProbability
   }
 
+
+  /*
+      NOTE: right now the text files are hard coded. 
+      Eventually the files will be read in from the console line.    
+   */
   def main(args: Array[String]) {
     val testFileName = "testData.txt"
     val learningFileName = "LearnedParameters.txt"
