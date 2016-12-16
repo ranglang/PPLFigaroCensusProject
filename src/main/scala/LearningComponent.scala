@@ -182,7 +182,7 @@ def learnMAP(params: PriorParameters): LearnedParameters = {
           println("\nAbout to start observing " + population + " people......")
 
           // NOTE: need to send totalPopulation as variable instead of bad data 
-          observeEvidence(model, isFemale, metadata, true, dictionary, population, 10000)
+          observeEvidence(model, isFemale, metadata, true, dictionary, population, totalPopulation)
 
           /*for (i <- 1 to population) {
             observeEvidence(model, isFemale, metadata, true, dictionary, population, totalPopulation)
